@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Destaque Freela</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* VOICE: direto, prático, de ferramenta de trabalho
+   IDEA: uma prancheta de proposta comercial, com a resposta pronta em destaque
+   PICTURE: a própria ferramenta: entrada à esquerda, texto gerado grande à direita
+   COLOUR and TYPE: branco, tinta #101418, amarelo #ffd84a só no resultado; Manrope
+   LAYOUT: abas no topo, duas colunas que empilham no celular */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#101418);--ink:light-dark(#101418,#eef1f4);--mute:light-dark(#5a6470,#9aa5b1);--line:light-dark(#dde2e8,#2a323b);--card:light-dark(#f6f7f9,#171d23);--y:#ffd84a;--yink:#101418;--slate:light-dark(#334155,#cbd5e1)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Manrope,system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(20px,3vw,40px) max(5vw,16px);max-width:1240px;margin:auto}
+h1{font-size:clamp(28px,4.5vw,44px);line-height:1.05;margin:0 0 6px;text-wrap:balance;font-weight:800}
+.sub{color:var(--mute);margin:0 0 18px;max-width:62ch}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--line);margin-bottom:20px}
+.tab{appearance:none;border:0;background:none;color:var(--mute);font:600 16px Manrope,sans-serif;padding:12px 14px;min-height:44px;cursor:pointer;border-bottom:3px solid transparent}
+.tab[aria-selected=true]{color:var(--ink);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:24px;align-items:start}
+@media(max-width:820px){.grid{grid-template-columns:minmax(0,1fr)}}
+label{display:block;font-weight:600;margin:14px 0 6px}
+.hint{font-weight:400;color:var(--mute);font-size:14px}
+input,select,textarea{width:100%;font:16px Manrope,sans-serif;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 12px;min-height:44px}
+textarea{min-height:140px;resize:vertical}
+:focus-visible{outline:3px solid var(--y);outline-offset:2px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+.btn{appearance:none;border:0;border-radius:10px;background:var(--ink);color:var(--bg);font:700 16px Manrope,sans-serif;padding:12px 18px;min-height:44px;cursor:pointer;margin-top:16px}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line)}
+.btn:disabled{opacity:.5;cursor:wait}
+.out{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;min-height:320px;position:relative}
+.out .tag{display:inline-block;background:var(--y);color:var(--yink);font-weight:700;font-size:13px;padding:3px 10px;border-radius:999px;margin-bottom:10px}
+.out pre{white-space:pre-wrap;font:16px/1.6 Manrope,sans-serif;margin:0;overflow-wrap:anywhere}
+.empty{color:var(--mute)}
+.bar{display:flex;gap:8px;flex-wrap:wrap}
+.note{font-size:13px;color:var(--mute);margin-top:10px}
+.panel[hidden]{display:none}
+.check{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.check li{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.check input{width:22px;height:22px;min-height:0;flex:none;margin-top:2px;accent-color:#101418}
+.check b{display:block}
+.check span{color:var(--mute);font-size:15px}
+.meter{height:12px;background:var(--line);border-radius:99px;overflow:hidden;margin:6px 0 18px}
+.meter i{display:block;height:100%;background:var(--y);width:0;transition:width .4s}
+@media(prefers-reduced-motion:reduce){.meter i{transition:none}}
+.plat{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:6px}
+@media(max-width:600px){.plat,.row{grid-template-columns:minmax(0,1fr)}}
+.plat div{border:1px solid var(--line);border-radius:12px;padding:12px}
+.plat b{display:block}.plat span{font-size:14px;color:var(--mute)}
+.filtros{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) minmax(0,1.4fr);gap:12px;align-items:end}
+.filtros label{margin-top:0}input[type=range]{padding:0;border:0;accent-color:#101418}
+@media(max-width:600px){.filtros{grid-template-columns:minmax(0,1fr)}}
+.lista{display:grid;gap:10px;margin:8px 0 18px}
+.vaga{display:grid;grid-template-columns:64px minmax(0,1fr);gap:14px;border:1px solid var(--line);border-radius:14px;padding:14px;background:var(--card)}
+.nota{display:grid;place-items:center;height:64px;border-radius:12px;font-size:24px;font-weight:800;background:var(--line);color:var(--ink)}
+.nota.alta{background:var(--y);color:var(--yink)}
+.vaga h3{margin:0 0 4px;font-size:17px;line-height:1.3}
+.meta{font-size:14px;color:var(--mute);display:flex;gap:4px 12px;flex-wrap:wrap}.meta span{white-space:nowrap}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 2px}.chips i{font-style:normal;font-size:13px;border:1px solid var(--line);border-radius:99px;padding:2px 9px}
+.chips i.ruim{text-decoration:line-through;color:var(--mute)}
+.vaga .bar .btn{margin-top:8px;padding:9px 14px}
+.vaga a.btn{text-decoration:none;display:inline-flex;align-items:center}
+.imp{border-top:1px solid var(--line);padding-top:10px}.imp summary{cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:6px 0 22px}
+.kpis div{border:1px solid var(--line);border-radius:12px;padding:14px}.kpis b{display:block;font-size:clamp(24px,4vw,34px);line-height:1.1}.kpis span{font-size:14px;color:var(--mute)}
+.kpis div:first-child{background:var(--y);color:var(--yink);border-color:var(--y)}.kpis div:first-child span{color:var(--yink)}
+@media(max-width:700px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}@media(max-width:700px){.grid2{grid-template-columns:minmax(0,1fr)}}
+h2{font-size:19px;margin:0 0 10px}
+.bars{display:grid;gap:7px}.brow{display:grid;grid-template-columns:minmax(0,9em) minmax(0,1fr) 2.5em;gap:8px;align-items:center;font-size:14px}
+.brow s{text-decoration:none;height:14px;background:var(--slate);border-radius:4px;display:block}.brow em{font-style:normal;text-align:right}
+</style>
+</head>
+<body>
+<main class="band">
+<h1>Os melhores projetos, com a proposta pronta</h1>
+<p class="sub">O robô encontra os projetos e dá nota para cada um. Aqui você vê os melhores, entende o mercado e gera a proposta e o perfil com um toque.</p>
+
+<div class="tabs" role="tablist">
+<button class="tab" role="tab" data-p="vagas" aria-selected="true">Vagas</button>
+<button class="tab" role="tab" data-p="mercado" aria-selected="false">Mercado</button>
+<button class="tab" role="tab" data-p="proposta" aria-selected="false">Proposta</button>
+<button class="tab" role="tab" data-p="perfil" aria-selected="false">Perfil e serviços</button>
+<button class="tab" role="tab" data-p="revisar" aria-selected="false">Revisar perfil</button>
+<button class="tab" role="tab" data-p="checklist" aria-selected="false">Checklist</button>
+</div>
+
+<!-- Meus dados (usados em todas as abas) -->
+<details id="meus" style="margin-bottom:18px">
+<summary style="cursor:pointer;font-weight:700;min-height:44px;display:flex;align-items:center">Meus dados (preencha uma vez)</summary>
+<div class="row">
+<div><label for="nome">Nome</label><input id="nome" value="Thalissa Silva"></div>
+<div><label for="area">Área principal</label><input id="area" value="Análise de Dados e Business Intelligence"></div>
+</div>
+<label for="skills">Habilidades <span class="hint">separadas por vírgula</span></label>
+<input id="skills" value="Excel avançado, SQL, Power BI, Python, dashboards, limpeza e organização de planilhas, automação de relatórios">
+<label for="exp">Experiência e diferenciais</label>
+<textarea id="exp" style="min-height:90px">Pós-graduação em BI, Big Data e IA. Cursando Análise e Desenvolvimento de Sistemas. Experiência administrativa em empresa de soluções financeiras (controle de planilhas, relatórios e atendimento). Projetos no GitHub: github.com/thalissakezia</textarea>
+</details>
+
+<section class="panel" id="p-vagas">
+<div class="filtros">
+<div><label for="fNota">Nota mínima: <b id="fNotaV">40</b></label><input type="range" id="fNota" min="0" max="100" step="5" value="40"></div>
+<div><label for="fFonte">Site</label><select id="fFonte"><option value="">Todos</option><option>99Freelas</option><option>Workana</option></select></div>
+<div><label for="fBusca">Buscar</label><input id="fBusca" placeholder="power bi, planilha..."></div>
+</div>
+<p class="note" id="vInfo"></p>
+<div id="lista" class="lista"></div>
+<details class="imp"><summary>Carregar vagas do robô</summary>
+<p class="note">Abra o arquivo <b>docs/vagas.json</b> do seu repositório (ou cole o conteúdo). Pela página no GitHub Pages isso acontece sozinho.</p>
+<input type="file" id="arq" accept=".json,application/json" multiple>
+<textarea id="colar" style="min-height:80px;margin-top:8px" placeholder="ou cole aqui o conteúdo de vagas.json"></textarea>
+<button class="btn ghost" id="usarColado">Usar conteúdo colado</button>
+</details>
+</section>
+
+<section class="panel" id="p-mercado" hidden>
+<p class="note" id="mInfo"></p>
+<div class="kpis" id="kpis"></div>
+<div class="grid2">
+<div><h2>Suas habilidades que mais aparecem</h2><div id="barHab" class="bars"></div></div>
+<div><h2>Habilidades que os clientes marcam</h2><div id="barTag" class="bars"></div></div>
+</div>
+<button class="btn" id="paraPerfil">Usar isso no meu perfil</button>
+</section>
+
+<section class="panel" id="p-proposta" hidden>
+<div class="grid">
+<div>
+<label for="anuncio">Anúncio do projeto <span class="hint">copie e cole do site</span></label>
+<textarea id="anuncio" placeholder="Ex.: Preciso de um dashboard em Power BI para acompanhar vendas mensais da minha loja. Tenho os dados em planilhas do Excel..."></textarea>
+<div class="row">
+<div><label for="site">Site</label><select id="site"><option>Workana</option><option>99Freelas</option><option>Fiverr</option><option>Upwork</option><option>Freelancer.com</option><option>GetNinjas</option><option>LinkedIn</option><option>Outro</option></select></div>
+<div><label for="tom">Tom</label><select id="tom"><option>Profissional e próximo</option><option>Formal</option><option>Bem direto</option></select></div>
+</div>
+<div class="row">
+<div><label for="preco">Valor <span class="hint">opcional</span></label><input id="preco" placeholder="R$ 350"></div>
+<div><label for="prazo">Prazo <span class="hint">opcional</span></label><input id="prazo" placeholder="5 dias"></div>
+</div>
+<button class="btn" id="gProp">Gerar proposta</button>
+</div>
+<div class="out" aria-live="polite"><span class="tag">Proposta</span><pre id="oProp" class="empty">A proposta aparece aqui. Ela cita o problema do cliente logo na primeira linha, mostra um plano curto de entrega e fecha com uma pergunta, que é o que faz o cliente responder.</pre>
+<div class="bar"><button class="btn ghost" data-copy="oProp">Copiar</button></div></div>
+</div>
+</section>
+
+<section class="panel" id="p-perfil" hidden>
+<div class="grid">
+<div>
+<label for="publico">Para quem você quer vender? <span class="hint">opcional</span></label>
+<input id="publico" placeholder="Pequenos negócios, lojas, clínicas, escritórios">
+<label for="plataforma">Plataforma</label>
+<select id="plataforma"><option>Todas (Workana, 99Freelas, Fiverr, Upwork e outras)</option><option>Workana</option><option>99Freelas</option><option>Fiverr</option><option>Upwork (texto em inglês)</option><option>Freelancer.com</option><option>GetNinjas</option><option>LinkedIn</option></select>
+<button class="btn" id="gPerf">Gerar perfil e serviços</button>
+<div class="plat">
+<div><b>Workana</b><span>Título forte + proposta personalizada pesam mais</span></div>
+<div><b>99Freelas</b><span>Perfil completo e portfólio ajudam no ranking</span></div>
+<div><b>Fiverr</b><span>Você vende pacotes (gigs): título e capa contam muito</span></div>
+<div><b>Upwork</b><span>Clientes de fora: perfil e propostas em inglês</span></div>
+<div><b>GetNinjas</b><span>Clientes locais; você paga para ver os contatos</span></div>
+<div><b>LinkedIn</b><span>Ative "aberta a trabalhos" e poste seus projetos</span></div>
+</div>
+</div>
+<div class="out" aria-live="polite"><span class="tag">Perfil</span><pre id="oPerf" class="empty">Aqui saem: título do perfil, descrição "sobre mim", 3 serviços com nome, pacotes básico/padrão/premium e palavras-chave para busca.</pre>
+<div class="bar"><button class="btn ghost" data-copy="oPerf">Copiar</button></div></div>
+</div>
+</section>
+
+<section class="panel" id="p-revisar" hidden>
+<div class="grid">
+<div>
+<label for="atual">Cole o texto atual do seu perfil ou serviço</label>
+<textarea id="atual" style="min-height:220px" placeholder="Cole aqui a sua descrição atual..."></textarea>
+<button class="btn" id="gRev">Analisar e melhorar</button>
+</div>
+<div class="out" aria-live="polite"><span class="tag">Análise</span><pre id="oRev" class="empty">Você recebe uma nota de 0 a 10, os pontos fracos e uma versão reescrita pronta para colar.</pre>
+<div class="bar"><button class="btn ghost" data-copy="oRev">Copiar</button></div></div>
+</div>
+</section>
+
+<section class="panel" id="p-checklist" hidden>
+<p style="margin:0"><b id="pct">0%</b> do perfil pronto</p>
+<div class="meter"><i id="meter"></i></div>
+<ul class="check" id="check"></ul>
+<p class="note">As marcações ficam salvas só neste navegador.</p>
+</section>
+
+<p class="note" id="aviso"></p>
+</main>
+
+<script>
+{
+const $=id=>document.getElementById(id);
+const CHECK=[
+["Foto profissional","Rosto visível, fundo neutro, boa luz. Perfis com foto passam mais confiança."],
+["Título com o resultado, não só a função","Ex.: \"Dashboards em Power BI que mostram onde sua empresa ganha e perde dinheiro\"."],
+["Portfólio com 3 trabalhos","Pode ser projeto próprio com dados públicos. Mostre o antes e o depois."],
+["Link do GitHub e LinkedIn no perfil","Onde o site permitir, mostra trabalho real."],
+["Responder rápido","Ative as notificações no celular. Ser dos primeiros a mandar proposta faz diferença."],
+["Proposta personalizada em cada projeto","Nunca use texto genérico copiado. Cite o problema do cliente na primeira linha."],
+["Começar com projetos menores","Preço de entrada um pouco menor para ganhar as primeiras avaliações."],
+["Pedir avaliação ao final de cada entrega","As primeiras notas 5 estrelas são o que mais destrava o perfil."],
+["Teste de habilidades da plataforma","Workana e outras oferecem testes que viram selos no perfil."],
+["Entregar um extra combinado","Um pequeno vídeo explicando o dashboard, por exemplo. Gera avaliação melhor."]
+];
+let done=[];try{done=JSON.parse(localStorage.getItem("df-check")||"[]")}catch(e){}
+const drawCheck=()=>{
+$("check").innerHTML=CHECK.map((c,i)=>`<li><input type="checkbox" id="c${i}" ${done.includes(i)?"checked":""}><label for="c${i}" style="margin:0;font-weight:400"><b>${c[0]}</b><span>${c[1]}</span></label></li>`).join("");
+const p=Math.round(done.length/CHECK.length*100);$("pct").textContent=p+"%";$("meter").style.width=p+"%";
+};
+drawCheck();
+$("check").addEventListener("change",e=>{const i=+e.target.id.slice(1);done=e.target.checked?[...done,i]:done.filter(x=>x!==i);try{localStorage.setItem("df-check",JSON.stringify(done))}catch(e){}drawCheck()});
+
+// salvar meus dados
+const keep=["nome","area","skills","exp","publico"];
+keep.forEach(k=>{try{const v=localStorage.getItem("df-"+k);if(v)$(k).value=v}catch(e){}$(k).addEventListener("input",()=>{try{localStorage.setItem("df-"+k,$(k).value)}catch(e){}})});
+
+// abas
+function abrir(nome){
+document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x.dataset.p===nome));
+document.querySelectorAll(".panel").forEach(p=>p.hidden=p.id!=="p-"+nome);
+window.scrollTo({top:0});
+}
+document.querySelectorAll(".tab").forEach(t=>t.addEventListener("click",()=>abrir(t.dataset.p)));
+
+// copiar
+document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",async()=>{
+try{await navigator.clipboard.writeText($(b.dataset.copy).textContent);b.textContent="Copiado"}catch(e){b.textContent="Selecione e copie"}
+setTimeout(()=>b.textContent="Copiar",1800)}));
+
+const eu=()=>`Nome: ${$("nome").value}\nÁrea: ${$("area").value}\nHabilidades: ${$("skills").value}\nExperiência: ${$("exp").value}`;
+const REGRAS="Escreva em português do Brasil. Sem emojis. Não invente clientes, números, avaliações ou experiências que não estejam nos dados. Texto natural, como uma pessoa escreveria.";
+
+let sample=null;
+window.claude?.use?.("sample").then(s=>{sample=s;if(!s)$("aviso").textContent="Modo simples: os textos saem de modelos prontos. Abra no Claude para gerar com IA."}).catch(()=>{});
+setTimeout(()=>{if(!sample)$("aviso").textContent="Modo simples: os textos saem de modelos prontos. Abra no Claude para gerar com IA."},11000);
+
+async function gerar(btn,out,prompt,fallback){
+const o=$(out);o.classList.remove("empty");btn.disabled=true;
+if(!sample){o.textContent=fallback();btn.disabled=false;return}
+o.textContent="Escrevendo...";
+try{await sample(prompt,{modelTier:"default",onText:({text})=>{o.textContent=text}})}
+catch(e){o.textContent=e.code==="rate_limited"?"Muitos pedidos seguidos. Espere um minuto e tente de novo.":fallback()}
+btn.disabled=false;
+}
+
+// ---------- vagas (vindas do robô) ----------
+const termosMercado=()=>[...new Set([...(mercado?.minhas_habilidades_pedidas||[]),...(mercado?.tags_mais_pedidas||[])].map(x=>x.termo))].slice(0,15).join(", ");
+const EXEMPLO=[
+{id:"ex1",fonte:"Workana",titulo:"Criação de Dashboards Interativos e Análise de Dados com Power Bi",link:"https://www.workana.com/pt/jobs?query=power+bi",descricao:"O cliente busca um profissional para criar dashboards interativos no Power BI, transformando dados brutos em informações visuais claras.",habilidades:["Power BI"],orcamento:"USD 100 - 250",propostas:84,publicado:"há 4 dias",nota:72,combina:["power bi","dashboard","análise de dados"],evitar:[]},
+{id:"ex2",fonte:"Workana",titulo:"Criação de Planilha de Precificação Inteligente para Produtos",link:"https://www.workana.com/pt/jobs?query=planilha",descricao:"Planilha automatizada para precificação de produtos, com análise de custos e margens de lucro.",habilidades:["Microsoft Excel","Power BI"],orcamento:"Menos de USD 50",propostas:55,publicado:"há 2 dias",nota:58,combina:["power bi","excel","planilha"],evitar:[]},
+{id:"ex3",fonte:"99Freelas",titulo:"Desenvolvimento de um jogo no Roblox",link:"https://www.99freelas.com.br/projects",descricao:"Criação de um jogo no Roblox.",habilidades:[],orcamento:"",propostas:79,publicado:null,nota:0,combina:[],evitar:["roblox"]}
+];
+let vagas=[],mercado=null,vagaAtual=null,ehExemplo=false;
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const quando=p=>!p?"":/^\d{4}-/.test(p)?(()=>{const d=Math.round((Date.now()-new Date(p))/864e5);return d<1?"hoje":d===1?"ontem":`há ${d} dias`})():p;
+
+function calcMercado(vs){
+const hab={},tag={},usd=[];vs.forEach(v=>{(v.combina||[]).forEach(h=>hab[h]=(hab[h]||0)+1);(v.habilidades||[]).forEach(t=>tag[t]=(tag[t]||0)+1);
+const n=(v.orcamento||"").match(/\d[\d.]*/g);if(n&&/USD/.test(v.orcamento))usd.push(n.map(x=>+x.replace(/\./g,"")).reduce((a,b)=>a+b)/n.length)});
+const top=o=>Object.entries(o).sort((a,b)=>b[1]-a[1]).slice(0,12).map(([termo,v])=>({termo,vagas:v}));
+const pr=vs.map(v=>v.propostas).filter(x=>x!=null).sort((a,b)=>a-b);usd.sort((a,b)=>a-b);
+return{total:vs.length,minhas_habilidades_pedidas:top(hab),tags_mais_pedidas:top(tag),orcamento_medio:{USD:usd.length?{mediana:Math.round(usd[usd.length>>1])}:null},propostas_por_projeto:pr.length?{mediana:pr[pr.length>>1]}:null,boas_vagas:vs.filter(v=>v.nota>=60).length};
+}
+function usarVagas(vs,m,exemplo){
+vagas=(Array.isArray(vs)?vs:[]).slice().sort((a,b)=>(b.nota||0)-(a.nota||0));ehExemplo=!!exemplo;mercado=m||calcMercado(vagas);
+$("vInfo").textContent=exemplo?"Exemplo para você ver como funciona. Carregue o vagas.json do robô para ver as vagas reais.":`${vagas.length} projetos carregados${mercado.atualizado?" · atualizado em "+new Date(mercado.atualizado).toLocaleString("pt-BR"):""}`;
+desenharVagas();desenharMercado();
+}
+function desenharVagas(){
+const min=+$("fNota").value,f=$("fFonte").value,b=$("fBusca").value.toLowerCase().trim();
+const vs=vagas.filter(v=>(v.nota||0)>=min&&(!f||v.fonte===f)&&(!b||(v.titulo+" "+v.descricao).toLowerCase().includes(b)));
+$("lista").innerHTML=vs.length?vs.map(v=>`<article class="vaga">
+<div class="nota ${v.nota>=60?"alta":""}" title="Nota de compatibilidade">${v.nota??"-"}</div>
+<div><h3>${esc(v.titulo)}</h3>
+<div class="meta"><span>${esc(v.fonte)}</span>${v.publicado?`<span>${esc(quando(v.publicado))}</span>`:""}${v.propostas!=null?`<span>${v.propostas} propostas</span>`:""}${v.orcamento?`<span>${esc(v.orcamento)}</span>`:""}</div>
+<div class="chips">${(v.combina||[]).map(c=>`<i>${esc(c)}</i>`).join("")}${(v.evitar||[]).map(c=>`<i class="ruim">${esc(c)}</i>`).join("")}</div>
+<div class="bar"><button class="btn" data-prop="${esc(v.id)}">Gerar proposta</button><a class="btn ghost" href="${esc(v.link)}" target="_blank" rel="noopener">Abrir no site</a></div>
+</div></article>`).join(""):`<p class="empty">Nenhum projeto com esses filtros. Baixe a nota mínima ou limpe a busca.</p>`;
+}
+["fNota","fFonte","fBusca"].forEach(id=>$(id).addEventListener("input",()=>{$("fNotaV").textContent=$("fNota").value;desenharVagas()}));
+$("lista").addEventListener("click",e=>{
+const b=e.target.closest("[data-prop]");if(!b)return;
+vagaAtual=vagas.find(v=>v.id===b.dataset.prop);if(!vagaAtual)return;
+$("anuncio").value=`${vagaAtual.titulo}\n\n${vagaAtual.descricao}${vagaAtual.habilidades?.length?"\n\nHabilidades pedidas: "+vagaAtual.habilidades.join(", "):""}`;
+[...$("site").options].forEach(o=>{if(o.text===vagaAtual.fonte)$("site").value=o.text});
+abrir("proposta");$("gProp").click();
+});
+function barras(el,lista){const max=Math.max(1,...lista.map(x=>x.vagas));$(el).innerHTML=lista.length?lista.slice(0,10).map(x=>`<div class="brow"><span>${esc(x.termo)}</span><s style="width:${x.vagas/max*100}%"></s><em>${x.vagas}</em></div>`).join(""):`<p class="empty">Sem dados ainda.</p>`}
+function desenharMercado(){
+const m=mercado||{};const usd=m.orcamento_medio?.USD,brl=m.orcamento_medio?.BRL;
+$("mInfo").textContent=ehExemplo?"Números do exemplo. Com o vagas.json real, este painel mostra o seu mercado.":"Calculado a partir dos projetos que o robô encontrou.";
+$("kpis").innerHTML=[[m.boas_vagas??0,"projetos com nota 60+"],[m.total??0,"projetos analisados"],[m.propostas_por_projeto?.mediana??"-","propostas por projeto (mediana)"],[usd?"US$ "+usd.mediana:brl?"R$ "+brl.mediana:"-","orçamento típico"]].map(([b,s])=>`<div><b>${b}</b><span>${s}</span></div>`).join("");
+barras("barHab",m.minhas_habilidades_pedidas||[]);barras("barTag",m.tags_mais_pedidas||[]);
+}
+$("paraPerfil").addEventListener("click",()=>{
+$("publico").value=$("publico").value||"pequenos negócios";abrir("perfil");$("gPerf").click();
+});
+function lerJson(txt){const d=JSON.parse(txt);if(Array.isArray(d))return{vagas:d};if(d.minhas_habilidades_pedidas)return{mercado:d};if(d.vagas)return d;throw new Error("formato")}
+$("arq").addEventListener("change",async e=>{
+let vs=null,m=null;for(const f of e.target.files){try{const r=lerJson(await f.text());vs=r.vagas||vs;m=r.mercado||m}catch(err){$("vInfo").textContent="Não consegui ler "+f.name+"."}}
+if(vs)usarVagas(vs,m);else if(m){mercado=m;desenharMercado()}
+});
+$("usarColado").addEventListener("click",()=>{try{const r=lerJson($("colar").value);if(r.vagas)usarVagas(r.vagas,r.mercado)}catch(e){$("vInfo").textContent="O texto colado não parece ser o vagas.json."}});
+// no GitHub Pages os arquivos estão ao lado da página
+Promise.all([fetch("vagas.json").then(r=>r.ok?r.json():null),fetch("mercado.json").then(r=>r.ok?r.json():null).catch(()=>null)])
+.then(([vs,m])=>vs?usarVagas(vs,m):usarVagas(EXEMPLO,null,true)).catch(()=>usarVagas(EXEMPLO,null,true));
+
+// proposta
+$("gProp").addEventListener("click",()=>{
+const a=$("anuncio").value.trim();if(!a){$("anuncio").focus();return}
+const p=`Você escreve propostas de freelancer que se destacam no ${$("site").value}.
+Dados da freelancer:\n${eu()}\n\nAnúncio do cliente:\n"""${a}"""\n${vagaAtual&&a.startsWith(vagaAtual.titulo)?`Contexto: ${vagaAtual.propostas!=null?"o projeto já tem "+vagaAtual.propostas+" propostas, então a proposta precisa se diferenciar logo nas duas primeiras linhas. ":""}${vagaAtual.orcamento?"Orçamento do cliente: "+vagaAtual.orcamento+". ":""}Habilidades dela que combinam: ${(vagaAtual.combina||[]).join(", ")}.`:""}\n
+Escreva uma proposta com tom ${$("tom").value.toLowerCase()}, de 120 a 200 palavras:
+1. Primeira linha: mostre que entendeu o problema específico do cliente (sem "Olá, tudo bem?" genérico e sem falar de si primeiro).
+2. Um plano de entrega em 3 passos curtos, com o que o cliente recebe no final.
+3. Uma frase ligando uma habilidade real dela a esse projeto.
+4. ${$("preco").value||$("prazo").value?`Valor: ${$("preco").value||"a combinar"}. Prazo: ${$("prazo").value||"a combinar"}.`:"Diga que passa valor e prazo após entender um detalhe."}
+5. Termine com UMA pergunta inteligente sobre o projeto, que faça o cliente querer responder.
+${REGRAS} Se o site for Upwork ou o anúncio estiver em inglês, escreva a proposta em inglês. Devolva só o texto da proposta.`;
+gerar($("gProp"),"oProp",p,()=>{
+const n=$("nome").value.split(" ")[0];const s=$("skills").value.split(",").slice(0,3).map(x=>x.trim()).join(", ");
+const resumo=a.split(/[.!?\n]/).find(x=>x.trim().length>15)?.trim()||a.slice(0,120);
+return `Li seu anúncio com atenção: você precisa de ${resumo.charAt(0).toLowerCase()+resumo.slice(1)}. Consigo resolver isso de forma organizada e fácil de usar no dia a dia.
+
+Como eu faria:
+1. Entender seus dados e o que você quer acompanhar.
+2. Organizar e tratar as informações (${s}).
+3. Entregar o resultado pronto, com uma explicação rápida de como usar.
+
+${$("preco").value?"Valor: "+$("preco").value+". ":""}${$("prazo").value?"Prazo: "+$("prazo").value+".":"Passo valor e prazo assim que entender um detalhe."}
+
+Uma pergunta para começar: qual decisão você quer conseguir tomar olhando para esse resultado?
+
+${n}`});
+});
+
+// perfil
+$("gPerf").addEventListener("click",()=>{
+const p=`Monte o perfil de freelancer para: ${$("plataforma").value}.
+Dados:\n${eu()}\nPúblico desejado: ${$("publico").value||"pequenos negócios"}
+${termosMercado()?"Termos que mais aparecem nos projetos reais que o robô encontrou (use os que combinam com as habilidades dela no título, serviços e palavras-chave): "+termosMercado():""}\n
+Entregue, com títulos simples:
+TÍTULO DO PERFIL (até 70 caracteres, focado no resultado para o cliente)
+SOBRE MIM (até 900 caracteres: problema que resolve, como trabalha, ferramentas, chamada para conversar)
+3 SERVIÇOS: para cada um, nome do serviço (no estilo de gig do Fiverr, começando com "Vou..."), descrição curta e 3 pacotes (básico, padrão, premium) com o que inclui e sugestão de preço de entrada em reais para quem está começando
+PALAVRAS-CHAVE: 10 termos que clientes pesquisam
+PERGUNTAS FREQUENTES: 4 perguntas e respostas curtas para o serviço principal
+REQUISITOS DO COMPRADOR: o que pedir ao cliente antes de começar (arquivos, acessos, objetivo)
+${REGRAS}`;
+gerar($("gPerf"),"oPerf",p,()=>{
+const area=$("area").value,pub=$("publico").value||"pequenos negócios";
+return `TÍTULO DO PERFIL
+${area.split(" e ")[0]} | Dashboards e planilhas que mostram onde seu negócio ganha dinheiro
+
+SOBRE MIM
+Ajudo ${pub} a transformar planilhas bagunçadas em informação clara para decidir. Trabalho com ${$("skills").value}. Começo entendendo o que você precisa acompanhar, organizo os dados e entrego tudo pronto e explicado. Me chame e conte o que você quer enxergar nos seus números.
+
+3 SERVIÇOS
+1. Vou criar um dashboard em Power BI para acompanhar suas vendas
+2. Vou organizar e automatizar suas planilhas no Excel
+3. Vou analisar seus dados e entregar um relatório com recomendações
+
+PALAVRAS-CHAVE
+power bi, dashboard, excel, planilha, relatório, análise de dados, sql, python, automação, indicadores`});
+});
+
+// revisar
+$("gRev").addEventListener("click",()=>{
+const t=$("atual").value.trim();if(!t){$("atual").focus();return}
+const p=`Revise este perfil/serviço de freelancer como um cliente exigente que está escolhendo entre 30 freelancers.
+Dados reais da freelancer:\n${eu()}\n\nTexto atual:\n"""${t}"""\n
+Responda:
+NOTA: x/10 e uma frase do porquê
+PONTOS FRACOS: até 5, curtos
+VERSÃO MELHORADA: o texto reescrito pronto para colar
+${REGRAS}`;
+gerar($("gRev"),"oRev",p,()=>{
+const dicas=[];
+if(t.length<300)dicas.push("Texto curto demais: explique o problema que você resolve e como trabalha.");
+if(!/power bi|excel|sql|python|dashboard/i.test(t))dicas.push("Cite as ferramentas que você usa: clientes buscam por elas.");
+if(/^\s*(olá|oi|meu nome)/i.test(t))dicas.push("Começa falando de você. Comece pelo problema do cliente.");
+if(!/\?|chame|fale|mensagem|conversar/i.test(t))dicas.push("Falta uma chamada para o cliente entrar em contato.");
+if(!/github|portf/i.test(t))dicas.push("Mencione seu portfólio ou GitHub.");
+return `NOTA: ${Math.max(3,10-dicas.length*1.5)}/10 (análise simples)\n\nPONTOS FRACOS\n${dicas.length?dicas.map(d=>"- "+d).join("\n"):"- Nenhum problema básico encontrado."}`});
+});
+}
+</script>
+</body>
+</html>

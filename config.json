@@ -1,0 +1,25 @@
+{
+  "buscas": ["power bi", "excel", "dashboard", "sql", "python", "planilha", "análise de dados", "relatório"],
+  "habilidades": {
+    "power bi": 10,
+    "dashboard": 8,
+    "excel": 8,
+    "planilha": 7,
+    "sql": 7,
+    "python": 6,
+    "análise de dados": 9,
+    "relatório": 5,
+    "indicadores": 5,
+    "kpi": 5,
+    "etl": 4,
+    "automação": 4,
+    "vba": 3,
+    "google sheets": 5,
+    "looker": 3,
+    "pandas": 4
+  },
+  "evitar": ["roblox", "full stack", "mobile", "flutter", "react native", "voip", "esp32", "unity", "wordpress", "tráfego pago"],
+  "nota_minima_alerta": 60,
+  "paginas_por_busca": 1,
+  "fontes": ["99freelas", "workana"]
+}

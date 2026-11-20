@@ -4,8 +4,8 @@ Sistema pessoal para encontrar bons projetos freelance e responder rápido com u
 
 Cada parte entrega algo que a próxima usa:
 
-1. **Robô (radar.py)** busca projetos no 99Freelas e na Workana a cada 2 horas, pelo GitHub Actions.
-2. **Filtro e nota** projetos que proíbem o uso de IA são descartados. Os outros ficam em ordem: mais recentes e com menos propostas primeiro. Cada projeto ganha uma nota de 0 a 100 conforme as habilidades do `config.json`. Projetos com termos que não são da minha área perdem pontos, e projetos com menos propostas ganham um pouco mais.
+1. **Robô (radar.py)** busca projetos no 99Freelas e na Workana a cada 2 horas, pelo GitHub Actions. Além de dados e planilhas, procura sites, textos, tradução, automação e apresentações.
+2. **Filtro e nota** projetos que proíbem o uso de IA ou que exigem algo que não faço remotamente (presencial, telefone, gravação, hardware) são descartados. Os outros ficam em ordem: mais recentes e com menos propostas primeiro. Cada projeto ganha uma nota de 0 a 100 conforme as habilidades do `config.json`. Projetos com termos que não são da minha área perdem pontos, e projetos com menos propostas ganham um pouco mais.
 3. **Mercado** o robô calcula quais habilidades mais aparecem, a mediana de propostas por projeto e o orçamento típico.
 4. **Alerta** projetos com nota alta chegam no celular, pelo ntfy ou pelo Telegram.
 5. **Proposta pronta** para cada projeto com nota alta o robô já escreve uma proposta com os meus dados (seção `eu` do `config.json`). Eu reviso, copio e envio no site.
@@ -34,6 +34,8 @@ Tudo fica no `config.json`:
 
 - `buscas`: termos pesquisados nos sites
 - `habilidades`: peso de cada habilidade na nota
+- `areas`: tipos de trabalho que eu faço e as palavras que identificam cada um
+- `nao_consigo`: termos que tiram o projeto da lista
 - `evitar`: termos que derrubam a nota
 - `nota_minima_alerta`: a partir de qual nota chega aviso
 

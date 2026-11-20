@@ -52,7 +52,7 @@ textarea{min-height:140px;resize:vertical}
 @media(max-width:600px){.plat,.row{grid-template-columns:minmax(0,1fr)}}
 .plat div{border:1px solid var(--line);border-radius:12px;padding:12px}
 .plat b{display:block}.plat span{font-size:14px;color:var(--mute)}
-.filtros{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.8fr) minmax(0,1.2fr) minmax(0,1.2fr);gap:12px;align-items:end}
+.filtros{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;align-items:end}
 .filtros label{margin-top:0}input[type=range]{padding:0;border:0;accent-color:#101418}
 @media(max-width:600px){.filtros{grid-template-columns:minmax(0,1fr)}}
 .lista{display:grid;gap:10px;margin:8px 0 18px}
@@ -109,6 +109,7 @@ h2{font-size:19px;margin:0 0 10px}
 <div class="filtros">
 <div><label for="fNota">Nota mínima: <b id="fNotaV">40</b></label><input type="range" id="fNota" min="0" max="100" step="5" value="40"></div>
 <div><label for="fFonte">Site</label><select id="fFonte"><option value="">Todos</option><option>99Freelas</option><option>Workana</option></select></div>
+<div><label for="fArea">Tipo de trabalho</label><select id="fArea"><option value="">Todos</option><option>Dados e BI</option><option>Planilhas</option><option>Automação e código</option><option>Sites</option><option>Textos</option><option>Tradução</option><option>Apresentações e documentos</option></select></div>
 <div><label for="fOrdem">Ordenar</label><select id="fOrdem"><option value="recentes">Recentes e com menos propostas</option><option value="nota">Maior nota</option></select></div>
 <div><label for="fBusca">Buscar</label><input id="fBusca" placeholder="power bi, planilha..."></div>
 </div>
@@ -277,20 +278,20 @@ desenharVagas();desenharMercado();
 const alvo=location.hash&&document.getElementById(location.hash.slice(1));if(alvo)setTimeout(()=>alvo.scrollIntoView({block:"start"}),50);
 }
 function desenharVagas(){
-const min=+$("fNota").value,f=$("fFonte").value,b=$("fBusca").value.toLowerCase().trim();
+const min=+$("fNota").value,f=$("fFonte").value,ar=$("fArea").value,b=$("fBusca").value.toLowerCase().trim();
 const ordem=v=>{const d=v.publicado&&/^\d{4}-/.test(v.publicado)?(Date.now()-new Date(v.publicado))/864e5:99;return[d<=1?0:d<=3?1:d<=7?2:3,v.propostas??999,d]};
 const cmp=$("fOrdem").value==="nota"?(a,b)=>(b.nota||0)-(a.nota||0):(a,b)=>{const x=ordem(a),y=ordem(b);return x[0]-y[0]||x[1]-y[1]||x[2]-y[2]};
-const vs=vagas.slice().sort(cmp).filter(v=>(v.nota||0)>=min&&(!f||v.fonte===f)&&(!b||(v.titulo+" "+v.descricao).toLowerCase().includes(b)));
+const vs=vagas.slice().sort(cmp).filter(v=>(v.nota||0)>=min&&(!f||v.fonte===f)&&(!ar||v.area===ar)&&(!b||(v.titulo+" "+v.descricao).toLowerCase().includes(b)));
 $("lista").innerHTML=vs.length?vs.map(v=>`<article class="vaga" id="${esc(v.id)}">
 <div class="nota ${v.nota>=60?"alta":""}" title="Nota de compatibilidade">${v.nota??"-"}</div>
 <div><h3>${esc(v.titulo)}</h3>
-<div class="meta"><span>${esc(v.fonte)}</span>${v.publicado?`<span>${esc(quando(v.publicado))}</span>`:""}${v.propostas!=null?`<span>${v.propostas} propostas</span>`:""}${v.orcamento?`<span>${esc(v.orcamento)}</span>`:""}</div>
+<div class="meta">${v.area?`<span><b>${esc(v.area)}</b></span>`:""}<span>${esc(v.fonte)}</span>${v.publicado?`<span>${esc(quando(v.publicado))}</span>`:""}${v.propostas!=null?`<span>${v.propostas} propostas</span>`:""}${v.orcamento?`<span>${esc(v.orcamento)}</span>`:""}</div>
 <div class="chips">${(v.combina||[]).map(c=>`<i>${esc(c)}</i>`).join("")}${(v.evitar||[]).map(c=>`<i class="ruim">${esc(c)}</i>`).join("")}</div>
 ${v.proposta?`<details class="pronta"${location.hash==="#"+v.id?" open":""}><summary>Ver proposta pronta</summary><pre>${esc(v.proposta)}</pre></details>`:""}
 <div class="bar">${v.proposta?`<button class="btn" data-copiar="${esc(v.id)}">Copiar proposta</button>`:""}<button class="btn${v.proposta?" ghost":""}" data-prop="${esc(v.id)}">${v.proposta?"Melhorar com IA":"Gerar proposta"}</button><a class="btn ghost" href="${esc(v.link)}" target="_blank" rel="noopener">Abrir no site</a></div>
 </div></article>`).join(""):`<p class="empty">Nenhum projeto com esses filtros. Baixe a nota mínima ou limpe a busca.</p>`;
 }
-["fNota","fFonte","fBusca","fOrdem"].forEach(id=>$(id).addEventListener("input",()=>{$("fNotaV").textContent=$("fNota").value;desenharVagas()}));
+["fNota","fFonte","fArea","fBusca","fOrdem"].forEach(id=>$(id).addEventListener("input",()=>{$("fNotaV").textContent=$("fNota").value;desenharVagas()}));
 $("lista").addEventListener("click",async e=>{
 const c=e.target.closest("[data-copiar]");
 if(c){const v=vagas.find(x=>x.id===c.dataset.copiar);try{await navigator.clipboard.writeText(v.proposta);c.textContent="Copiada"}catch(err){c.textContent="Abra e copie o texto";c.closest(".vaga").querySelector("details").open=true}setTimeout(()=>c.textContent="Copiar proposta",2000);return}

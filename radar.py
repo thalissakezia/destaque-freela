@@ -147,70 +147,113 @@ def ordem(vaga):
 
 
 # ---------- Nota ----------
+def tem(termo, texto):
+    t = sem_acento(termo).strip()
+    return re.search(r"(?<![a-z0-9])" + re.escape(t) + r"(?![a-z0-9])", texto) is not None
+
+
+def nao_consigo(vaga, cfg):
+    texto = sem_acento(vaga["titulo"] + " " + vaga["descricao"])
+    return [t for t in cfg.get("nao_consigo", []) if tem(t, texto)]
+
+
 def dar_nota(vaga, cfg):
     texto = sem_acento(" ".join([vaga["titulo"], vaga["descricao"], " ".join(vaga["habilidades"])]))
     titulo = sem_acento(vaga["titulo"])
     pontos, achou = 0, []
     for hab, peso in cfg["habilidades"].items():
-        h = sem_acento(hab)
-        if h in texto:
-            pontos += peso * (2 if h in titulo else 1)
+        if tem(hab, texto):
+            pontos += peso * (2 if tem(hab, titulo) else 1)
             achou.append(hab)
-    ruins = [e for e in cfg["evitar"] if sem_acento(e) in texto]
-    pontos -= 15 * len(ruins)
-    nota = max(0, min(100, pontos * 1.5))
-    # menos concorrência vale um pouco mais
+    # área de trabalho que dá para fazer (a do título vale mais)
+    area, bonus = "", 0
+    for nome, a in cfg.get("areas", {}).items():
+        no_titulo = any(tem(p, titulo) for p in a["palavras"])
+        no_texto = no_titulo or any(tem(p, texto) for p in a["palavras"])
+        valor = a["peso"] if no_titulo else a["peso"] // 2 if no_texto else 0
+        if valor > bonus:
+            area, bonus = nome, valor
+    ruins = [e for e in cfg["evitar"] if tem(e, texto)]
+    nota = min(70, pontos * 1.2) + bonus - 20 * len(ruins)
     p = vaga.get("propostas")
-    if nota and p is not None:
+    if nota > 0 and p is not None:
         nota += 10 if p < 10 else 5 if p < 30 else 0 if p < 80 else -10
     vaga["nota"] = max(0, min(100, round(nota)))
+    vaga["area"] = area
     vaga["combina"] = achou
     vaga["evitar"] = ruins
     return vaga
 
 
 # ---------- Proposta pronta ----------
-TIPOS = [
-    (("power bi", "dashboard", "bi ", "indicadores", "kpi"), "um dashboard",
-     ["Entender quais números você precisa acompanhar e de onde vêm os dados.",
-      "Tratar e organizar os dados para que fiquem confiáveis e fáceis de atualizar.",
-      "Montar o dashboard com os indicadores principais e filtros simples, e te mostrar como usar."]),
-    (("planilha", "excel", "google sheets", "vba"), "uma planilha",
-     ["Entender como você trabalha hoje e o que a planilha precisa resolver.",
-      "Montar a estrutura com fórmulas e validações, para evitar erro de digitação.",
-      "Entregar pronta, com uma aba de instruções e um teste junto com você."]),
-    (("sql", "python", "pandas", "etl", "automação"), "a automação dos dados",
-     ["Mapear as fontes de dados e o resultado que você espera.",
-      "Escrever o processo de extração e tratamento, com o código documentado.",
-      "Testar com os seus dados reais e entregar com instruções de uso."]),
-]
+PASSOS = {
+    "Dados e BI": ("um dashboard", [
+        "Entender quais números você precisa acompanhar e de onde vêm os dados.",
+        "Tratar e organizar os dados para que fiquem confiáveis e fáceis de atualizar.",
+        "Montar o dashboard com os indicadores principais e filtros simples, e te mostrar como usar."]),
+    "Planilhas": ("uma planilha", [
+        "Entender como você trabalha hoje e o que a planilha precisa resolver.",
+        "Montar a estrutura com fórmulas e validações, para evitar erro de digitação.",
+        "Entregar pronta, com uma aba de instruções e um teste junto com você."]),
+    "Automação e código": ("a automação", [
+        "Mapear o processo atual e o resultado que você espera.",
+        "Desenvolver a solução com o código organizado e documentado.",
+        "Testar com os seus dados reais e entregar com instruções de uso."]),
+    "Sites": ("um site", [
+        "Entender o seu público e o que o site precisa fazer (vender, captar contato, apresentar).",
+        "Montar o layout responsivo, que funciona bem no celular, com os seus textos e cores.",
+        "Publicar, testar e te mostrar como fazer pequenas alterações."]),
+    "Textos": ("um texto", [
+        "Entender o público, o tom de voz e o objetivo do texto.",
+        "Escrever a primeira versão com estrutura clara e boa leitura.",
+        "Revisar com você e ajustar até ficar do jeito que você quer."]),
+    "Tradução": ("uma tradução", [
+        "Ler o material inteiro e entender o contexto e o público.",
+        "Traduzir mantendo o sentido e o tom, e não palavra por palavra.",
+        "Revisar a ortografia e a formatação antes de entregar."]),
+    "Apresentações e documentos": ("um material", [
+        "Entender para quem é o material e qual mensagem precisa passar.",
+        "Organizar o conteúdo em uma sequência clara e direta.",
+        "Diagramar com visual limpo e entregar no formato que você precisar."]),
+}
+INTRO = {
+    "Dados e BI": "que mostre os números com clareza e seja fácil de atualizar.",
+    "Planilhas": "que funcione de forma prática, sem depender de ajustes manuais toda hora.",
+    "Automação e código": "que tire o trabalho repetitivo das mãos da sua equipe.",
+    "Sites": "bonito, rápido e que funcione bem no celular.",
+    "Textos": "claro, bem escrito e no tom certo para o seu público.",
+    "Tradução": "fiel ao original e natural para quem vai ler.",
+    "Apresentações e documentos": "organizado e com visual profissional.",
+}
+PERGUNTA = {
+    "Dados e BI": "Para te passar valor e prazo certinhos: você já tem os dados prontos ou eles ainda estão espalhados em vários arquivos?",
+    "Planilhas": "Para te passar valor e prazo certinhos: você usa Excel ou Google Sheets, e mais alguém vai mexer na planilha?",
+    "Sites": "Para te passar valor e prazo certinhos: você já tem domínio e os textos e imagens, ou preciso criar também?",
+    "Textos": "Para te passar valor e prazo certinhos: você tem algum exemplo de texto que gosta, para eu acertar o tom?",
+    "Tradução": "Para te passar valor e prazo certinhos: quantas palavras ou páginas tem o material, e em que formato ele está?",
+}
+NOMES = {"power bi": "Power BI", "sql": "SQL", "python": "Python", "excel": "Excel", "kpi": "KPIs",
+         "etl": "ETL", "vba": "VBA", "google sheets": "Google Sheets", "looker": "Looker", "pandas": "Pandas",
+         "dashboard": "dashboards", "planilha": "planilhas", "relatório": "relatórios"}
 
 
 def montar_proposta(vaga, cfg):
     eu = cfg.get("eu", {})
-    texto = sem_acento(vaga["titulo"] + " " + vaga["descricao"] + " ")
-    entrega, passos = "a solução", TIPOS[0][2]
-    for chaves, nome, etapas in TIPOS:
-        if any(sem_acento(k) in texto for k in chaves):
-            entrega, passos = nome, etapas
-            break
-    nomes = {"power bi": "Power BI", "sql": "SQL", "python": "Python", "excel": "Excel", "kpi": "KPIs",
-             "etl": "ETL", "vba": "VBA", "google sheets": "Google Sheets", "looker": "Looker", "pandas": "Pandas",
-             "dashboard": "dashboards", "planilha": "planilhas", "relatório": "relatórios"}
-    itens = [nomes.get(h, h) for h in vaga["combina"][:3]] or ["análise de dados"]
-    ferramentas = itens[0] if len(itens) == 1 else ", ".join(itens[:-1]) + " e " + itens[-1]
+    entrega, passos = PASSOS.get(vaga.get("area"), ("a solução", PASSOS["Automação e código"][1]))
+    itens = [NOMES.get(h, h) for h in vaga["combina"][:3]]
+    ferramentas = (itens[0] if len(itens) == 1 else ", ".join(itens[:-1]) + " e " + itens[-1]) if itens else ""
     linhas = [
         f"Olá! Li o seu projeto \"{vaga['titulo']}\" e entendi que você precisa de {entrega} "
-        f"que resolva isso de forma prática, sem depender de ajustes manuais toda hora.",
+        + INTRO.get(vaga.get("area"), "que resolva isso de forma prática e bem feita."),
         "",
         "Como eu faria:",
         *[f"{i}. {p}" for i, p in enumerate(passos, 1)],
         "",
-        f"Trabalho com {ferramentas}."
-        + (f" Tenho {eu['diferencial']}." if eu.get("diferencial") else "")
+        (f"Trabalho com {ferramentas}. " if ferramentas else "")
+        + (f"Tenho {eu['diferencial']}." if eu.get("diferencial") else "")
         + (f" Alguns projetos meus estão em {eu['portfolio']}." if eu.get("portfolio") else ""),
         "",
-        "Para te passar valor e prazo certinhos: você já tem os dados prontos ou eles ainda estão espalhados em vários arquivos?",
+        PERGUNTA.get(vaga.get("area"), "Para te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?"),
         "",
         eu.get("assinatura", ""),
     ]
@@ -313,7 +356,7 @@ def coletar(cfg):
 
 
 def salvar(vagas, cfg):
-    vagas = [dar_nota(v, cfg) for v in vagas if not proibe_ia(v)]
+    vagas = [dar_nota(v, cfg) for v in vagas if not proibe_ia(v) and not nao_consigo(v, cfg)]
     vagas.sort(key=ordem)
     for v in vagas:
         if v["nota"] >= cfg["nota_minima_alerta"]:

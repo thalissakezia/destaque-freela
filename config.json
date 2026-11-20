@@ -9,10 +9,22 @@
     "power bi",
     "excel",
     "dashboard",
-    "sql",
-    "python",
     "planilha",
     "análise de dados",
+    "sql",
+    "python",
+    "automação",
+    "site",
+    "landing page",
+    "redação",
+    "artigo",
+    "revisão de texto",
+    "tradução",
+    "copywriting",
+    "apresentação",
+    "currículo",
+    "web scraping",
+    "chatbot",
     "relatório"
   ],
   "habilidades": {
@@ -34,21 +46,148 @@
     "pandas": 4
   },
   "evitar": [
-    "roblox",
-    "full stack",
-    "mobile",
-    "flutter",
-    "react native",
-    "voip",
-    "esp32",
-    "unity",
-    "wordpress",
-    "tráfego pago"
+    "tráfego pago",
+    "gestor de tráfego",
+    "full stack sênior",
+    "aplicativo completo"
   ],
   "nota_minima_alerta": 60,
   "paginas_por_busca": 1,
   "fontes": [
     "99freelas",
     "workana"
+  ],
+  "areas": {
+    "Dados e BI": {
+      "palavras": [
+        "power bi",
+        "dashboard",
+        "análise de dados",
+        "indicadores",
+        "kpi",
+        "bi ",
+        "estatística",
+        "looker"
+      ],
+      "peso": 30
+    },
+    "Planilhas": {
+      "palavras": [
+        "planilha",
+        "excel",
+        "google sheets",
+        "vba",
+        "macro"
+      ],
+      "peso": 30
+    },
+    "Automação e código": {
+      "palavras": [
+        "python",
+        "automação",
+        "automatizar",
+        "script",
+        "web scraping",
+        "api",
+        "n8n",
+        "sql",
+        "banco de dados",
+        "chatbot",
+        "bot "
+      ],
+      "peso": 22
+    },
+    "Sites": {
+      "palavras": [
+        "site",
+        "landing page",
+        "página de vendas",
+        "html",
+        "wordpress",
+        "front-end",
+        "frontend"
+      ],
+      "peso": 22
+    },
+    "Textos": {
+      "palavras": [
+        "redação",
+        "redator",
+        "artigo",
+        "texto",
+        "copy",
+        "copywriting",
+        "conteúdo para blog",
+        "blog",
+        "roteiro",
+        "revisão",
+        "e-book",
+        "ebook",
+        "descrição de produto"
+      ],
+      "peso": 22
+    },
+    "Tradução": {
+      "palavras": [
+        "tradução",
+        "traduzir",
+        "tradutor",
+        "inglês",
+        "espanhol",
+        "legenda"
+      ],
+      "peso": 20
+    },
+    "Apresentações e documentos": {
+      "palavras": [
+        "apresentação",
+        "powerpoint",
+        "slides",
+        "currículo",
+        "relatório",
+        "proposta comercial",
+        "manual",
+        "pdf"
+      ],
+      "peso": 20
+    }
+  },
+  "nao_consigo": [
+    "presencial",
+    "visita técnica",
+    "visitas técnicas",
+    "in loco",
+    "motoboy",
+    "entregador",
+    "telemarketing",
+    "call center",
+    "prospecção ativa",
+    "gravar vídeo",
+    "gravação de vídeo",
+    "filmagem",
+    "fotografia",
+    "fotógrafo",
+    "ensaio fotográfico",
+    "influenciador",
+    "microinfluenciador",
+    "ugc",
+    "locução",
+    "dublagem",
+    "placa de circuito",
+    "esp32",
+    "arduino",
+    "hardware",
+    "solda",
+    "impressão 3d",
+    "instalação física",
+    "roblox",
+    "unity",
+    "fazer ligações",
+    "atendimento telefônico",
+    "montagem de móveis",
+    "edição de vídeo",
+    "editor de vídeo",
+    "motion design",
+    "ligar para clientes"
   ]
 }

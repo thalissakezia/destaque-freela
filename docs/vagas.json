@@ -12,7 +12,7 @@
   "propostas": 0,
   "publicado": "2026-11-20T05:18:41+00:00",
   "cliente": "",
-  "nota": 33,
+  "nota": 45,
   "area": "Planilhas",
   "combina": [
    "planilha"
@@ -32,7 +32,7 @@
   "propostas": 1,
   "publicado": "2026-11-20T02:56:18+00:00",
   "cliente": "",
-  "nota": 21,
+  "nota": 35,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -62,7 +62,7 @@
   "propostas": 1,
   "publicado": "2026-11-20T00:32:18.585619+00:00",
   "cliente": "S.",
-  "nota": 26,
+  "nota": 40,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -89,7 +89,7 @@
   "propostas": 1,
   "publicado": "2026-11-19T19:32:25.309032+00:00",
   "cliente": "L. J.",
-  "nota": 20,
+  "nota": 35,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -107,7 +107,7 @@
   "propostas": 1,
   "publicado": "2026-11-19T17:57:06+00:00",
   "cliente": "",
-  "nota": 21,
+  "nota": 35,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -131,7 +131,7 @@
   "propostas": 3,
   "publicado": "2026-11-20T02:32:11.536952+00:00",
   "cliente": "V. H.",
-  "nota": 21,
+  "nota": 35,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -157,36 +157,9 @@
   "propostas": 3,
   "publicado": "2026-11-20T00:32:11.537221+00:00",
   "cliente": "G. S. B.",
-  "nota": 20,
+  "nota": 35,
   "area": "Tradução",
   "combina": [],
-  "evitar": []
- },
- {
-  "id": "wk-especialista-em-automacao-de-marketing-e-producao-de-videos",
-  "fonte": "Workana",
-  "titulo": "Especialista em Automação de Marketing e Produção de Vídeos",
-  "link": "https://www.workana.com/job/especialista-em-automacao-de-marketing-e-producao-de-videos",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "Procuramos um profissional para otimizar nossas estratégias de marketing através da automação e para desenvolver conteúdo audiovisual de alta qualidade. O projeto envolve a configuração de ferramentas de automação para campanhas de marketing, bem como a criação e edição de vídeos para diversas plataformas. Buscamos alguém com experiência comprovada em ambas as áreas, capaz de entregar resultados que impulsionem nosso alcance e engajamento. Detalhes específicos sobre as plataformas de automação e o volume de vídeos serão discutidos durante a seleção. Categoria: Design e Multimedia Subcategoria: Criar ou editar vídeo Do que você precisa?: Vídeo e gravações novos",
-  "habilidades": [
-   "Edição de vídeo",
-   "Produção de Vídeo",
-   "Adobe Premiere",
-   "Adobe After Effects",
-   "Motion Graphics",
-   "Design Gráfico"
-  ],
-  "orcamento": "USD 50 - 100",
-  "propostas": 4,
-  "publicado": "2026-11-20T02:31:21.585142+00:00",
-  "cliente": "Joabe S.",
-  "nota": 42,
-  "area": "Automação e código",
-  "combina": [
-   "automação"
-  ],
   "evitar": []
  },
  {
@@ -209,7 +182,7 @@
   "propostas": 6,
   "publicado": "2026-11-19T13:31:44.110100+00:00",
   "cliente": "C. T. E.",
-  "nota": 21,
+  "nota": 35,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -227,7 +200,7 @@
   "propostas": 7,
   "publicado": "2026-11-19T17:50:16+00:00",
   "cliente": "",
-  "nota": 26,
+  "nota": 41,
   "area": "Apresentações e documentos",
   "combina": [
    "relatório"
@@ -247,10 +220,11 @@
   "propostas": 8,
   "publicado": "2026-11-20T00:11:19+00:00",
   "cliente": "",
-  "nota": 32,
+  "nota": 60,
   "area": "Textos",
   "combina": [],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Preparação editorial e revisão de romance de terror psicológico\" e entendi que você precisa de um texto claro, bem escrito e no tom certo para o seu público.\n\nComo eu faria:\n1. Entender o público, o tom de voz e o objetivo do texto.\n2. Escrever a primeira versão com estrutura clara e boa leitura.\n3. Revisar com você e ajustar até ficar do jeito que você quer.\n\nTenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: você tem algum exemplo de texto que gosta, para eu acertar o tom?\n\nThalissa Silva"
  },
  {
   "id": "wk-pesquisa-de-satisfacao-de-clientes-para-multinacional-sob-demanda",
@@ -270,7 +244,7 @@
   "propostas": 8,
   "publicado": "2026-11-19T21:30:40.243292+00:00",
   "cliente": "M. G.",
-  "nota": 35,
+  "nota": 47,
   "area": "Planilhas",
   "combina": [
    "excel"
@@ -292,7 +266,7 @@
   "propostas": 9,
   "publicado": "2026-11-19T23:32:45.367889+00:00",
   "cliente": "Fernando L.",
-  "nota": 21,
+  "nota": 35,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -328,7 +302,7 @@
   "propostas": 11,
   "publicado": "2026-11-19T21:27:27+00:00",
   "cliente": "",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -352,13 +326,14 @@
   "propostas": 14,
   "publicado": "2026-11-20T03:32:38.597070+00:00",
   "cliente": "João V. S. D. S.",
-  "nota": 44,
+  "nota": 72,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Automação de Respostas com Ia para Atendimento ao Cliente no Whatsapp\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-criacao-de-conteudo-sobre-vida-fitness-corrida-e-alimentacao-saudavel",
@@ -380,7 +355,7 @@
   "propostas": 15,
   "publicado": "2026-11-19T21:32:11.537542+00:00",
   "cliente": "L.",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -398,7 +373,7 @@
   "propostas": 15,
   "publicado": "2026-11-19T11:16:09+00:00",
   "cliente": "",
-  "nota": 15,
+  "nota": 30,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -422,13 +397,14 @@
   "propostas": 17,
   "publicado": "2026-11-19T09:32:31.925141+00:00",
   "cliente": "Abel",
-  "nota": 44,
+  "nota": 72,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento de Programa para Automação de Inscrições e Resposta...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-criacao-de-planilha-de-dados-personalizada-para-otimizacao-de-trabalho",
@@ -447,7 +423,7 @@
   "propostas": 18,
   "publicado": "2026-11-19T19:30:54.186398+00:00",
   "cliente": "GUSTAVO O.",
-  "nota": 61,
+  "nota": 86,
   "area": "Planilhas",
   "combina": [
    "excel",
@@ -469,7 +445,7 @@
   "propostas": 19,
   "publicado": "2026-11-20T00:22:30+00:00",
   "cliente": "",
-  "nota": 25,
+  "nota": 55,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -492,7 +468,7 @@
   "propostas": 19,
   "publicado": "2026-11-19T19:30:54.187613+00:00",
   "cliente": "M. F.",
-  "nota": 38,
+  "nota": 50,
   "area": "Planilhas",
   "combina": [
    "excel",
@@ -522,12 +498,13 @@
   "propostas": 20,
   "publicado": "2026-11-19T16:32:38.597855+00:00",
   "cliente": "C. C. D.",
-  "nota": 34,
+  "nota": 62,
   "area": "Automação e código",
   "combina": [
    "python"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento de Api Não Oficial para Integração com Whatsapp e B...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-799668",
@@ -542,7 +519,7 @@
   "propostas": 20,
   "publicado": "2026-11-19T12:31:17+00:00",
   "cliente": "",
-  "nota": 25,
+  "nota": 55,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -567,7 +544,7 @@
   "propostas": 20,
   "publicado": "2026-11-19T06:32:11.538085+00:00",
   "cliente": "N. C.",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -590,7 +567,7 @@
   "propostas": 21,
   "publicado": "2026-11-19T23:31:30.119667+00:00",
   "cliente": "H. G. D. S. P.",
-  "nota": 23,
+  "nota": 37,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -618,13 +595,14 @@
   "propostas": 22,
   "publicado": "2026-11-20T00:32:38.597470+00:00",
   "cliente": "C. M. D. S.",
-  "nota": 44,
+  "nota": 72,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento de Assistente Virtual com Ia para Automação no What...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-desenvolvimento-de-software-de-rastreabilidade-de-pedidos-e-gestao-de-estoque-para-representantes",
@@ -648,7 +626,7 @@
   "propostas": 22,
   "publicado": "2026-11-19T20:32:45.367671+00:00",
   "cliente": "D. H.",
-  "nota": 16,
+  "nota": 30,
   "area": "Automação e código",
   "combina": [],
   "evitar": []
@@ -675,12 +653,13 @@
   "propostas": 25,
   "publicado": "2026-11-20T01:31:21.585826+00:00",
   "cliente": "T. A.",
-  "nota": 37,
+  "nota": 65,
   "area": "Automação e código",
   "combina": [
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Automação dentro de apps Android: Go/Node.js e Adb — início imediato\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-especialista-em-google-ads-para-configuracao-e-otimizacao-de-campanhas-de-e-commerce",
@@ -705,7 +684,7 @@
   "propostas": 30,
   "publicado": "2026-11-19T20:31:37.060143+00:00",
   "cliente": "QI D. M.",
-  "nota": 11,
+  "nota": 25,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -734,29 +713,9 @@
   "propostas": 30,
   "publicado": "2026-11-19T06:32:18.584215+00:00",
   "cliente": "Filipi F. D. S.",
-  "nota": 10,
+  "nota": 25,
   "area": "Apresentações e documentos",
   "combina": [],
-  "evitar": []
- },
- {
-  "id": "99f-799821",
-  "fonte": "99Freelas",
-  "titulo": "Desenvolvimento de sistema para óculos em Python e app Flutter",
-  "link": "https://www.99freelas.com.br/project/desenvolvimento-de-sistema-para-oculos-em-python-e-app-flutter-799821",
-  "categoria": "Desenvolvimento Mobile",
-  "nivel": "Iniciante",
-  "descricao": "Olá, desenvolvedores! Estou passando aqui para recrutar um(a) desenvolvedor(a) para o Vision AI, o primeiro projeto de óculos com inteligência artificial pensado e desenvolvido por e para pessoas cegas. O que é o Vision AI: É um óculos com inteligência embarcada, capaz de capturar fotos e transformá-las em audiodescrição para pessoas cegas ou com baixa visão. Nosso propósito é unir inovação e impacto social para transformar acessibilidade em autonomia e liberdade real no dia a dia, funcionando como verdadeiros olhos no cotidiano, tanto na descrição de cenas quanto na leitura de textos. O que eu preciso: Preciso de dois sistemas que conversem entre si: - Um sistema construído em Python, que será o sistema dos óculos; - Outro sistema construído em Flutter, que será o sistema do aplicativo. A parte mais detalhada dessa comunicação já está nos documentos que vou anexar aqui no anúncio, mas a ideia central é que o sistema do celular seja espelhado e replicado nos óculos, funcionando de forma integrada e paralela. Prazo: Preciso que tudo esteja pronto no prazo de três meses (90 dias), a contar do fechamento do contrato para o projeto aqui na plataforma. Entregáveis esperados: - Sistema dos óculos em Python e aplicativo em Flutter integrados e espelhados conforme o escopo anexado; - Documentação de arquitetura; - Licença de desenvolvimento, direitos intelectuais e direito de desenvolvimento assegurados ao projeto. O que eu mais valorizo agora é encontrar alguém comprometido com o propósito do projeto, com boa comunicação, organização para cumprir o prazo de 90 dias e vontade de construir algo que realmente faz diferença na vida das pessoas. Se você se identificou com a proposta e quer participar dessa construção, envie sua proposta com seu plano dentro dos 90 dias e seu valor para o projeto.",
-  "habilidades": [],
-  "orcamento": "",
-  "propostas": 31,
-  "publicado": "2026-11-20T00:11:10+00:00",
-  "cliente": "",
-  "nota": 36,
-  "area": "Automação e código",
-  "combina": [
-   "python"
-  ],
   "evitar": []
  },
  {
@@ -779,7 +738,7 @@
   "propostas": 31,
   "publicado": "2026-11-19T17:31:37.059147+00:00",
   "cliente": "J. D. S. J.",
-  "nota": 11,
+  "nota": 25,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -804,7 +763,7 @@
   "propostas": 31,
   "publicado": "2026-11-19T13:31:44.111026+00:00",
   "cliente": "M. H.",
-  "nota": 11,
+  "nota": 25,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -832,12 +791,13 @@
   "propostas": 33,
   "publicado": "2026-11-19T14:31:21.587015+00:00",
   "cliente": "B. J. C. B.",
-  "nota": 32,
+  "nota": 60,
   "area": "Automação e código",
   "combina": [
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Especialista em Automação para Otimização de Gráficas e Impressões\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-desenvolvimento-de-bot-de-tickets-para-discord-com-integracao-mercado-pago",
@@ -858,7 +818,7 @@
   "propostas": 34,
   "publicado": "2026-11-19T18:32:38.597671+00:00",
   "cliente": "C.",
-  "nota": 29,
+  "nota": 57,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -884,7 +844,7 @@
   "propostas": 35,
   "publicado": "2026-11-19T19:31:37.058607+00:00",
   "cliente": "L. S. M.",
-  "nota": 22,
+  "nota": 50,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -906,7 +866,7 @@
   "propostas": 36,
   "publicado": "2026-11-19T15:30:54.189110+00:00",
   "cliente": "Anderson G. F.",
-  "nota": 23,
+  "nota": 35,
   "area": "Planilhas",
   "combina": [
    "planilha"
@@ -931,7 +891,7 @@
   "propostas": 37,
   "publicado": "2026-11-19T19:32:18.582563+00:00",
   "cliente": "C. D.",
-  "nota": 20,
+  "nota": 50,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -957,7 +917,7 @@
   "propostas": 37,
   "publicado": "2026-11-19T16:32:38.596825+00:00",
   "cliente": "A. F.",
-  "nota": 29,
+  "nota": 57,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -982,7 +942,7 @@
   "propostas": 37,
   "publicado": "2026-11-19T10:32:18.582788+00:00",
   "cliente": "Guilherme E. S. E. S.",
-  "nota": 20,
+  "nota": 50,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -1008,7 +968,7 @@
   "propostas": 39,
   "publicado": "2026-11-19T11:32:38.597271+00:00",
   "cliente": "B. S.",
-  "nota": 29,
+  "nota": 57,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -1034,7 +994,7 @@
   "propostas": 43,
   "publicado": "2026-11-19T23:32:04.739804+00:00",
   "cliente": "João M. C. D. S. S.",
-  "nota": 23,
+  "nota": 37,
   "area": "Automação e código",
   "combina": [
    "python",
@@ -1068,7 +1028,7 @@
   "propostas": 47,
   "publicado": "2026-11-19T19:31:07.890185+00:00",
   "cliente": "Wagner N. L.",
-  "nota": 40,
+  "nota": 52,
   "area": "Dados e BI",
   "combina": [
    "dashboard",
@@ -1122,7 +1082,7 @@
   "propostas": 54,
   "publicado": "2026-11-19T16:31:37.059332+00:00",
   "cliente": "A. L.",
-  "nota": 22,
+  "nota": 50,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1147,7 +1107,7 @@
   "propostas": 56,
   "publicado": "2026-11-19T23:31:30.119924+00:00",
   "cliente": "D. B. D. S.",
-  "nota": 22,
+  "nota": 50,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1172,7 +1132,7 @@
   "propostas": 59,
   "publicado": "2026-11-19T21:31:30.120121+00:00",
   "cliente": "J. D. S. J.",
-  "nota": 11,
+  "nota": 25,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1190,7 +1150,7 @@
   "propostas": 68,
   "publicado": "2026-11-20T00:23:52+00:00",
   "cliente": "",
-  "nota": 22,
+  "nota": 50,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1224,14 +1184,15 @@
   "propostas": 68,
   "publicado": "2026-11-19T19:31:21.586451+00:00",
   "cliente": "M. M.",
-  "nota": 45,
+  "nota": 73,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação",
    "google sheets"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Especialista em Automação de Processos com N8n e Ia para Imobiliária\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python, automação e Google Sheets. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-desenvolvimento-e-integracao-de-api-oficial-com-kommo-crm",
@@ -1252,13 +1213,14 @@
   "propostas": 70,
   "publicado": "2026-11-19T19:31:14.737540+00:00",
   "cliente": "Yan A.",
-  "nota": 34,
+  "nota": 62,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento e Integração de Api Oficial com Kommo Crm\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-799635",
@@ -1273,7 +1235,7 @@
   "propostas": 72,
   "publicado": "2026-11-19T11:06:52+00:00",
   "cliente": "",
-  "nota": 11,
+  "nota": 25,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1297,7 +1259,7 @@
   "propostas": 78,
   "publicado": "2026-11-19T17:31:37.058948+00:00",
   "cliente": "Ana C. D. O. N.",
-  "nota": 22,
+  "nota": 50,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1315,7 +1277,7 @@
   "propostas": 85,
   "publicado": "2026-11-19T13:51:51+00:00",
   "cliente": "",
-  "nota": 12,
+  "nota": 40,
   "area": "Automação e código",
   "combina": [],
   "evitar": []
@@ -1340,7 +1302,7 @@
   "propostas": 94,
   "publicado": "2026-11-19T15:31:21.586821+00:00",
   "cliente": "Marcos P.",
-  "nota": 29,
+  "nota": 57,
   "area": "Automação e código",
   "combina": [
    "python",
@@ -1361,7 +1323,7 @@
   "propostas": 109,
   "publicado": "2026-11-19T17:11:19+00:00",
   "cliente": "",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1379,7 +1341,7 @@
   "propostas": 123,
   "publicado": "2026-11-19T12:59:40+00:00",
   "cliente": "",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1407,7 +1369,7 @@
   "propostas": 133,
   "publicado": "2026-11-19T11:32:04.738874+00:00",
   "cliente": "N. C. V. M.",
-  "nota": 17,
+  "nota": 31,
   "area": "Automação e código",
   "combina": [
    "sql",
@@ -1434,31 +1396,8 @@
   "propostas": 137,
   "publicado": "2026-11-19T19:32:18.584897+00:00",
   "cliente": "M. S.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
-  "combina": [],
-  "evitar": []
- },
- {
-  "id": "wk-certificacao-de-conformidade-para-traducao-de-livro-publicado-em-ingles",
-  "fonte": "Workana",
-  "titulo": "Certificação de Conformidade para Tradução de Livro Publicado em In...",
-  "link": "https://www.workana.com/job/certificacao-de-conformidade-para-traducao-de-livro-publicado-em-ingles",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "O cliente busca um profissional para realizar a certificação de conformidade de uma tradução de livro já concluída, publicada e lançada no mercado em inglês. O trabalho envolve a revisão detalhada da tradução existente para garantir sua fidelidade ao texto original e a qualidade linguística, culminando na emissão de um documento formal de certificação. É Essencial que o profissional tenha experiência em revisão de textos literários e proficiência em português e inglês para atestar a qualidade da obra. O objetivo principal é garantir a qualidade, precisão e fluidez do texto em , assegurando que a mensagem original seja transmitida de forma impecável. O projeto envolve a revisão de um livro. O profissional deverá ter experiência em revisão de traduções. O certificado deve ser assinado por um tradutor ou agência reconhecida (como membros da ata ou iti ou similares, ou empresas com certificação iso ) deve ter duas vias, em português e obrigatoriamente em inglês. O tradutor ou revisor que assina o atestado enquadra-se na regra de Specialist Witness (Testemunha Especialista).O documento deve ser emitido em papel timbrado da agência ou do profissional, contendo credenciais acadêmicas ou registros de classe que comprovem sua autoridade técnica para validar aquele idioma. Categoria: Tradução e conteúdos Subcategoria: Revisão de textos Quantas palavras?: Mais de 5000 palavras",
-  "habilidades": [
-   "Correção de textos",
-   "Edição",
-   "Tradução ao Inglês",
-   "Português"
-  ],
-  "orcamento": "USD 50 - 100",
-  "propostas": 2,
-  "publicado": "2026-11-19T05:32:04.739322+00:00",
-  "cliente": "E. L. K. D.",
-  "nota": 30,
-  "area": "Tradução",
   "combina": [],
   "evitar": []
  },
@@ -1475,34 +1414,11 @@
   "propostas": 3,
   "publicado": "2026-11-18T00:19:00+00:00",
   "cliente": "Adimar M.",
-  "nota": 26,
+  "nota": 41,
   "area": "Apresentações e documentos",
   "combina": [
    "relatório"
   ],
-  "evitar": []
- },
- {
-  "id": "wk-revisor-nativo-espanhol-para-validacao-de-traducao-de-livro-publicado",
-  "fonte": "Workana",
-  "titulo": "Revisor Nativo Espanhol para Validação de Tradução de Livro Publicado",
-  "link": "https://www.workana.com/job/revisor-nativo-espanhol-para-validacao-de-traducao-de-livro-publicado",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "Estou buscando um revisor de texto nativo em espanhol para realizar a validação e revisão de uma tradução de um livro já lançado e publicado. O objetivo principal é garantir a qualidade, precisão e fluidez do texto em espanhol, assegurando que a mensagem original seja transmitida de forma impecável. O projeto envolve a revisão de um livro. O profissional deverá ter experiência em revisão de traduções. O certificado deve ser assinado por um tradutor ou agência reconhecida (como membros da ata ou iti ou similares, ou empresas com certificação iso ) deve ter duas vias, em português e obrigatoriamente em inglês. Se o livro foi traduzido para o espanhol, o certificado que comprova a tradução do livro deve ser redigido ou traduzido para o inglês. O tradutor ou revisor que assina o atestado enquadra-se na regra de Specialist Witness (Testemunha Especialista).O documento deve ser emitido em papel timbrado da agência ou do profissional, contendo credenciais acadêmicas ou registros de classe que comprovem sua autoridade técnica para validar aquele idioma. Categoria: Tradução e conteúdos Subcategoria: Revisão de textos Quantas palavras?: Entre 1000 e 5000 palavras",
-  "habilidades": [
-   "Correção de textos",
-   "Tradução ao espanhol",
-   "Edição",
-   "Gramática"
-  ],
-  "orcamento": "Menos de USD 50",
-  "propostas": 4,
-  "publicado": "2026-11-19T05:32:04.739600+00:00",
-  "cliente": "E. L. K. D.",
-  "nota": 30,
-  "area": "Tradução",
-  "combina": [],
   "evitar": []
  },
  {
@@ -1520,12 +1436,13 @@
   "propostas": 6,
   "publicado": "2026-11-18T05:32:45.367460+00:00",
   "cliente": "G. D. S. P.",
-  "nota": 42,
+  "nota": 72,
   "area": "Apresentações e documentos",
   "combina": [
    "relatório"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Criação de Mapa Cartográfico Detalhado para Relatório com Arcgis\" e entendi que você precisa de um material organizado e com visual profissional.\n\nComo eu faria:\n1. Entender para quem é o material e qual mensagem precisa passar.\n2. Organizar o conteúdo em uma sequência clara e direta.\n3. Diagramar com visual limpo e entregar no formato que você precisar.\n\nTrabalho com relatórios. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-799403",
@@ -1540,7 +1457,7 @@
   "propostas": 9,
   "publicado": "2026-11-18T11:18:49+00:00",
   "cliente": "F B",
-  "nota": 20,
+  "nota": 35,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -1558,7 +1475,7 @@
   "propostas": 9,
   "publicado": "2026-11-17T23:52:22+00:00",
   "cliente": "Adimar M.",
-  "nota": 26,
+  "nota": 41,
   "area": "Apresentações e documentos",
   "combina": [
    "relatório"
@@ -1586,7 +1503,7 @@
   "propostas": 10,
   "publicado": "2026-11-19T05:32:25.309268+00:00",
   "cliente": "E. M. V. M.",
-  "nota": 31,
+  "nota": 43,
   "area": "Dados e BI",
   "combina": [
    "análise de dados"
@@ -1606,7 +1523,7 @@
   "propostas": 10,
   "publicado": "2026-11-18T05:31:30.122130+00:00",
   "cliente": "W. C. B.",
-  "nota": 16,
+  "nota": 30,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1631,7 +1548,7 @@
   "propostas": 12,
   "publicado": "2026-11-19T05:32:45.367255+00:00",
   "cliente": "M. E. R. C.",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -1649,7 +1566,7 @@
   "propostas": 13,
   "publicado": "2026-11-18T21:17:11+00:00",
   "cliente": "Guilherme H.",
-  "nota": 21,
+  "nota": 35,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -1669,7 +1586,7 @@
   "propostas": 13,
   "publicado": "2026-11-17T18:44:24+00:00",
   "cliente": "Dejair B.",
-  "nota": 0,
+  "nota": 15,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -1694,7 +1611,7 @@
   "propostas": 15,
   "publicado": "2026-11-18T05:31:50.940042+00:00",
   "cliente": "R. C. C. L.",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -1718,7 +1635,7 @@
   "propostas": 16,
   "publicado": "2026-11-18T05:32:45.368171+00:00",
   "cliente": "S. R.",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -1736,7 +1653,7 @@
   "propostas": 17,
   "publicado": "2026-11-18T18:08:47+00:00",
   "cliente": "Victoria S.",
-  "nota": 15,
+  "nota": 30,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -1762,7 +1679,7 @@
   "propostas": 18,
   "publicado": "2026-11-19T05:32:04.739120+00:00",
   "cliente": "NB",
-  "nota": 25,
+  "nota": 55,
   "area": "Tradução",
   "combina": [],
   "evitar": []
@@ -1786,7 +1703,7 @@
   "propostas": 18,
   "publicado": "2026-11-18T05:32:04.740171+00:00",
   "cliente": "I. A. D. F.",
-  "nota": 27,
+  "nota": 55,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -1811,7 +1728,7 @@
   "propostas": 19,
   "publicado": "2026-11-19T05:32:25.308183+00:00",
   "cliente": "Maria D. F.",
-  "nota": 25,
+  "nota": 55,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -1840,7 +1757,7 @@
   "propostas": 21,
   "publicado": "2026-11-19T05:32:18.582110+00:00",
   "cliente": "S. M.",
-  "nota": 16,
+  "nota": 30,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -1867,7 +1784,7 @@
   "propostas": 21,
   "publicado": "2026-11-18T05:31:50.940238+00:00",
   "cliente": "R. D. S. B.",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -1916,7 +1833,7 @@
   "propostas": 22,
   "publicado": "2026-11-19T05:31:44.110782+00:00",
   "cliente": "M. F. M.",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -1938,12 +1855,13 @@
   "propostas": 22,
   "publicado": "2026-11-19T05:31:14.737750+00:00",
   "cliente": "E. A.",
-  "nota": 41,
+  "nota": 69,
   "area": "Automação e código",
   "combina": [
    "python"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Mentoria e Treinamento em Ruview, Redes, Ia e Python para Desenvolv...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-799396",
@@ -1958,7 +1876,7 @@
   "propostas": 24,
   "publicado": "2026-11-18T05:38:07+00:00",
   "cliente": "Guilherme H.",
-  "nota": 21,
+  "nota": 35,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -1983,7 +1901,7 @@
   "propostas": 24,
   "publicado": "2026-11-18T05:32:11.538474+00:00",
   "cliente": "Thiago M.",
-  "nota": 27,
+  "nota": 55,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -2001,7 +1919,7 @@
   "propostas": 26,
   "publicado": "2026-11-17T20:25:12+00:00",
   "cliente": "Beatriz S.",
-  "nota": 28,
+  "nota": 40,
   "area": "Planilhas",
   "combina": [
    "planilha"
@@ -2036,7 +1954,7 @@
   "propostas": 28,
   "publicado": "2026-11-19T05:31:07.891879+00:00",
   "cliente": "G. M. D. S.",
-  "nota": 32,
+  "nota": 46,
   "area": "Automação e código",
   "combina": [
    "sql",
@@ -2057,7 +1975,7 @@
   "propostas": 28,
   "publicado": "2026-11-17T14:12:11+00:00",
   "cliente": "Eduardo R.",
-  "nota": 15,
+  "nota": 30,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -2075,37 +1993,13 @@
   "propostas": 29,
   "publicado": "2026-11-17T11:29:40+00:00",
   "cliente": "Larissa - S.",
-  "nota": 44,
+  "nota": 56,
   "area": "Planilhas",
   "combina": [
    "excel",
    "planilha",
    "google sheets"
   ],
-  "evitar": []
- },
- {
-  "id": "wk-revisao-profissional-de-textos-em-portugues-do-brasil-para-marca-de-stand-up-paddle",
-  "fonte": "Workana",
-  "titulo": "Revisão Profissional de Textos em Português do Brasil para Marca de...",
-  "link": "https://www.workana.com/job/revisao-profissional-de-textos-em-portugues-do-brasil-para-marca-de-stand-up-paddle",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "Revisão de textos em português do Brasil: site e redes de marca de stand up paddle. Somos a Swellboards, marca de pranchas de stand up paddle. Traduzimos nosso site e nossas publicações do espanhol para o português do Brasil e precisamos da revisão de um falante nativo. O que revisar: cerca de 7.000 palavras únicas, entre 7 páginas institucionais, 20 fichas de produto com vocabulário técnico de SUP e legendas de Instagram. Entrega: um documento com as correções (texto atual e texto corrigido), cuidando da naturalidade, dos termos do esporte e da consistência. Prazo: 7 dias. Perfil: nativo do Brasil. Experiência com surf ou esportes aquáticos é um diferencial. Orçamento: entre usd 50 e usd 100. Categoria: Tradução e conteúdos Subcategoria: Revisão de textos Quantas palavras?: Mais de 5000 palavras",
-  "habilidades": [
-   "Correção de textos",
-   "Português",
-   "Edição",
-   "Web Content",
-   "Edição de textos"
-  ],
-  "orcamento": "USD 50 - 100",
-  "propostas": 31,
-  "publicado": "2026-11-18T05:31:57.802706+00:00",
-  "cliente": "C. P.",
-  "nota": 22,
-  "area": "Textos",
-  "combina": [],
   "evitar": []
  },
  {
@@ -2130,7 +2024,7 @@
   "propostas": 33,
   "publicado": "2026-11-18T05:31:57.802506+00:00",
   "cliente": "Débora M. D. O.",
-  "nota": 25,
+  "nota": 37,
   "area": "Planilhas",
   "combina": [
    "excel"
@@ -2158,7 +2052,7 @@
   "propostas": 37,
   "publicado": "2026-11-19T05:32:31.925412+00:00",
   "cliente": "D. O. L.",
-  "nota": 18,
+  "nota": 32,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -2182,12 +2076,13 @@
   "propostas": 37,
   "publicado": "2026-11-19T05:31:44.111547+00:00",
   "cliente": "A. S.",
-  "nota": 32,
+  "nota": 60,
   "area": "Automação e código",
   "combina": [
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento de Solução de Ia para Automação e Otimização de Tex...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-desenvolvedor-full-stack-integrador-de-ia-para-plataforma-de-consultoria",
@@ -2217,7 +2112,7 @@
   "propostas": 37,
   "publicado": "2026-11-19T05:30:47.114417+00:00",
   "cliente": "Joel Q. J.",
-  "nota": 38,
+  "nota": 50,
   "area": "Dados e BI",
   "combina": [
    "dashboard",
@@ -2239,7 +2134,7 @@
   "propostas": 37,
   "publicado": "2026-11-18T23:36:10+00:00",
   "cliente": "Zelia M.",
-  "nota": 22,
+  "nota": 50,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -2257,7 +2152,7 @@
   "propostas": 37,
   "publicado": "2026-11-18T18:35:45+00:00",
   "cliente": "Leonardo M.",
-  "nota": 1,
+  "nota": 13,
   "area": "Dados e BI",
   "combina": [
    "indicadores"
@@ -2279,7 +2174,7 @@
   "propostas": 40,
   "publicado": "2026-11-18T14:07:26+00:00",
   "cliente": "João A.",
-  "nota": 28,
+  "nota": 56,
   "area": "Textos",
   "combina": [
    "relatório"
@@ -2305,7 +2200,7 @@
   "propostas": 40,
   "publicado": "2026-11-18T05:30:47.113526+00:00",
   "cliente": "Fernando J. P.",
-  "nota": 25,
+  "nota": 37,
   "area": "Dados e BI",
   "combina": [
    "dashboard"
@@ -2325,7 +2220,7 @@
   "propostas": 41,
   "publicado": "2026-11-18T21:57:10+00:00",
   "cliente": "Pedro F.",
-  "nota": 22,
+  "nota": 50,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -2343,7 +2238,7 @@
   "propostas": 42,
   "publicado": "2026-11-17T18:51:54+00:00",
   "cliente": "Arcos - 2.",
-  "nota": 20,
+  "nota": 50,
   "area": "Tradução",
   "combina": [],
   "evitar": []
@@ -2361,7 +2256,7 @@
   "propostas": 43,
   "publicado": "2026-11-18T11:11:56+00:00",
   "cliente": "Automa L.",
-  "nota": 27,
+  "nota": 55,
   "area": "Textos",
   "combina": [
    "automação"
@@ -2381,13 +2276,14 @@
   "propostas": 43,
   "publicado": "2026-11-17T11:24:28+00:00",
   "cliente": "Fernando J.",
-  "nota": 41,
+  "nota": 69,
   "area": "Automação e código",
   "combina": [
    "dashboard",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Automação de estratégia de trading em MQL5/MQL4\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com dashboards e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-especialista-em-seguranca-cibernetica-para-recuperacao-de-conta-lalamove-invadida",
@@ -2427,7 +2323,7 @@
   "propostas": 46,
   "publicado": "2026-11-17T18:11:28+00:00",
   "cliente": "Bruna R.",
-  "nota": 11,
+  "nota": 25,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -2445,7 +2341,7 @@
   "propostas": 48,
   "publicado": "2026-11-18T18:24:16+00:00",
   "cliente": "Cecílio C.",
-  "nota": 20,
+  "nota": 50,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -2463,7 +2359,7 @@
   "propostas": 48,
   "publicado": "2026-11-18T11:13:14+00:00",
   "cliente": "Gian P.",
-  "nota": 22,
+  "nota": 50,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -2489,7 +2385,7 @@
   "propostas": 49,
   "publicado": "2026-11-19T05:32:25.309454+00:00",
   "cliente": "VANESSA M. M.",
-  "nota": 25,
+  "nota": 37,
   "area": "Planilhas",
   "combina": [
    "excel"
@@ -2509,7 +2405,7 @@
   "propostas": 50,
   "publicado": "2026-11-17T20:27:23+00:00",
   "cliente": "Cecílio C.",
-  "nota": 11,
+  "nota": 25,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -2532,7 +2428,7 @@
   "propostas": 53,
   "publicado": "2026-11-19T05:32:45.366997+00:00",
   "cliente": "Matheus R.",
-  "nota": 62,
+  "nota": 87,
   "area": "Planilhas",
   "combina": [
    "excel",
@@ -2567,7 +2463,7 @@
   "propostas": 55,
   "publicado": "2026-11-19T05:31:07.891126+00:00",
   "cliente": "Rodrig.",
-  "nota": 0,
+  "nota": 13,
   "area": "Automação e código",
   "combina": [
    "sql"
@@ -2589,7 +2485,7 @@
   "propostas": 59,
   "publicado": "2026-11-17T12:06:48+00:00",
   "cliente": "Reginaldo O.",
-  "nota": 28,
+  "nota": 56,
   "area": "Textos",
   "combina": [
    "indicadores"
@@ -2614,7 +2510,7 @@
   "propostas": 60,
   "publicado": "2026-11-19T05:31:30.121765+00:00",
   "cliente": "G. H.",
-  "nota": 22,
+  "nota": 50,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -2645,7 +2541,7 @@
   "propostas": 66,
   "publicado": "2026-11-19T05:31:07.891645+00:00",
   "cliente": "M. G. D. S.",
-  "nota": 19,
+  "nota": 33,
   "area": "Automação e código",
   "combina": [
    "sql"
@@ -2673,7 +2569,7 @@
   "propostas": 71,
   "publicado": "2026-11-18T05:31:50.940428+00:00",
   "cliente": "F. C.",
-  "nota": 22,
+  "nota": 50,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -2695,7 +2591,7 @@
   "propostas": 72,
   "publicado": "2026-11-18T05:30:54.188801+00:00",
   "cliente": "Rafael L. D. S. S.",
-  "nota": 66,
+  "nota": 91,
   "area": "Planilhas",
   "combina": [
    "excel",
@@ -2725,7 +2621,7 @@
   "propostas": 76,
   "publicado": "2026-11-19T05:30:40.244212+00:00",
   "cliente": "MARIA C. T. D. M.",
-  "nota": 25,
+  "nota": 37,
   "area": "Planilhas",
   "combina": [
    "excel"
@@ -2751,7 +2647,7 @@
   "propostas": 77,
   "publicado": "2026-11-18T05:31:07.892586+00:00",
   "cliente": "A. M.",
-  "nota": 19,
+  "nota": 33,
   "area": "Automação e código",
   "combina": [
    "sql"
@@ -2783,7 +2679,7 @@
   "propostas": 83,
   "publicado": "2026-11-18T05:32:45.368415+00:00",
   "cliente": "S. B.",
-  "nota": 8,
+  "nota": 22,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -2803,7 +2699,7 @@
   "propostas": 87,
   "publicado": "2026-11-18T17:13:31+00:00",
   "cliente": "Dayse G.",
-  "nota": 60,
+  "nota": 85,
   "area": "Planilhas",
   "combina": [
    "excel",
@@ -2826,7 +2722,7 @@
   "propostas": 88,
   "publicado": "2026-11-18T21:51:52+00:00",
   "cliente": "Lucas C.",
-  "nota": 19,
+  "nota": 47,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -2846,7 +2742,7 @@
   "propostas": 90,
   "publicado": "2026-11-19T03:38:58+00:00",
   "cliente": "Matheus C.",
-  "nota": 15,
+  "nota": 27,
   "area": "Planilhas",
   "combina": [
    "excel"
@@ -2866,7 +2762,7 @@
   "propostas": 100,
   "publicado": "2026-11-18T23:19:31+00:00",
   "cliente": "Felipe M.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -2900,7 +2796,7 @@
   "propostas": 101,
   "publicado": "2026-11-18T05:30:47.114686+00:00",
   "cliente": "E. D. S. C.",
-  "nota": 27,
+  "nota": 39,
   "area": "Dados e BI",
   "combina": [
    "dashboard",
@@ -2922,7 +2818,7 @@
   "propostas": 109,
   "publicado": "2026-11-18T09:41:45+00:00",
   "cliente": "Patrick G.",
-  "nota": 6,
+  "nota": 20,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -2942,7 +2838,7 @@
   "propostas": 116,
   "publicado": "2026-11-17T17:11:09+00:00",
   "cliente": "Brayan W.",
-  "nota": 12,
+  "nota": 40,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -2971,7 +2867,7 @@
   "propostas": 158,
   "publicado": "2026-11-18T05:31:07.892241+00:00",
   "cliente": "Marcio A. S. P.",
-  "nota": 39,
+  "nota": 51,
   "area": "Planilhas",
   "combina": [
    "excel",
@@ -2994,7 +2890,7 @@
   "propostas": 161,
   "publicado": "2026-11-18T04:28:43+00:00",
   "cliente": "Osmar J.",
-  "nota": 24,
+  "nota": 36,
   "area": "Planilhas",
   "combina": [
    "planilha",
@@ -3016,7 +2912,7 @@
   "propostas": 165,
   "publicado": "2026-11-19T00:05:12+00:00",
   "cliente": "Mari A.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -3042,7 +2938,7 @@
   "propostas": 168,
   "publicado": "2026-11-19T05:31:30.121977+00:00",
   "cliente": "Larissa D.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -3060,7 +2956,7 @@
   "propostas": 180,
   "publicado": "2026-11-18T19:21:45+00:00",
   "cliente": "Grow M.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -3078,7 +2974,7 @@
   "propostas": 186,
   "publicado": "2026-11-17T19:23:41+00:00",
   "cliente": "Fernando M.",
-  "nota": 6,
+  "nota": 21,
   "area": "Apresentações e documentos",
   "combina": [
    "relatório"
@@ -3098,7 +2994,7 @@
   "propostas": 197,
   "publicado": "2026-11-18T01:37:57+00:00",
   "cliente": "Ice C.",
-  "nota": 68,
+  "nota": 93,
   "area": "Planilhas",
   "combina": [
    "excel",
@@ -3121,7 +3017,7 @@
   "propostas": 213,
   "publicado": "2026-11-18T11:26:19+00:00",
   "cliente": "Rodrigo S.",
-  "nota": 67,
+  "nota": 92,
   "area": "Dados e BI",
   "combina": [
    "dashboard",
@@ -3146,7 +3042,7 @@
   "propostas": 227,
   "publicado": "2026-11-17T15:00:50+00:00",
   "cliente": "Rodrigo B.",
-  "nota": 15,
+  "nota": 27,
   "area": "Planilhas",
   "combina": [
    "excel"
@@ -3166,7 +3062,7 @@
   "propostas": 307,
   "publicado": "2026-11-17T15:02:59+00:00",
   "cliente": "Bernardo C F.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -3184,7 +3080,7 @@
   "propostas": 4,
   "publicado": "2026-11-16T17:38:24+00:00",
   "cliente": "Sphera T.",
-  "nota": 26,
+  "nota": 40,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -3211,7 +3107,7 @@
   "propostas": 9,
   "publicado": "2026-11-15T05:32:31.926226+00:00",
   "cliente": "D. D. W.",
-  "nota": 28,
+  "nota": 42,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -3234,7 +3130,7 @@
   "propostas": 14,
   "publicado": "2026-11-14T05:31:01.250639+00:00",
   "cliente": "Maria C. C.",
-  "nota": 31,
+  "nota": 43,
   "area": "Dados e BI",
   "combina": [
    "análise de dados"
@@ -3262,7 +3158,7 @@
   "propostas": 15,
   "publicado": "2026-11-17T05:32:31.925739+00:00",
   "cliente": "Pedro N.",
-  "nota": 23,
+  "nota": 37,
   "area": "Automação e código",
   "combina": [
    "python"
@@ -3282,7 +3178,7 @@
   "propostas": 18,
   "publicado": "2026-11-15T23:12:51+00:00",
   "cliente": "Rogerio C.",
-  "nota": 40,
+  "nota": 52,
   "area": "Dados e BI",
   "combina": [
    "planilha",
@@ -3312,13 +3208,14 @@
   "propostas": 24,
   "publicado": "2026-11-17T05:32:31.926029+00:00",
   "cliente": "B. L.",
-  "nota": 44,
+  "nota": 72,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Script de Automação para Login e Resgate de Códigos com Desafio Clo...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-design-ux-ui-para-plataforma-educacional-web-aluno-professor-e-dashboard-1",
@@ -3342,7 +3239,7 @@
   "propostas": 26,
   "publicado": "2026-11-17T05:30:47.113993+00:00",
   "cliente": "E.",
-  "nota": 30,
+  "nota": 42,
   "area": "Dados e BI",
   "combina": [
    "dashboard"
@@ -3366,7 +3263,7 @@
   "propostas": 27,
   "publicado": "2026-11-17T05:31:57.801873+00:00",
   "cliente": "K. A.",
-  "nota": 27,
+  "nota": 55,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -3391,7 +3288,7 @@
   "propostas": 29,
   "publicado": "2026-11-14T05:31:57.803070+00:00",
   "cliente": "M. P. D. O.",
-  "nota": 27,
+  "nota": 55,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -3409,7 +3306,7 @@
   "propostas": 31,
   "publicado": "2026-11-16T15:52:08+00:00",
   "cliente": "Leandro F.",
-  "nota": 6,
+  "nota": 18,
   "area": "Dados e BI",
   "combina": [
    "indicadores",
@@ -3437,30 +3334,10 @@
   "propostas": 32,
   "publicado": "2026-11-16T05:31:57.802888+00:00",
   "cliente": "M. C. F.",
-  "nota": 22,
+  "nota": 50,
   "area": "Textos",
   "combina": [],
   "evitar": []
- },
- {
-  "id": "99f-798575",
-  "fonte": "99Freelas",
-  "titulo": "Criação de conteúdo e divulgação de produtos no Instagram e TikTok",
-  "link": "https://www.99freelas.com.br/project/criacao-de-conteudo-e-divulgacao-de-produtos-no-instagram-e-tiktok-798575",
-  "categoria": "Gestão de Mídias Sociais",
-  "nivel": "Iniciante",
-  "descricao": "Busco um(a) profissional criativo(a), organizado(a) e comprometido(a) para trabalhar na criação, produção, publicação e gerenciamento de conteúdos para perfis comerciais no Instagram e TikTok. O trabalho será recorrente, realizado remotamente, de segunda a sexta-feira, e envolverá duas atividades principais: 1. Criação de conteúdos para os perfis comerciais, visando fortalecer a presença digital das marcas, atrair seguidores, gerar engajamento e divulgar serviços. 2. Divulgação de produtos físicos e digitais por meio de programas de afiliados, utilizando estratégias de marketing de conteúdo para despertar o interesse do público, gerar cliques e contribuir para a realização de vendas. Escopo dos serviços 1. Criação de conteúdo para redes sociais - Planejamento e criação de conteúdos diários para Instagram e TikTok. - Produção de vídeos curtos e imagens para Reels e TikTok diários. - Criação de Stories diários. - Desenvolvimento de artes e materiais visuais para as publicações. - Edição de vídeos utilizando CapCut ou ferramentas similares. - Elaboração de legendas criativas, atrativas e persuasivas. - Utilização de hashtags estratégicas e chamadas para ação (CTA). - Adaptação dos conteúdos às características de cada plataforma. 2. Divulgação de produtos físicos e digitais - Marketing de Afiliados O profissional também será responsável pela criação e divulgação de conteúdos promocionais de produtos físicos e digitais, utilizando programas de afiliados, incluindo: - Shopee - Programa de Afiliados. - Hotmart. - Monetizze. - Kiwify. Atividades relacionadas: - Criação de conteúdos específicos para divulgação dos produtos. - Produção de vídeos, Reels, TikToks, Stories e artes promocionais. - Elaboração de legendas persuasivas, destacando benefícios e diferenciais dos produtos. - Criação de chamadas para ação que incentivem o público a conhecer e adquirir os produtos. - Inserção e divulgação dos links de afiliados nos locais apropriados. - Pesquisa de tendências e oportunidades para divulgação de produtos. - Desenvolvimento de estratégias de conteúdo que estimulem o interesse, os cliques e as vendas. - Acompanhamento do desempenho das publicações promocionais. 3. Publicação e gerenciamento das redes sociais - Publicação e/ou agendamento dos conteúdos de segunda a sexta-feira. - Organização e cumprimento do calendário editorial. - Acompanhamento diário das redes sociais. - Monitoramento dos comentários e respostas ao público. - Interação com os seguidores de maneira cordial e profissional. - Acompanhamento das mensagens e identificação de oportunidades de engajamento. - Manutenção da frequência e regularidade das publicações. 4. Planejamento e acompanhamento de resultados - Organização do calendário mensal de publicações. - Pesquisa de tendências, temas e formatos que possam gerar maior alcance. - Acompanhamento das métricas de desempenho. - Identificação dos conteúdos com melhores resultados. - Sugestões de melhorias para aumentar o alcance, o engajamento e as conversões. - Apresentação de relatórios periódicos simplificados sobre o desempenho das redes. Requisitos necessários - Experiência prática com criação e gerenciamento de redes sociais comerciais. - Conhecimento de Instagram e TikTok. - Excelente redação e domínio da língua portuguesa. - Criatividade para desenvolver conteúdos atrativos e persuasivos. - Conhecimento de Canva e CapCut ou ferramentas equivalentes. - Conhecimento de marketing digital e estratégias de crescimento orgânico. - Organização, pontualidade e comprometimento com as entregas. - Disponibilidade para acompanhar as redes sociais diariamente, de segunda a sexta-feira. Diferenciais - Experiência com marketing de afiliados. - Conhecimento dos programas de afiliados Shopee, Hotmart, Monetizze e Kiwify. - Experiência na divulgação de produtos físicos e digitais. - Conhecimento de estratégias de vendas e conversão pelas redes sociais. - Experiência no gerenciamento de múltiplos perfis comerciais. - Conhecimento de análise de métricas e desempenho de publicações. - Diferencial muito valorizado: noções de tráfego pago. Informações sobre a contratação - Trabalho 100% remoto. - Serviço recorrente, com contratação mensal. - Atuação de segunda a sexta-feira. - Necessário apresentar portfólio ou exemplos de trabalhos realizados. - Informar o valor mensal para execução de todas as atividades descritas. Ao enviar sua proposta, informe: - Sua experiência na área e os tipos de perfis que já administrou. - Se você mesmo(a) realiza a criação das artes, edição dos vídeos, redação das legendas e publicações. - Se possui experiência com marketing de afiliados. - Se já trabalhou com Shopee, Hotmart, Monetizze ou Kiwify. - Se realiza o acompanhamento e a resposta aos comentários. - Se pode apresentar exemplos de conteúdos e perfis que já administrou. - Qual o valor mensal para realizar todas as atividades descritas.",
-  "habilidades": [],
-  "orcamento": "",
-  "propostas": 37,
-  "publicado": "2026-11-14T14:37:02+00:00",
-  "cliente": "Elayne C.",
-  "nota": 0,
-  "area": "Textos",
-  "combina": [],
-  "evitar": [
-   "tráfego pago"
-  ]
  },
  {
   "id": "wk-desenvolvimento-de-sistema-de-automacao-de-respostas-e-suporte-ao-cliente-com-revisao-de-textos",
@@ -3486,13 +3363,14 @@
   "propostas": 38,
   "publicado": "2026-11-17T05:31:57.802120+00:00",
   "cliente": "D. P. D. N.",
-  "nota": 39,
+  "nota": 67,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento de Sistema de Automação de Respostas e Suporte ao C...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-desenvolvimento-de-plataforma-para-agencia-digital-com-inteligencia-artificial",
@@ -3519,31 +3397,13 @@
   "propostas": 41,
   "publicado": "2026-11-16T05:31:01.249961+00:00",
   "cliente": "Emerson S. C.",
-  "nota": 38,
+  "nota": 50,
   "area": "Dados e BI",
   "combina": [
    "python",
    "análise de dados",
    "automação"
   ],
-  "evitar": []
- },
- {
-  "id": "99f-798361",
-  "fonte": "99Freelas",
-  "titulo": "Planejamento curricular de português e orientação para videoaulas",
-  "link": "https://www.99freelas.com.br/project/planejamento-curricular-de-portugues-e-orientacao-para-videoaulas-798361",
-  "categoria": "Fundamental & Ensino Médio",
-  "nivel": "Intermediário",
-  "descricao": "O EducaDT - Preparando para a Vida é um projeto educacional independente que oferecerá aulas gratuitas pelo YouTube, voltadas ao ENEM e vestibulares. Buscamos um(a) profissional com experiência em Língua Portuguesa, planejamento curricular e educação digital para colaborar com o desenvolvimento pedagógico do curso. Principais atividades: - Elaborar a matriz curricular completa de Língua Portuguesa, alinhada à BNCC, considerando as exigências do ENEM e vestibulares, com organização lógica dos conteúdos em módulos e aulas. - Apoiar o planejamento didático de uma sequência inicial de cinco videoaulas. - Orientar técnicas de apresentação em vídeo, comunicação e estratégias para tornar as aulas mais dinâmicas e interessantes. - Oferecer recomendações práticas para aperfeiçoar a didática. - Auxiliar na concepção e avaliação pedagógica dos materiais complementares, como PDFs e exercícios. Perfil: formação em Letras, Pedagogia ou áreas afins, com experiência em planejamento curricular e ensino de Português. Contratação freelancer, remunerada por projeto, predominantemente remota, com possibilidade de encontros pontuais em São Paulo/SP. Não envolve gravação ou edição de vídeos. Interessados devem informar experiência, valor proposto e prazo de execução.",
-  "habilidades": [],
-  "orcamento": "",
-  "propostas": 41,
-  "publicado": "2026-11-13T12:51:41+00:00",
-  "cliente": "David T.",
-  "nota": 10,
-  "area": "Apresentações e documentos",
-  "combina": [],
   "evitar": []
  },
  {
@@ -3566,13 +3426,14 @@
   "propostas": 42,
   "publicado": "2026-11-14T05:31:01.250155+00:00",
   "cliente": "S. A.",
-  "nota": 40,
+  "nota": 68,
   "area": "Automação e código",
   "combina": [
    "python",
    "análise de dados"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento de Bot para Análise de Apostas Esportivas\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e análise de dados. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-798960",
@@ -3587,26 +3448,8 @@
   "propostas": 43,
   "publicado": "2026-11-16T17:27:50+00:00",
   "cliente": "Camilo T.",
-  "nota": 11,
+  "nota": 25,
   "area": "Automação e código",
-  "combina": [],
-  "evitar": []
- },
- {
-  "id": "99f-798548",
-  "fonte": "99Freelas",
-  "titulo": "Tradução juramentada de dois documentos",
-  "link": "https://www.99freelas.com.br/project/traducao-juramentada-de-dois-documentos-798548",
-  "categoria": "Inglês",
-  "nivel": "Intermediário",
-  "descricao": "Preciso de tradução juramentada de dois arquivos. Apenas o necessário para confirmação dos dados e veracidade. Estarei aguardando os freelas o quanto antes, preciso da tradução urgente. Aguardo propostas.",
-  "habilidades": [],
-  "orcamento": "",
-  "propostas": 43,
-  "publicado": "2026-11-14T11:14:53+00:00",
-  "cliente": "LuisLGM",
-  "nota": 20,
-  "area": "Tradução",
   "combina": [],
   "evitar": []
  },
@@ -3623,29 +3466,11 @@
   "propostas": 43,
   "publicado": "2026-11-13T18:58:20+00:00",
   "cliente": "Felipe C.",
-  "nota": 16,
+  "nota": 31,
   "area": "Apresentações e documentos",
   "combina": [
    "relatório"
   ],
-  "evitar": []
- },
- {
-  "id": "99f-798741",
-  "fonte": "99Freelas",
-  "titulo": "Gestão de redes sociais e produção de vídeos (São Paulo/SP)",
-  "link": "https://www.99freelas.com.br/project/gestao-de-redes-sociais-e-producao-de-videos-sao-paulo-sp-798741",
-  "categoria": "Outra - Vendas & Marketing",
-  "nivel": "Intermediário",
-  "descricao": "Social Media e Videomaker Pleno | Projeto Recorrente - Híbrido SP Estamos buscando um(a) Social Media e Videomaker Pleno para trabalhar diretamente com Alice Salazar, empresária, maquiadora e influenciadora digital. Procuramos alguém criativo, extremamente organizado, proativo e com visão estratégica, que tenha experiência em captação, edição e produção de conteúdos para redes sociais. O trabalho envolve todo o ecossistema Alice Salazar, incluindo Instagram, marca de cosméticos, cursos digitais, campanhas publicitárias e outras unidades de negócio. PRINCIPAIS ATIVIDADES 1. Captação e edição - Captar vídeos e fotos com celular e câmera profissional. - Editar Reels, Stories e outros vídeos utilizando Premiere Pro, CapCut e aplicativos de edição. - Criar edições dinâmicas, criativas e alinhadas às tendências do Instagram. - Desenvolver roteiros e sugerir ideias de vídeos e carrosséis com foco em engajamento e vendas. 2. Gestão do Instagram - Organizar o calendário de conteúdo e programar publicações. - Acompanhar tendências e sugerir formatos com potencial de alcance e conversão. - Criar conteúdos para diferentes unidades de negócio, mantendo uma comunicação alinhada entre elas. 3. Conteúdos publicitários - Organizar e acompanhar campanhas e parcerias comerciais. - Controlar rigorosamente briefings, prazos, datas e horários de publicação. - Criar roteiros, captar, editar e programar os conteúdos publicitários. 4. Organização das gravações - Realizar decupagens inteligentes para otimizar as gravações, aproveitando uma única produção de maquiagem para vários conteúdos. - Organizar sequências de gravação, roteiros e materiais. - Selecionar os melhores takes, nomear e organizar arquivos no Google Drive. - Preparar e enviar os materiais para as agências responsáveis pelos lançamentos de cursos. REQUISITOS - Experiência comprovada em produção de conteúdo para redes sociais. - Domínio de captação com celular e câmera. - Domínio de Adobe Premiere Pro e CapCut. - Experiência com edição de vídeos dinâmicos. - Conhecimento de Instagram, tendências e estratégias de engajamento. - Excelente organização, atenção aos detalhes e cumprimento de prazos. - Capacidade de gerenciar diferentes demandas simultaneamente. - Facilidade para trabalhar em equipe e autonomia para resolver problemas. - Disponibilidade para gravações presenciais em São Paulo. DIFERENCIAIS - Experiência com influenciadores e marcas de beleza. - Conhecimento de marketing digital, vendas e lançamentos de cursos. - Experiência com criação de carrosséis estratégicos. - Vivência com gravações de grande volume de conteúdos. PERFIL DESEJADO Buscamos uma pessoa inteligente, ágil, responsável, bem-humorada e proativa, que saiba antecipar demandas e trazer soluções. É essencial ter muita organização, criatividade, raciocínio rápido e capacidade de otimizar processos. Queremos alguém que não apenas execute tarefas, mas também pense estrategicamente, proponha ideias e contribua para o crescimento da marca. MODELO DE TRABALHO - Projeto recorrente, com possibilidade de parceria de longo prazo. - Modelo híbrido: de 1 a 3 dias presenciais por semana em São Paulo, conforme a necessidade de gravações. - Demais atividades realizadas remotamente. PARA SE CANDIDATAR Envie uma breve apresentação com sua experiência profissional, portfólio de vídeos captados e editados, ferramentas que domina e disponibilidade para trabalho híbrido em São Paulo. Buscamos um profissional comprometido, criativo, organizado e com foco em resultados.",
-  "habilidades": [],
-  "orcamento": "",
-  "propostas": 45,
-  "publicado": "2026-11-15T15:16:57+00:00",
-  "cliente": "Alice S.",
-  "nota": 10,
-  "area": "Apresentações e documentos",
-  "combina": [],
   "evitar": []
  },
  {
@@ -3672,7 +3497,7 @@
   "propostas": 51,
   "publicado": "2026-11-14T05:31:01.250426+00:00",
   "cliente": "Gabriel D. O. S.",
-  "nota": 38,
+  "nota": 50,
   "area": "Dados e BI",
   "combina": [
    "python",
@@ -3694,7 +3519,7 @@
   "propostas": 52,
   "publicado": "2026-11-14T20:20:37+00:00",
   "cliente": "Alessandro S.",
-  "nota": 11,
+  "nota": 25,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -3720,7 +3545,7 @@
   "propostas": 57,
   "publicado": "2026-11-17T05:31:01.249645+00:00",
   "cliente": "Anselmo A.",
-  "nota": 79,
+  "nota": 100,
   "area": "Planilhas",
   "combina": [
    "power bi",
@@ -3744,7 +3569,7 @@
   "propostas": 60,
   "publicado": "2026-11-16T21:07:24+00:00",
   "cliente": "Matheus",
-  "nota": 16,
+  "nota": 30,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -3770,7 +3595,7 @@
   "propostas": 60,
   "publicado": "2026-11-15T05:30:47.115066+00:00",
   "cliente": "M. C.",
-  "nota": 71,
+  "nota": 96,
   "area": "Dados e BI",
   "combina": [
    "power bi",
@@ -3793,7 +3618,7 @@
   "propostas": 61,
   "publicado": "2026-11-13T12:51:27+00:00",
   "cliente": "Edson L.",
-  "nota": 2,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": [
@@ -3829,7 +3654,7 @@
   "propostas": 66,
   "publicado": "2026-11-16T05:32:25.310467+00:00",
   "cliente": "Jones",
-  "nota": 22,
+  "nota": 50,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -3853,7 +3678,7 @@
   "propostas": 72,
   "publicado": "2026-11-17T05:30:33.129806+00:00",
   "cliente": "J. V. N. P. D. S.",
-  "nota": 67,
+  "nota": 92,
   "area": "Dados e BI",
   "combina": [
    "power bi",
@@ -3881,13 +3706,14 @@
   "propostas": 78,
   "publicado": "2026-11-14T05:32:31.927238+00:00",
   "cliente": "BRUNO C. L. D. N.",
-  "nota": 39,
+  "nota": 67,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento de Agente de Ia para Automação de Crédito Imobiliár...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-criacao-de-dashboards-interativos-e-analise-de-dados-com-power-bi",
@@ -3904,7 +3730,7 @@
   "propostas": 85,
   "publicado": "2026-11-16T05:31:01.249414+00:00",
   "cliente": "M.",
-  "nota": 66,
+  "nota": 91,
   "area": "Dados e BI",
   "combina": [
    "power bi",
@@ -3926,7 +3752,7 @@
   "propostas": 104,
   "publicado": "2026-11-16T14:07:34+00:00",
   "cliente": "Juliano M.",
-  "nota": 41,
+  "nota": 69,
   "area": "Automação e código",
   "combina": [
    "dashboard",
@@ -3934,7 +3760,8 @@
    "google sheets",
    "looker"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Automação do funil de vendas\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com dashboards, automação e Google Sheets. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "wk-desenvolvimento-de-plataforma-web-inteligente-para-gestao-escolar",
@@ -3970,7 +3797,7 @@
   "propostas": 110,
   "publicado": "2026-11-17T05:30:47.115404+00:00",
   "cliente": "Eduardo R.",
-  "nota": 46,
+  "nota": 58,
   "area": "Dados e BI",
   "combina": [
    "dashboard",
@@ -3994,7 +3821,7 @@
   "propostas": 113,
   "publicado": "2026-11-16T13:58:57+00:00",
   "cliente": "Otimizza V.",
-  "nota": 21,
+  "nota": 33,
   "area": "Dados e BI",
   "combina": [
    "dashboard",
@@ -4023,7 +3850,7 @@
   "propostas": 131,
   "publicado": "2026-11-15T05:32:31.926740+00:00",
   "cliente": "L. G. N. G.",
-  "nota": 43,
+  "nota": 71,
   "area": "Automação e código",
   "combina": [
    "sql",
@@ -4031,7 +3858,8 @@
    "relatório",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Desenvolvimento de Robô de Automação para Lançamento de Tarefas no ...\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com SQL, Python e relatórios. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-798551",
@@ -4046,7 +3874,7 @@
   "propostas": 133,
   "publicado": "2026-11-14T11:19:16+00:00",
   "cliente": "F B",
-  "nota": 22,
+  "nota": 50,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -4066,7 +3894,7 @@
   "propostas": 133,
   "publicado": "2026-11-13T12:45:43+00:00",
   "cliente": "Rafael B.",
-  "nota": 22,
+  "nota": 50,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -4086,7 +3914,7 @@
   "propostas": 137,
   "publicado": "2026-11-16T01:42:48+00:00",
   "cliente": "Rafa V.",
-  "nota": 12,
+  "nota": 40,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -4104,7 +3932,7 @@
   "propostas": 145,
   "publicado": "2026-11-13T12:59:15+00:00",
   "cliente": "Frederico A.",
-  "nota": 6,
+  "nota": 20,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -4124,7 +3952,7 @@
   "propostas": 163,
   "publicado": "2026-11-13T18:32:09+00:00",
   "cliente": "A5 A.",
-  "nota": 27,
+  "nota": 39,
   "area": "Dados e BI",
   "combina": [
    "dashboard",
@@ -4146,7 +3974,7 @@
   "propostas": 281,
   "publicado": "2026-11-16T21:09:52+00:00",
   "cliente": "Joao S.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -4182,7 +4010,7 @@
   "propostas": 14,
   "publicado": "2026-11-12T22:33:16+00:00",
   "cliente": "Fernando F.",
-  "nota": 16,
+  "nota": 30,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -4200,7 +4028,7 @@
   "propostas": 15,
   "publicado": "2026-11-05T22:51:32+00:00",
   "cliente": "Alan G.",
-  "nota": 15,
+  "nota": 30,
   "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
@@ -4218,7 +4046,7 @@
   "propostas": 20,
   "publicado": "2026-11-06T11:47:46+00:00",
   "cliente": "Gabriel R.",
-  "nota": 34,
+  "nota": 46,
   "area": "Dados e BI",
   "combina": [
    "planilha",
@@ -4239,13 +4067,14 @@
   "propostas": 24,
   "publicado": "2026-11-12T15:29:06+00:00",
   "cliente": "Mauricio D.",
-  "nota": 44,
+  "nota": 72,
   "area": "Textos",
   "combina": [
    "análise de dados",
    "indicadores"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Orientação sobre construção de revisão bibliométrica\" e entendi que você precisa de um texto claro, bem escrito e no tom certo para o seu público.\n\nComo eu faria:\n1. Entender o público, o tom de voz e o objetivo do texto.\n2. Escrever a primeira versão com estrutura clara e boa leitura.\n3. Revisar com você e ajustar até ficar do jeito que você quer.\n\nTrabalho com análise de dados e indicadores. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: você tem algum exemplo de texto que gosta, para eu acertar o tom?\n\nThalissa Silva"
  },
  {
   "id": "wk-criacao-e-otimizacao-de-perfil-linkedin-profissional-com-base-em-curriculo",
@@ -4267,7 +4096,7 @@
   "propostas": 26,
   "publicado": "2026-11-13T05:32:25.310679+00:00",
   "cliente": "D. P.",
-  "nota": 15,
+  "nota": 30,
   "area": "Tradução",
   "combina": [],
   "evitar": []
@@ -4303,26 +4132,8 @@
   "propostas": 40,
   "publicado": "2026-11-11T21:35:56+00:00",
   "cliente": "Alessandro S.",
-  "nota": 11,
+  "nota": 25,
   "area": "Textos",
-  "combina": [],
-  "evitar": []
- },
- {
-  "id": "99f-793916",
-  "fonte": "99Freelas",
-  "titulo": "Criação de artes esportivas, motion graphics e mídia esportiva",
-  "link": "https://www.99freelas.com.br/project/criacao-de-artes-esportivas-motion-graphics-e-midia-esportiva-793916",
-  "categoria": "Design Gráfico",
-  "nivel": "Intermediário",
-  "descricao": "A APEX Sports Design está contratando designer esportivo para atuação continuada em projetos de alta performance voltados para atletas, clubes, treinadores e agências. A criação de artes esportivas representa o núcleo principal da nossa operação, exigindo elevado padrão em manipulação de imagem, composição e identidade visual. Buscamos um profissional com forte domínio estético no segmento esportivo e excelente gestão de prazos. Escopo de entregas e prazos (SLA): Criação de artes esportivas (atividade principal): - Artes estáticas e de rotina: GameDay, escalações, flyers de confrontos, criativos para anúncios e comunicados oficiais. Prazo: padrão de 24 horas (com janelas mais curtas em situações pontuais de cobertura de jogos). Motion graphics e audiovisual: - Edição de vídeos de highlights (destaques) e animações em motion graphics. Prazo: padrão de 48 horas. Projetos especiais (diferencial competitivo): - Desenvolvimento de media kit profissional e currículo esportivo para atletas e comissões técnicas. Prazo: padrão de 48 horas. Diferencial: experiência comprovada na estrutura e diagramação destes materiais será considerada um ponto forte na seleção. Requisitos: - Domínio avançado em manipulação e tratamento de imagem (recorte refinado de atletas, ambientação, iluminação e tipografia de alto impacto). - Capacidade comprovada na criação de artes estáticas para o mercado esportivo. - Conhecimentos complementares em edição audiovisual e motion graphics. - Rigor absoluto no cumprimento dos prazos acordados. - Portfólio focado no segmento esportivo. Modelo de trabalho: - Estimativa de demanda entre 25 e 35 artes/materiais por mês. - Oportunidade: possibilidade real de expansão nos ganhos conforme a entrada de novos clientes e aumento do volume de demandas. - Formato: 100% remoto, com flexibilidade de horários orientada ao cumprimento rigoroso das entregas.",
-  "habilidades": [],
-  "orcamento": "",
-  "propostas": 40,
-  "publicado": "2026-10-24T20:41:52+00:00",
-  "cliente": "Carlos G.",
-  "nota": 10,
-  "area": "Apresentações e documentos",
   "combina": [],
   "evitar": []
  },
@@ -4339,7 +4150,7 @@
   "propostas": 45,
   "publicado": "2026-10-27T17:12:12+00:00",
   "cliente": "Mesa F.",
-  "nota": 20,
+  "nota": 50,
   "area": "Tradução",
   "combina": [],
   "evitar": []
@@ -4357,7 +4168,7 @@
   "propostas": 56,
   "publicado": "2026-11-04T19:10:26+00:00",
   "cliente": "Juliane K",
-  "nota": 22,
+  "nota": 50,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -4375,7 +4186,7 @@
   "propostas": 58,
   "publicado": "2026-11-07T15:03:32+00:00",
   "cliente": "Angelo G.",
-  "nota": 25,
+  "nota": 37,
   "area": "Dados e BI",
   "combina": [
    "dashboard"
@@ -4395,7 +4206,7 @@
   "propostas": 60,
   "publicado": "2026-10-02T23:33:29+00:00",
   "cliente": "Gustavo",
-  "nota": 22,
+  "nota": 50,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -4413,13 +4224,14 @@
   "propostas": 63,
   "publicado": "2026-11-11T17:05:01+00:00",
   "cliente": "Genau E.",
-  "nota": 46,
+  "nota": 74,
   "area": "Automação e código",
   "combina": [
    "python",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Automação de testes mobile e gestão de dispositivos em Python/Android\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e automação. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-797882",
@@ -4434,13 +4246,14 @@
   "propostas": 71,
   "publicado": "2026-11-11T14:52:41+00:00",
   "cliente": "Softtor",
-  "nota": 35,
+  "nota": 63,
   "area": "Automação e código",
   "combina": [
    "python",
    "relatório"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Aprovação de permissões da API do Instagram no Meta for Developers\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Python e relatórios. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-796176",
@@ -4455,13 +4268,14 @@
   "propostas": 72,
   "publicado": "2026-11-04T13:49:37+00:00",
   "cliente": "Marcos S.",
-  "nota": 43,
+  "nota": 68,
   "area": "Dados e BI",
   "combina": [
    "python",
    "relatório"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Análise estatística exploratória e identificação de padrões em dados\" e entendi que você precisa de um dashboard que mostre os números com clareza e seja fácil de atualizar.\n\nComo eu faria:\n1. Entender quais números você precisa acompanhar e de onde vêm os dados.\n2. Tratar e organizar os dados para que fiquem confiáveis e fáceis de atualizar.\n3. Montar o dashboard com os indicadores principais e filtros simples, e te mostrar como usar.\n\nTrabalho com Python e relatórios. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: você já tem os dados prontos ou eles ainda estão espalhados em vários arquivos?\n\nThalissa Silva"
  },
  {
   "id": "99f-795133",
@@ -4476,7 +4290,7 @@
   "propostas": 73,
   "publicado": "2026-10-30T12:37:34+00:00",
   "cliente": "Marcelo P.",
-  "nota": 20,
+  "nota": 50,
   "area": "Tradução",
   "combina": [],
   "evitar": []
@@ -4494,7 +4308,7 @@
   "propostas": 78,
   "publicado": "2026-11-12T18:16:01+00:00",
   "cliente": "Luiz H.",
-  "nota": 2,
+  "nota": 30,
   "area": "Sites",
   "combina": [],
   "evitar": [
@@ -4520,7 +4334,7 @@
   "propostas": 80,
   "publicado": "2026-11-06T05:30:33.130907+00:00",
   "cliente": "N.",
-  "nota": 86,
+  "nota": 100,
   "area": "Dados e BI",
   "combina": [
    "power bi",
@@ -4565,7 +4379,7 @@
   "propostas": 101,
   "publicado": "2026-10-24T11:17:57+00:00",
   "cliente": "Nicollas L.",
-  "nota": 12,
+  "nota": 40,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -4606,7 +4420,7 @@
   "propostas": 126,
   "publicado": "2026-11-04T18:46:58+00:00",
   "cliente": "Lucas B.",
-  "nota": 22,
+  "nota": 50,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -4632,7 +4446,7 @@
   "propostas": 128,
   "publicado": "2026-10-30T05:30:33.131850+00:00",
   "cliente": "Daniela D.",
-  "nota": 90,
+  "nota": 100,
   "area": "Dados e BI",
   "combina": [
    "power bi",
@@ -4658,7 +4472,7 @@
   "propostas": 145,
   "publicado": "2026-11-09T17:37:09+00:00",
   "cliente": "Denis S.",
-  "nota": 12,
+  "nota": 40,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -4676,7 +4490,7 @@
   "propostas": 149,
   "publicado": "2026-10-28T22:46:29+00:00",
   "cliente": "Andrea C.",
-  "nota": 23,
+  "nota": 35,
   "area": "Planilhas",
   "combina": [
    "excel",
@@ -4698,7 +4512,7 @@
   "propostas": 150,
   "publicado": "2026-10-31T23:04:22+00:00",
   "cliente": "Noelio V.",
-  "nota": 22,
+  "nota": 50,
   "area": "Automação e código",
   "combina": [
    "automação"
@@ -4718,7 +4532,7 @@
   "propostas": 158,
   "publicado": "2026-10-27T13:47:23+00:00",
   "cliente": "Bira “.",
-  "nota": 22,
+  "nota": 50,
   "area": "Automação e código",
   "combina": [
    "dashboard"
@@ -4738,7 +4552,7 @@
   "propostas": 180,
   "publicado": "2026-11-12T11:16:06+00:00",
   "cliente": "Diego N.",
-  "nota": 52,
+  "nota": 80,
   "area": "Automação e código",
   "combina": [
    "excel",
@@ -4746,7 +4560,8 @@
    "indicadores",
    "automação"
   ],
-  "evitar": []
+  "evitar": [],
+  "proposta": "Olá! Li o seu projeto \"Automação de operações logísticas com Python e OpenClaw\" e entendi que você precisa de a automação que tire o trabalho repetitivo das mãos da sua equipe.\n\nComo eu faria:\n1. Mapear o processo atual e o resultado que você espera.\n2. Desenvolver a solução com o código organizado e documentado.\n3. Testar com os seus dados reais e entregar com instruções de uso.\n\nTrabalho com Excel, Python e indicadores. Tenho pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras. Alguns projetos meus estão em github.com/thalissakezia.\n\nPara te passar valor e prazo certinhos: qual é o resultado mais importante para você nesse projeto?\n\nThalissa Silva"
  },
  {
   "id": "99f-796191",
@@ -4761,7 +4576,7 @@
   "propostas": 198,
   "publicado": "2026-11-04T13:56:15+00:00",
   "cliente": "Leandro",
-  "nota": 21,
+  "nota": 33,
   "area": "Dados e BI",
   "combina": [
    "dashboard",
@@ -4782,7 +4597,7 @@
   "propostas": 208,
   "publicado": "2026-11-11T21:39:49+00:00",
   "cliente": "Monic F.",
-  "nota": 0,
+  "nota": 20,
   "area": "Sites",
   "combina": [],
   "evitar": [
@@ -4802,7 +4617,7 @@
   "propostas": 208,
   "publicado": "2026-11-04T16:33:37+00:00",
   "cliente": "Renata M.",
-  "nota": 12,
+  "nota": 40,
   "area": "Textos",
   "combina": [],
   "evitar": []
@@ -4820,7 +4635,7 @@
   "propostas": 213,
   "publicado": "2026-11-13T00:35:40+00:00",
   "cliente": "Gustavo C.",
-  "nota": 20,
+  "nota": 48,
   "area": "Automação e código",
   "combina": [
    "planilha"
@@ -4840,7 +4655,7 @@
   "propostas": 286,
   "publicado": "2026-10-25T16:09:20+00:00",
   "cliente": "Larissa B.",
-  "nota": 10,
+  "nota": 40,
   "area": "Tradução",
   "combina": [],
   "evitar": []
@@ -4858,7 +4673,7 @@
   "propostas": 287,
   "publicado": "2026-11-12T19:47:07+00:00",
   "cliente": "Leandro R.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -4876,7 +4691,7 @@
   "propostas": 289,
   "publicado": "2026-11-10T20:40:20+00:00",
   "cliente": "Roberta B.",
-  "nota": 5,
+  "nota": 17,
   "area": "Dados e BI",
   "combina": [],
   "evitar": []
@@ -4894,7 +4709,7 @@
   "propostas": 317,
   "publicado": "2026-10-27T13:28:18+00:00",
   "cliente": "Gabriel H.",
-  "nota": 15,
+  "nota": 27,
   "area": "Dados e BI",
   "combina": [
    "dashboard"
@@ -4914,7 +4729,7 @@
   "propostas": 348,
   "publicado": "2026-11-11T20:25:05+00:00",
   "cliente": "João F.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -4950,7 +4765,7 @@
   "propostas": 396,
   "publicado": "2026-11-13T01:31:46+00:00",
   "cliente": "Walace D.",
-  "nota": 12,
+  "nota": 40,
   "area": "Sites",
   "combina": [],
   "evitar": []
@@ -4968,7 +4783,7 @@
   "propostas": 549,
   "publicado": "2026-11-07T18:51:26+00:00",
   "cliente": "Luis S.",
-  "nota": 12,
+  "nota": 40,
   "area": "Textos",
   "combina": [],
   "evitar": []

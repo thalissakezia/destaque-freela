@@ -69,7 +69,7 @@
         "estatística",
         "looker"
       ],
-      "peso": 30
+      "peso": 55
     },
     "Planilhas": {
       "palavras": [
@@ -79,7 +79,7 @@
         "vba",
         "macro"
       ],
-      "peso": 30
+      "peso": 55
     },
     "Automação e código": {
       "palavras": [
@@ -95,7 +95,7 @@
         "chatbot",
         "bot "
       ],
-      "peso": 22
+      "peso": 50
     },
     "Sites": {
       "palavras": [
@@ -107,7 +107,7 @@
         "front-end",
         "frontend"
       ],
-      "peso": 22
+      "peso": 50
     },
     "Textos": {
       "palavras": [
@@ -125,7 +125,7 @@
         "ebook",
         "descrição de produto"
       ],
-      "peso": 22
+      "peso": 50
     },
     "Tradução": {
       "palavras": [
@@ -136,7 +136,7 @@
         "espanhol",
         "legenda"
       ],
-      "peso": 20
+      "peso": 50
     },
     "Apresentações e documentos": {
       "palavras": [
@@ -149,7 +149,7 @@
         "manual",
         "pdf"
       ],
-      "peso": 20
+      "peso": 50
     }
   },
   "nao_consigo": [
@@ -188,6 +188,17 @@
     "edição de vídeo",
     "editor de vídeo",
     "motion design",
-    "ligar para clientes"
+    "ligar para clientes",
+    "falante nativo",
+    "revisor nativo",
+    "nativo em",
+    "nativa em",
+    "tradução juramentada",
+    "tradutor juramentado",
+    "certificação de conformidade",
+    "produção de vídeo",
+    "produção de vídeos",
+    "edição de vídeos",
+    "óculos"
   ]
 }

@@ -8,7 +8,8 @@ Cada parte entrega algo que a próxima usa:
 2. **Nota** cada projeto ganha uma nota de 0 a 100 conforme as habilidades do `config.json`. Projetos com termos que não são da minha área perdem pontos, e projetos com menos propostas ganham um pouco mais.
 3. **Mercado** o robô calcula quais habilidades mais aparecem, a mediana de propostas por projeto e o orçamento típico.
 4. **Alerta** projetos com nota alta chegam no celular, pelo ntfy ou pelo Telegram.
-5. **Página** (`docs/index.html`) mostra os projetos ordenados pela nota. Um toque em "Gerar proposta" leva o anúncio para a aba de proposta, e os dados do mercado alimentam o perfil e os serviços.
+5. **Proposta pronta** para cada projeto com nota alta o robô já escreve uma proposta com os meus dados (seção `eu` do `config.json`). Eu reviso, copio e envio no site.
+6. **Página** (`docs/index.html`) mostra os projetos ordenados pela nota. Um toque em "Melhorar com IA" ou "Gerar proposta" leva o anúncio para a aba de proposta, e os dados do mercado alimentam o perfil e os serviços.
 
 ## Como usar
 

@@ -1,5 +1,20 @@
 {
-  "buscas": ["power bi", "excel", "dashboard", "sql", "python", "planilha", "análise de dados", "relatório"],
+  "eu": {
+    "nome": "Thalissa",
+    "assinatura": "Thalissa Silva",
+    "portfolio": "github.com/thalissakezia",
+    "diferencial": "pós-graduação em BI, Big Data e IA e experiência com rotinas administrativas e financeiras"
+  },
+  "buscas": [
+    "power bi",
+    "excel",
+    "dashboard",
+    "sql",
+    "python",
+    "planilha",
+    "análise de dados",
+    "relatório"
+  ],
   "habilidades": {
     "power bi": 10,
     "dashboard": 8,
@@ -18,8 +33,22 @@
     "looker": 3,
     "pandas": 4
   },
-  "evitar": ["roblox", "full stack", "mobile", "flutter", "react native", "voip", "esp32", "unity", "wordpress", "tráfego pago"],
+  "evitar": [
+    "roblox",
+    "full stack",
+    "mobile",
+    "flutter",
+    "react native",
+    "voip",
+    "esp32",
+    "unity",
+    "wordpress",
+    "tráfego pago"
+  ],
   "nota_minima_alerta": 60,
   "paginas_por_busca": 1,
-  "fontes": ["99freelas", "workana"]
+  "fontes": [
+    "99freelas",
+    "workana"
+  ]
 }

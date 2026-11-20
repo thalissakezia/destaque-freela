@@ -122,6 +122,54 @@ def dar_nota(vaga, cfg):
     return vaga
 
 
+# ---------- Proposta pronta ----------
+TIPOS = [
+    (("power bi", "dashboard", "bi ", "indicadores", "kpi"), "um dashboard",
+     ["Entender quais números você precisa acompanhar e de onde vêm os dados.",
+      "Tratar e organizar os dados para que fiquem confiáveis e fáceis de atualizar.",
+      "Montar o dashboard com os indicadores principais e filtros simples, e te mostrar como usar."]),
+    (("planilha", "excel", "google sheets", "vba"), "uma planilha",
+     ["Entender como você trabalha hoje e o que a planilha precisa resolver.",
+      "Montar a estrutura com fórmulas e validações, para evitar erro de digitação.",
+      "Entregar pronta, com uma aba de instruções e um teste junto com você."]),
+    (("sql", "python", "pandas", "etl", "automação"), "a automação dos dados",
+     ["Mapear as fontes de dados e o resultado que você espera.",
+      "Escrever o processo de extração e tratamento, com o código documentado.",
+      "Testar com os seus dados reais e entregar com instruções de uso."]),
+]
+
+
+def montar_proposta(vaga, cfg):
+    eu = cfg.get("eu", {})
+    texto = sem_acento(vaga["titulo"] + " " + vaga["descricao"] + " ")
+    entrega, passos = "a solução", TIPOS[0][2]
+    for chaves, nome, etapas in TIPOS:
+        if any(sem_acento(k) in texto for k in chaves):
+            entrega, passos = nome, etapas
+            break
+    nomes = {"power bi": "Power BI", "sql": "SQL", "python": "Python", "excel": "Excel", "kpi": "KPIs",
+             "etl": "ETL", "vba": "VBA", "google sheets": "Google Sheets", "looker": "Looker", "pandas": "Pandas",
+             "dashboard": "dashboards", "planilha": "planilhas", "relatório": "relatórios"}
+    itens = [nomes.get(h, h) for h in vaga["combina"][:3]] or ["análise de dados"]
+    ferramentas = itens[0] if len(itens) == 1 else ", ".join(itens[:-1]) + " e " + itens[-1]
+    linhas = [
+        f"Olá! Li o seu projeto \"{vaga['titulo']}\" e entendi que você precisa de {entrega} "
+        f"que resolva isso de forma prática, sem depender de ajustes manuais toda hora.",
+        "",
+        "Como eu faria:",
+        *[f"{i}. {p}" for i, p in enumerate(passos, 1)],
+        "",
+        f"Trabalho com {ferramentas}."
+        + (f" Tenho {eu['diferencial']}." if eu.get("diferencial") else "")
+        + (f" Alguns projetos meus estão em {eu['portfolio']}." if eu.get("portfolio") else ""),
+        "",
+        "Para te passar valor e prazo certinhos: você já tem os dados prontos ou eles ainda estão espalhados em vários arquivos?",
+        "",
+        eu.get("assinatura", ""),
+    ]
+    return "\n".join(linhas).strip()
+
+
 # ---------- Estatísticas ----------
 def numeros_orcamento(txt):
     nums = [int(n.replace(".", "")) for n in re.findall(r"\d[\d.]*", txt or "")]
@@ -166,6 +214,8 @@ def estatisticas(vagas, cfg):
 def avisar(vagas, cfg):
     token, chat = os.getenv("TELEGRAM_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
     topico = os.getenv("NTFY_TOPICO")
+    repo = os.getenv("GITHUB_REPOSITORY", "")
+    pagina = f"https://{repo.split('/')[0]}.github.io/{repo.split('/')[1]}/" if "/" in repo else ""
     arq = DADOS / "vistos.json"
     vistos = set(json.loads(arq.read_text())) if arq.exists() else set()
     novas = [v for v in vagas if v["nota"] >= cfg["nota_minima_alerta"] and v["id"] not in vistos]
@@ -182,7 +232,9 @@ def avisar(vagas, cfg):
                 if topico:
                     requests.post("https://ntfy.sh/", timeout=20, json={
                         "topic": topico, "title": f"Nota {v['nota']}: {v['titulo']}",
-                        "message": corpo, "click": v["link"], "tags": ["briefcase"]})
+                        "message": corpo + ("\nProposta pronta na página." if v.get("proposta") else ""),
+                        "click": pagina + "#" + v["id"] if pagina else v["link"], "tags": ["briefcase"],
+                        "actions": [{"action": "view", "label": "Abrir no site", "url": v["link"]}]})
             except requests.RequestException as e:
                 print("Aviso falhou:", e)
     else:
@@ -215,6 +267,9 @@ def coletar(cfg):
 
 def salvar(vagas, cfg):
     vagas = sorted((dar_nota(v, cfg) for v in vagas), key=lambda v: -v["nota"])
+    for v in vagas:
+        if v["nota"] >= cfg["nota_minima_alerta"]:
+            v["proposta"] = montar_proposta(v, cfg)
     DOCS.mkdir(exist_ok=True)
     (DOCS / "vagas.json").write_text(json.dumps(vagas, ensure_ascii=False, indent=1))
     (DOCS / "mercado.json").write_text(json.dumps(estatisticas(vagas, cfg), ensure_ascii=False, indent=1))

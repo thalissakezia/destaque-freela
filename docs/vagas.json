@@ -123,7 +123,7 @@
   "descricao": "Olá! Sou o Allysson Dimitre e preciso de ajuda para desenvolver uma planilha no Microsoft Excel (.xlsx) voltada ao cálculo de estatística descritiva a partir de uma base de dados. Vou anexar a base de dados original, com 750 registros de participantes de um evento, analisando a variável quantitativa experiência (nota de 0 a 10), com 750 registros válidos. A planilha precisa ser construída do zero, de forma 100% manual no Excel, sem uso de inteligência artificial em nenhuma etapa. Prazo de entrega: amanhã (20/11), até às 18h. Formato obrigatório do entregável: arquivo editável do Microsoft Excel (.xlsx), com todas as fórmulas nativas ativas e visíveis nas células. Estrutura esperada da planilha em 6 abas: - Aba 1 - Identificação: informações da variável quantitativa escolhida e dados de identificação do projeto. - Aba 2 - Dados: dados originais da variável selecionada preservados em coluna, com identificação das observações válidas. - Aba 3 - Fórmulas: cálculo das medidas estatísticas usando fórmulas nativas do Excel em português: - Média aritmética (=MÉDIA) - Variância amostral (=VAR.S) - Desvio-padrão amostral (=DESVPAD.S) - Coeficiente de variação em % (=DESVPAD.S/MÉDIA*100) - Mediana (=MED) - Moda (=MODA.UNI) - Primeiro quartil - Q1 (=QUARTIL.INC(...;1)) - 65º percentil - P65 (=PERCENTIL.INC(...;0,65)) - Aba 4 - Frequência e Gráfico: - Tabela de distribuição de frequências contendo: valor observado, frequência absoluta (fi), frequência relativa (fr), frequência relativa percentual (%), frequência absoluta acumulada (Fi), frequência relativa acumulada (Fr) e frequência relativa percentual acumulada (F%). - Gráfico de colunas ou barras inserido na própria aba, com título, identificação dos eixos, valores e frequências legíveis. - Aba 5 - Análise de Dados: execução da ferramenta Análise de Dados > Estatística Descritiva do Excel (resumo estatístico) sobre o intervalo da variável e comparação/conferência dos resultados com as fórmulas nativas. - Aba 6 - Interpretação: análise objetiva dos resultados obtidos (média, comparação entre média e mediana, moda, variância e desvio-padrão, coeficiente de variação considerando a natureza da variável e escala, Q1, P65 e observações da tabela de frequência e do gráfico). Requisitos para o freelancer: - Domínio de Microsoft Excel (versão desktop com suplemento Análise de Dados habilitado) e estatística descritiva. - Elaboração 100% manual no Excel e redação própria/humana (sem uso de IA). - Compromisso com o prazo de entrega: amanhã (20/11), até às 18h. Envie sua proposta confirmando disponibilidade para entregar até amanhã (20/11) às 18h.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 16,
+  "propostas": 18,
   "publicado": "2026-11-19T21:48:02+00:00",
   "cliente": "",
   "nota": 64,
@@ -152,7 +152,7 @@
    "AutoCAD"
   ],
   "orcamento": "Menos de USD 50",
-  "propostas": 55,
+  "propostas": 57,
   "publicado": "há 3 dias",
   "cliente": "Anselmo A.",
   "nota": 62,
@@ -180,7 +180,7 @@
    "Power BI"
   ],
   "orcamento": "Menos de USD 50",
-  "propostas": 59,
+  "propostas": 60,
   "publicado": "há 5 dias",
   "cliente": "M. C.",
   "nota": 62,
@@ -202,7 +202,7 @@
   "descricao": "**Categoria:** Desenvolvimento de Software / Automação de Processos / Inteligência Artificial **Modalidade:** Projeto fechado, com possibilidade de parceria para novos projetos. ## Descrição do projeto Buscamos um desenvolvedor experiente em **Python, OpenClaw, automação de navegadores e integração de sistemas** para implementar uma solução de automação operacional voltada ao setor logístico. O objetivo é automatizar tarefas repetitivas, extrair informações de um sistema web corporativo, processar planilhas, identificar divergências e alimentar um painel de gestão já desenvolvido. ### IMPORTANTE: a infraestrutura e o frontend já estarão prontos. O contratante disponibilizará: - VPS Linux na Contabo. - OpenClaw instalado e configurado. - Frontend de gestão desenvolvido e disponível. - Repositório do projeto. - Orientações sobre os processos operacionais. - Acesso autorizado ao sistema de origem para testes supervisionados. **Não será necessário desenvolver um sistema do zero, criar o frontend ou instalar o OpenClaw.** O trabalho será concentrado na implementação das automações, scripts Python e integrações necessárias. ## 1. Automação de navegador Desenvolver uma solução capaz de: - Acessar um sistema web corporativo mediante autenticação autorizada. - Utilizar uma sessão previamente autenticada pelo usuário responsável. - Navegar automaticamente entre menus e abas. - Selecionar datas, filtros e unidades operacionais. - Localizar informações e relatórios. - Baixar arquivos Excel. - Identificar erros de navegação e sessões expiradas. - Registrar logs das execuções. O usuário responsável realizará manualmente eventuais verificações humanas. Não buscamos contornar CAPTCHA ou mecanismos de segurança. ## 2. Automação e análise de planilhas Criar scripts Python para: - Importar arquivos Excel e CSV. - Organizar e padronizar informações. - Comparar relatórios diferentes. - Identificar registros duplicados. - Detectar divergências e inconsistências. - Identificar encomendas recebidas e não expedidas. - Identificar registros pendentes ou atrasados. - Consolidar dados de duas unidades operacionais. - Gerar novas planilhas automaticamente. - Produzir relatórios de acompanhamento. As comparações deverão utilizar identificadores únicos e regras verificáveis, garantindo consistência dos resultados. ## 3. Integração com o frontend existente Integrar os processos automatizados ao painel de gestão disponibilizado. O frontend deverá receber informações como: - Indicadores operacionais. - Dados processados. - Divergências encontradas. - Alertas e pendências. - Histórico das operações. - Status das automações. - Relatórios gerados. - Última atualização realizada. A comunicação deverá ocorrer por meio de uma API segura e armazenamento estruturado. ## 4. Configuração das rotinas no OpenClaw Aproveitar o OpenClaw previamente instalado para coordenar as automações. Implementar: - Execução automática de tarefas. - Agendamentos diários. - Acionamento de scripts Python. - Tratamento de erros. - Retentativas controladas. - Registro de logs. - Monitoramento das execuções. - Prevenção de processamento duplicado. - Alertas de falhas operacionais. A inteligência artificial deverá ser utilizada quando agregar valor. Cálculos e conferências estruturadas deverão utilizar scripts determinísticos. ## 5. Relatórios e notificações Criar funcionalidades para: - Gerar relatórios diários. - Produzir planilhas consolidadas. - Identificar ocorrências prioritárias. - Preparar resumos operacionais. - Preparar notificações para responsáveis. Deixar a estrutura preparada para futura integração com WhatsApp, incluindo mensagens e envio de documentos, respeitando as permissões e políticas da plataforma. ## 6. Entregáveis esperados Ao final do projeto, esperamos receber: 1. Automação funcional de navegação e extração de dados. 2. Scripts Python organizados e documentados. 3. Processamento e comparação automatizada de planilhas. 4. Identificação de divergências e pendências. 5. Geração automática de relatórios. 6. Integração funcional com o painel existente. 7. Agendamentos configurados. 8. Tratamento de erros e registro de logs. 9. Testes de funcionamento com evidências. 10. Código-fonte completo e documentação para manutenção. ## 7. Critérios de validação A solução deverá demonstrar capacidade de: - Navegar no sistema após autenticação autorizada. - Extrair os relatórios definidos. - Processar corretamente os arquivos obtidos. - Identificar divergências previamente conhecidas. - Gerar relatórios consistentes. - Atualizar as informações do painel. - Executar rotinas repetidas sem duplicar registros. - Recuperar-se de falhas previstas e registrar exceções. A viabilidade da automação do sistema web será avaliada inicialmente, antes da implementação completa. ## 8. Conhecimentos necessários **Requisitos principais:** - Python. - Playwright ou Selen",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 179,
+  "propostas": 180,
   "publicado": "2026-11-12T11:16:06+00:00",
   "cliente": "Diego N.",
   "nota": 58,
@@ -226,7 +226,7 @@
   "descricao": "Tenho uma planilha Excel (.xlsm) de gestão de pessoas já desenvolvida, com fórmulas, macros, dashboards e botões de navegação funcionando. Preciso de um profissional para **personalizar a capa inicial**, reproduzindo fielmente uma imagem de referência que já possuo. **O que preciso:** - Capa moderna, bonita e com aparência de sistema profissional. - Ícones personalizados e clicáveis, direcionando às respectivas abas. - Preservação das fórmulas, macros, gráficos e funcionalidades existentes. - Possibilidade de acrescentar novos ícones e controles futuramente. - Entrega do arquivo Excel editável e totalmente funcional. **Importante:** não quero desenvolver uma planilha do zero. Preciso apenas adaptar a interface visual de uma estrutura que já está pronta. Tenho a imagem de referência e posso disponibilizar uma versão de teste da planilha. Procuro um profissional caprichoso, com experiência em Excel/VBA, que ofereça um preço acessível. **Solicito propostas com valor total e prazo de entrega.**",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 85,
+  "propostas": 87,
   "publicado": "2026-11-18T17:13:31+00:00",
   "cliente": "Dayse G.",
   "nota": 52,
@@ -248,7 +248,7 @@
   "descricao": "Estou procurando um profissional responsável, organizado e atento aos detalhes para realizar um serviço de digitação, inserção e organização de dados em planilhas. O trabalho consiste em transferir informações de documentos, arquivos ou fontes disponibilizadas para uma planilha Excel ou Google Sheets, garantindo que os dados sejam inseridos corretamente, organizados e sem erros. Atividades a serem realizadas: - Inserir informações em planilhas Excel ou Google Sheets. - Copiar e transcrever dados de documentos, PDFs ou páginas indicadas. - Organizar e padronizar informações em linhas e colunas. - Conferir os dados inseridos para evitar erros ou duplicações. - Manter a organização e a formatação básica da planilha.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 192,
+  "propostas": 197,
   "publicado": "2026-11-18T01:37:57+00:00",
   "cliente": "Ice C.",
   "nota": 50,
@@ -290,7 +290,7 @@
    "3d"
   ],
   "orcamento": "USD 100 - 250",
-  "propostas": 109,
+  "propostas": 110,
   "publicado": "há 3 dias",
   "cliente": "Eduardo R.",
   "nota": 48,
@@ -318,7 +318,7 @@
    "Microsoft Exchange"
   ],
   "orcamento": "Menos de USD 50",
-  "propostas": 71,
+  "propostas": 72,
   "publicado": "há 2 dias",
   "cliente": "Rafael L. D. S. S.",
   "nota": 45,
@@ -343,7 +343,7 @@
    "Assistente de administração"
   ],
   "orcamento": "USD 50 - 100",
-  "propostas": 52,
+  "propostas": 53,
   "publicado": "Ontem",
   "cliente": "Matheus R.",
   "nota": 40,
@@ -369,7 +369,7 @@
   ],
   "orcamento": "Menos de USD 50",
   "propostas": 18,
-  "publicado": "há 5 horas",
+  "publicado": "há 9 horas",
   "cliente": "GUSTAVO O.",
   "nota": 38,
   "combina": [
@@ -399,7 +399,7 @@
   ],
   "orcamento": "Menos de USD 50",
   "propostas": 4,
-  "publicado": "há 2 semanas",
+  "publicado": "há 3 semanas",
   "cliente": "A. D. S. S.",
   "nota": 37,
   "combina": [
@@ -430,8 +430,8 @@
    "Engenharia da Computação"
   ],
   "orcamento": "USD 50 - 100",
-  "propostas": 40,
-  "publicado": "há 3 dias",
+  "propostas": 41,
+  "publicado": "há 4 dias",
   "cliente": "Emerson S. C.",
   "nota": 36,
   "combina": [
@@ -512,7 +512,7 @@
   ],
   "orcamento": "USD 250 - 500",
   "propostas": 158,
-  "publicado": "Ontem",
+  "publicado": "há 2 dias",
   "cliente": "Marcio A. S. P.",
   "nota": 32,
   "combina": [
@@ -580,8 +580,8 @@
    "Elasticsearch"
   ],
   "orcamento": "Menos de USD 50",
-  "propostas": 17,
-  "publicado": "há 5 horas",
+  "propostas": 19,
+  "publicado": "há 10 horas",
   "cliente": "M. F.",
   "nota": 28,
   "combina": [
@@ -720,7 +720,7 @@
   "descricao": "Olá, procuro um(a) programador(a) ou especialista em planilhas / dashboards para criar uma calculadora de precificação completa para e-commerce. Preciso de uma ferramenta onde eu consiga inserir o custo do meu produto e ela calcule automaticamente o preço de venda ideal em cada marketplace, já considerando todas as taxas e custos. O que a ferramenta precisa ter: 1. Cadastro de produto: - Nome do produto / SKU - Custo do produto (fornecedor) - Custo de embalagem - Custo de frete / envio - Custo fixo por venda (ex: etiqueta, fita, etc.) - Margem de lucro e margem de contribuição desejada (%) ou em R$ - Impostos (Simples Nacional - % configurável) 2. Marketplaces que precisam estar na calculadora: - Mercado Livre (Clássico e Premium) - Shopee - Amazon - TikTok Shop - Magalu - AliExpress - Shein Para cada marketplace, preciso configurar: - Taxa de comissão (%) - Taxa fixa por venda (ex: R$ 6,00 no Mercado Livre) - Taxa de frete / subsídio - Taxa de antecipação / parcelamento (se houver) 3. Resultados que a calculadora deve mostrar: - Preço de venda sugerido por marketplace - Lucro líquido por venda (R$ e %) - Margem real após todas as taxas - Ponto de equilíbrio (preço mínimo para não ter prejuízo) - Comparativo lado a lado entre os marketplaces - Simulador: se eu mudar o preço, quanto fico de lucro? 4. Formato da entrega: Pode ser em uma das opções abaixo, o que você dominar melhor: - Planilha Google Sheets / Excel avançada e automatizada - Dashboard web (pode ser em Google Sheets + Looker Studio, ou um app simples em HTML / React / Flutter) Preferência por algo que eu consiga usar no celular e no computador, e atualizar as taxas quando os marketplaces mudarem. 5. Extras que serão um diferencial: - Cadastro de vários produtos ao mesmo tempo - Histórico de simulações - Gráfico de margem por marketplace - Alerta quando a margem ficar abaixo do mínimo que eu definir - Possibilidade de importar custo via planilha O que eu vou fornecer: - Minhas taxas atuais, custos e exemplos de produtos reais para testar - Explicação de como eu precifico hoje Prazo e orçamento: Aberto a propostas. Me informe prazo, valor e o que você já fez parecido. Por favor, envie portfólio ou um exemplo de calculadora que você já criou.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 210,
+  "propostas": 213,
   "publicado": "2026-11-18T11:26:19+00:00",
   "cliente": "Rodrigo S.",
   "nota": 26,
@@ -758,6 +758,32 @@
   "evitar": []
  },
  {
+  "id": "wk-automacao-de-respostas-com-ia-para-atendimento-ao-cliente-no-whatsapp",
+  "fonte": "Workana",
+  "titulo": "Automação de Respostas com Ia para Atendimento ao Cliente no Whatsapp",
+  "link": "https://www.workana.com/job/automacao-de-respostas-com-ia-para-atendimento-ao-cliente-no-whatsapp",
+  "categoria": "",
+  "nivel": "",
+  "descricao": "Busco um especialista para desenvolver e implementar um sistema de respostas automatizadas utilizando Inteligência Artificial no WhatsApp. O objetivo principal é otimizar a comunicação com os clientes, garantindo um atendimento eficiente e rápido. O projeto envolve a configuração da IA para compreender e responder a perguntas comuns, além de integrar a solução ao WhatsApp para uma experiência de usuário fluida. Espera-se que a automação melhore a satisfação do cliente e a eficiência operacional. Categoria: TI e Programação Subcategoria: Inteligência Artificial Tamanho do projeto: Pequeño",
+  "habilidades": [
+   "Chatbot",
+   "API",
+   "Python",
+   "Node.js",
+   "Machine Learning"
+  ],
+  "orcamento": "USD 50 - 100",
+  "propostas": 14,
+  "publicado": "há 2 horas",
+  "cliente": "João V. S. D. S.",
+  "nota": 26,
+  "combina": [
+   "python",
+   "automação"
+  ],
+  "evitar": []
+ },
+ {
   "id": "wk-desenvolvimento-de-assistente-virtual-com-ia-para-automacao-no-whatsapp-e-instagram",
   "fonte": "Workana",
   "titulo": "Desenvolvimento de Assistente Virtual com Ia para Automação no What...",
@@ -775,8 +801,8 @@
    "Natural Language Processing"
   ],
   "orcamento": "USD 100 - 250",
-  "propostas": 12,
-  "publicado": "há 7 minutos",
+  "propostas": 22,
+  "publicado": "há 4 horas",
   "cliente": "C. M. D. S.",
   "nota": 26,
   "combina": [
@@ -924,7 +950,7 @@
   ],
   "orcamento": "Menos de USD 15 / hora",
   "propostas": 22,
-  "publicado": "há 5 horas",
+  "publicado": "há 9 horas",
   "cliente": "D. H.",
   "nota": 23,
   "combina": [
@@ -948,8 +974,8 @@
    "Microsoft Excel"
   ],
   "orcamento": "USD 50 - 100",
-  "propostas": 6,
-  "publicado": "há 3 horas",
+  "propostas": 8,
+  "publicado": "há 8 horas",
   "cliente": "M. G.",
   "nota": 22,
   "combina": [
@@ -975,7 +1001,7 @@
    "Contas a pagar"
   ],
   "orcamento": "USD 50 - 100",
-  "propostas": 48,
+  "propostas": 49,
   "publicado": "Ontem",
   "cliente": "VANESSA M. M.",
   "nota": 22,
@@ -1037,34 +1063,6 @@
   ]
  },
  {
-  "id": "wk-programador-android-para-correcao-e-ajustes-em-codigo-de-automacao-existente",
-  "fonte": "Workana",
-  "titulo": "Programador Android para Correção e Ajustes em Código de Automação ...",
-  "link": "https://www.workana.com/job/programador-android-para-correcao-e-ajustes-em-codigo-de-automacao-existente",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "Olá, tudo bem? Já tenho um código de automação para celulares Android quase pronto, que já executa o que preciso, mas ainda apresenta alguns bugs e precisa de ajustes. Procuro um programador com experiência em automação Android em escala, capaz de entender o código existente, corrigir os problemas e otimizar a execução para rodar muitos celulares ao mesmo tempo, de maneira leve, estável e fluida, com baixo consumo de recursos. Também preciso desenvolver um painel administrativo (admin) para controlar as automações e acompanhar a execução e o status de cada celular. O trabalho envolve dar continuidade ao código existente, preservar o que já funciona e preparar o sistema para operar com vários aparelhos simultaneamente. Posso demonstrar o funcionamento e os problemas atuais para avaliação de prazo e valor. Ao enviar sua proposta, conte sobre sua experiência com múltiplos dispositivos Android e painéis de controle. Categoria: TI e Programação Subcategoria: Programação de Apps para Android, iOS e outros Qual é o alcance do projeto?: Bug ou alteração pequena",
-  "habilidades": [
-   "Android",
-   "Android (Java)",
-   "Android (Kotlin)",
-   "Qa Automation",
-   "Testing",
-   "JavaScript",
-   "Python"
-  ],
-  "orcamento": "USD 250 - 500",
-  "propostas": 70,
-  "publicado": "Ontem",
-  "cliente": "T. A.",
-  "nota": 21,
-  "combina": [
-   "python",
-   "automação"
-  ],
-  "evitar": []
- },
- {
   "id": "99f-798939",
   "fonte": "99Freelas",
   "titulo": "Recrutamento e seleção para implantação",
@@ -1083,41 +1081,6 @@
    "indicadores"
   ],
   "evitar": []
- },
- {
-  "id": "wk-desenvolvimento-de-plataforma-web-full-stack-para-comparacao-de-precos-e-busca-de-produtos",
-  "fonte": "Workana",
-  "titulo": "Desenvolvimento de Plataforma Web Full Stack para Comparação de Pre...",
-  "link": "https://www.workana.com/job/desenvolvimento-de-plataforma-web-full-stack-para-comparacao-de-precos-e-busca-de-produtos",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "Estamos buscando um desenvolvedor Full Stack experiente ou uma equipe para criar uma plataforma web completa de busca e comparação de preços. O objetivo principal é permitir que compradores pesquisem produtos, visualizem ofertas de diversos fornecedores cadastrados, comparem preços automaticamente e entrem em contato direto com os fornecedores via WhatsApp. Esta plataforma não será um e-commerce tradicional, não havendo checkout ou processamento de pagamentos inicialmente. Funcionalidades Essenciais para Compradores: - Cadastro e login de usuários para acesso personalizado. - Página inicial intuitiva com categorias de produtos para fácil navegação. - Sistema de busca inteligente por nome, marca e modelo do produto. - Exibição detalhada de produtos com imagem, preço inicial e quantidade de ofertas disponíveis. - Comparação automática de preços entre fornecedores, listando do menor para o maior. - Filtros avançados por marca, modelo, armazenamento, cor, condição, fornecedor e região. - Destaque visual claro para a oferta com o menor preço. - Informações completas sobre os fornecedores e atualização em tempo real das ofertas. - Botão de contato direto e facilitado pelo WhatsApp para comunicação com fornecedores. - Funcionalidade para seguir fornecedores favoritos e criar uma lista de produtos de interesse. - Interface responsiva, garantindo usabilidade perfeita em computadores e dispositivos móveis. Painel de Gerenciamento para Fornecedores: Cada fornecedor terá um painel exclusivo para: - Cadastrar e editar seus produtos de forma eficiente. - Informar preços, gerenciar estoque e detalhar características dos produtos. - Atualizar preços e disponibilidade de produtos de maneira ágil. - Importar produtos em massa utilizando planilhas Excel ou CSV. - Gerenciar seu catálogo de ofertas e informações da empresa. - Configurar o número de WhatsApp para atendimento direto aos compradores. Sistema de Comparação de Preços: Esta é a funcionalidade central da plataforma. Ao pesquisar um produto específico, como 'iPhone 16 Pro Max 256GB', o sistema deverá agregar e apresentar as ofertas de diferentes fornecedores de forma organizada, permitindo ao usuário comparar os valores e escolher o fornecedor para contato. Categoria: TI e Programação Subcategoria: Programação Qual é o alcance do projeto?: Criar um novo site personalizado",
-  "habilidades": [
-   "JavaScript",
-   "PHP",
-   "Python",
-   "HTML",
-   "CSS",
-   "MySQL",
-   "Database",
-   "API",
-   "Responsive Web Design",
-   "React.js"
-  ],
-  "orcamento": "USD 100 - 250",
-  "propostas": 67,
-  "publicado": "há 2 dias",
-  "cliente": "R. B.",
-  "nota": 20,
-  "combina": [
-   "excel",
-   "planilha",
-   "sql",
-   "python"
-  ],
-  "evitar": [
-   "full stack"
-  ]
  },
  {
   "id": "99f-794363",
@@ -1163,8 +1126,8 @@
    "Web Services"
   ],
   "orcamento": "Mais de USD 3.000",
-  "propostas": 44,
-  "publicado": "há 5 horas",
+  "propostas": 45,
+  "publicado": "há 10 horas",
   "cliente": "Wagner N. L.",
   "nota": 20,
   "combina": [
@@ -1176,6 +1139,25 @@
   "evitar": [
    "full stack"
   ]
+ },
+ {
+  "id": "99f-799850",
+  "fonte": "99Freelas",
+  "titulo": "Suporte ao cliente remoto",
+  "link": "https://www.99freelas.com.br/project/suporte-ao-cliente-remoto-799850",
+  "categoria": "Assistente Virtual",
+  "nivel": "Iniciante",
+  "descricao": "Estamos contratando freelancer para atuar no suporte ao cliente de forma totalmente remota, com carga horária de aproximadamente 1 a 2 horas por dia. Responsabilidades: - Atender clientes por WhatsApp, e-mail ou chat interno. - Tirar dúvidas sobre produtos, serviços e processos. - Direcionar solicitações para os departamentos responsáveis quando necessário. - Manter registro dos atendimentos realizados em planilha ou sistema. - Comunicar-se de forma clara e profissional, seguindo as diretrizes da empresa. Horário: Flexível, de segunda a sexta-feira, a combinar conforme disponibilidade. Perfil desejado: - Boa escrita e comunicação clara. - Comprometimento e pontualidade. - Acesso estável à internet e ao WhatsApp. - Experiência anterior com atendimento ao cliente é um diferencial, mas não é obrigatória. Contrato inicial de 30 dias, com possibilidade de renovação mediante bom desempenho. Habilidades desejadas: Atendimento ao Cliente, Suporte, Comunicação Escrita Categoria: Atendimento ao Consumidor Subcategoria: Atendimento ao Consumidor Nível de experiência: Iniciante",
+  "habilidades": [],
+  "orcamento": "",
+  "propostas": 0,
+  "publicado": "2026-11-20T05:18:41+00:00",
+  "cliente": "",
+  "nota": 20,
+  "combina": [
+   "planilha"
+  ],
+  "evitar": []
  },
  {
   "id": "99f-799757",
@@ -1217,33 +1199,6 @@
   "evitar": []
  },
  {
-  "id": "wk-criacao-de-regra-de-coloracao-para-grafico-renko-30r-com-analise-de-pocs-no-profit-chart",
-  "fonte": "Workana",
-  "titulo": "Criação de Regra de Coloração para Gráfico Renko 30r com Análise de...",
-  "link": "https://www.workana.com/job/criacao-de-regra-de-coloracao-para-grafico-renko-30r-com-analise-de-pocs-no-profit-chart",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "O objetivo deste projeto é desenvolver uma regra de coloração personalizada para o gráfico Renko 30R na plataforma Profit Chart. A regra deverá ser baseada na análise de um padrão específico de boxes Renko, levando em consideração a sequência e o comportamento dos Points of Control (POCs) dentro dos boxes analisados. É Fundamental que o desenvolvedor possua profundo conhecimento sobre as funcionalidades e nuances do gráfico Footprint no Profit Chart, para garantir a correta implementação da lógica de coloração conforme o padrão desejado. O entregável será a regra de coloração pronta para uso na plataforma. Categoria: TI e Programação Subcategoria: Aplicativos desktop Qual é o alcance do projeto?: Alteração média",
-  "habilidades": [
-   "Aptidão de programação",
-   "Aplicativos desktop",
-   "C#",
-   "DotNet",
-   "Software Testing",
-   "C",
-   "Python"
-  ],
-  "orcamento": "Menos de USD 50",
-  "propostas": 7,
-  "publicado": "há 25 minutos",
-  "cliente": "J. A. F. G. F.",
-  "nota": 19,
-  "combina": [
-   "python"
-  ],
-  "evitar": []
- },
- {
   "id": "99f-799740",
   "fonte": "99Freelas",
   "titulo": "Estudo de viabilidade para participação em dispensas eletrônicas",
@@ -1272,7 +1227,7 @@
   "descricao": "Busco um profissional sênior de segurança de aplicações para conduzir uma auditoria completa de uma plataforma web de classificados. O trabalho inclui pentest autorizado, revisão manual de código, avaliação da infraestrutura, testes funcionais e de performance, implementação das correções acordadas e reteste. A plataforma usa Laravel/PHP, React e MySQL 8, com aplicação em AWS EC2 e banco Amazon RDS. Possui API, cadastro de anunciantes, publicação de anúncios, planos pagos e adicionais, integração com Iugu, upload de fotos e vídeos, verificação de identidade, chat e painéis administrativo e financeiro. Escopo do trabalho 1. Pentest white box e revisão de código. Avaliar o site e a API com acesso de leitura ao código-fonte e contas de teste com diferentes permissões. Combinar análise manual com ferramentas automatizadas e revisar dependências, configurações, autenticação, sessões e controles de acesso. Informar a metodologia e a cobertura previstas. 2. Segurança dos fluxos críticos. Avaliar a separação entre contas de anunciantes, administradores e usuários do financeiro. Revisar a proteção de documentos de identidade e mídias privadas, o upload de arquivos, a privacidade do chat e a exposição de dados pela API. No pagamento, verificar se compra, renovação, vencimento, cancelamento e notificações da Iugu mantêm cobranças, planos e adicionais consistentes. 3. Auditoria da infraestrutura e do deploy. Revisar permissões e configurações da AWS, EC2 e RDS, exposição de serviços, criptografia, armazenamento, backups, logs e alertas. Avaliar também segurança do repositório, gestão de segredos, processo de deploy, DNS e TLS. 4. Testes funcionais e de performance. Validar cadastro, login, publicação de anúncios, busca, filtros, verificação de identidade, compra de planos e operações administrativas. Executar testes de carga progressiva em ambiente autorizado e registrar tempos de resposta, taxas de erro e gargalos. Indicar na proposta a carga prevista e os requisitos do ambiente de teste. 5. Correções e reteste. Implementar as correções acordadas em uma branch separada, com registro das mudanças e validação em homologação. A proposta deve explicar como o esforço de correção será estimado após o diagnóstico, como serão tratados os achados além do esforço contratado e qual prazo está incluído para o reteste. Validar as correções e registrar o status final de cada achado revisado. Entregas esperadas - Relatório executivo com os riscos prioritários e o impacto para o negócio. - Relatório técnico com escopo avaliado, achados confirmados, evidências sem dados pessoais, gravidade, impacto e recomendações. - Relatório de performance com cenários executados, métricas e gargalos observados. - Correções acordadas entregues para revisão, relatório de reteste e reunião de apresentação. Achados críticos devem ser comunicados durante o trabalho. O escopo e o ambiente serão autorizados por escrito antes do início. A execução deve priorizar homologação, com contas e dados fictícios. Acesso a produção e mudanças em produção dependem de autorização específica. O profissional deverá manter sigilo sobre código, acessos, dados e resultados. Perfil e proposta Busco experiência comprovada em segurança de aplicações web e APIs, revisão manual de código Laravel/PHP e React, auditoria AWS e implementação de correções. Descreva trabalhos semelhantes e sua participação em cada um. Se tiver um exemplo anonimizado de relatório, mencione a disponibilidade na proposta.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 39,
+  "propostas": 40,
   "publicado": "2026-11-18T14:07:26+00:00",
   "cliente": "João A.",
   "nota": 18,
@@ -1301,7 +1256,7 @@
   ],
   "orcamento": "Menos de USD 50",
   "propostas": 10,
-  "publicado": "há 23 horas",
+  "publicado": "Ontem",
   "cliente": "E. M. V. M.",
   "nota": 18,
   "combina": [
@@ -1378,33 +1333,9 @@
    "Publicidade no Google, Facebook"
   ],
   "orcamento": "Menos de USD 50",
-  "propostas": 8,
-  "publicado": "há 1 hora",
+  "propostas": 9,
+  "publicado": "há 6 horas",
   "cliente": "Fernando L.",
-  "nota": 18,
-  "combina": [
-   "relatório"
-  ],
-  "evitar": []
- },
- {
-  "id": "wk-programa-de-afiliados-para-escalar-vendas-online-e-aumentar-o-alcance-da-marca",
-  "fonte": "Workana",
-  "titulo": "Programa de Afiliados para Escalar Vendas Online e Aumentar o Alcan...",
-  "link": "https://www.workana.com/job/programa-de-afiliados-para-escalar-vendas-online-e-aumentar-o-alcance-da-marca",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "Buscamos um especialista para desenvolver e implementar um programa de afiliados robusto para o nosso e-commerce, sassademinas.com.br. O objetivo principal é escalar significativamente as vendas e expandir o alcance da nossa marca através de parcerias estratégicas. O profissional será responsável por toda a concepção do programa, desde a escolha da plataforma e configuração, até o recrutamento e gestão dos afiliados. É Fundamental que o modelo de remuneração seja baseado em comissão sobre o valor das vendas geradas, garantindo um alinhamento de interesses e um investimento focado em resultados. Esperamos um plano detalhado de como atrair, engajar e reter afiliados de alta performance, além de um sistema eficaz de rastreamento e relatórios para monitorar o desempenho e otimizar as campanhas. Categoria: Marketing e Vendas Subcategoria: Outros Tamanho do projeto: Pequeño",
-  "habilidades": [
-   "Marketing de afiliados",
-   "Estrategia de Marketing",
-   "Marketing Online",
-   "Vendas"
-  ],
-  "orcamento": "USD 100 - 250",
-  "propostas": 5,
-  "publicado": "há 4 horas",
-  "cliente": "S. D. M. S. D. A. L. C. D. M. M.",
   "nota": 18,
   "combina": [
    "relatório"
@@ -1528,8 +1459,8 @@
    "3d"
   ],
   "orcamento": "USD 250 - 500",
-  "propostas": 36,
-  "publicado": "há 1 hora",
+  "propostas": 43,
+  "publicado": "há 6 horas",
   "cliente": "João M. C. D. S. S.",
   "nota": 15,
   "combina": [
@@ -1554,8 +1485,8 @@
    "Python"
   ],
   "orcamento": "USD 50 - 100",
-  "propostas": 67,
-  "publicado": "há 5 horas",
+  "propostas": 68,
+  "publicado": "há 10 horas",
   "cliente": "Yan A.",
   "nota": 15,
   "combina": [
@@ -1574,7 +1505,7 @@
   "descricao": "Buscamos um gestor de tráfego com experiência comprovada em Google Ads e Meta Ads para revisar nossas contas, propor melhorias e criar campanhas para três marcas. Marcas atendidas: - Bem Instalado: operação já existente. - Bem Kids: operação já existente. - Estala Pro: estrutura de anúncios ainda a iniciar, com planejamento e configuração inicial conforme a necessidade. O que precisamos: 1. Fazer uma auditoria das contas e campanhas existentes no Google Ads, identificando campanhas saudáveis, desperdícios e oportunidades de melhoria. 2. Apresentar um plano de ação por marca, com prioridades, justificativas e indicadores para acompanhar os resultados. 3. Executar os ajustes aprovados nas campanhas existentes e planejar/criar campanhas no Meta Ads (Facebook e Instagram), com objetivos, públicos, anúncios e testes adequados a cada marca. A quantidade inicial de campanhas será definida no diagnóstico e na proposta. 4. Verificar a mensuração de compras e contatos pelo WhatsApp, ajudando a diferenciar clique, contato qualificado, orçamento e venda efetiva. 5. Nos auxiliar no acompanhamento dos resultados, com orientações práticas e relatórios simples sobre investimento, vendas e próximos ajustes. Nosso contexto envolve comércio eletrônico, produtos personalizados e vendas assistidas pelo WhatsApp. Valorizamos decisões baseadas em resultados comerciais e análise clara dos dados. Experiência desejada: - Google Ads, especialmente campanhas de Pesquisa e Performance Max. - Meta Ads para vendas e geração de contatos. - Análise de conversões, remarketing e testes de anúncios. - Conhecimento de GA4, Google Tag Manager, Merchant Center e Pixel/Conversões API será um diferencial. Na proposta, envie: - Experiências ou cases relevantes e qual foi sua participação nos resultados. - Como faria o diagnóstico e quais seriam as primeiras entregas. - Prazo e valor para a auditoria e implantação/ajustes iniciais. - Valor separado para um possível acompanhamento mensal das três marcas. - O que está incluído na criação de textos e criativos e o que precisará ser fornecido por nossa equipe. O investimento em mídia será definido separadamente dos honorários do profissional. Buscamos uma parceria organizada, com comunicação direta e possibilidade de continuidade conforme as entregas.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 36,
+  "propostas": 37,
   "publicado": "2026-11-18T18:35:45+00:00",
   "cliente": "Leonardo M.",
   "nota": 15,
@@ -1599,8 +1530,8 @@
    "Publicidade"
   ],
   "orcamento": "USD 50 - 100",
-  "propostas": 18,
-  "publicado": "há 1 hora",
+  "propostas": 21,
+  "publicado": "há 6 horas",
   "cliente": "H. G. D. S. P.",
   "nota": 14,
   "combina": [
@@ -1618,7 +1549,7 @@
   "descricao": "Estou procurando um profissional que consiga integrar o Claude (inteligência artificial) ao meu WhatsApp, Instagram e Google Agenda, criando um assistente pessoal para me ajudar na administração do meu estúdio de tatuagem. Sou tatuador autônomo e trabalho sozinho. Quero reduzir o tempo gasto digitando mensagens, organizando clientes e realizando tarefas administrativas. Não procuro um sistema empresarial complexo ou um aplicativo desenvolvido do zero. Quero aproveitar ferramentas existentes e criar automações práticas, com o menor custo possível. Inicialmente, posso deixar meu computador ligado para que funcionem. 1. WhatsApp e atendimento com IA - Permitir que o Claude acompanhe e analise conversas com clientes, identifique novos contatos e organize leads. - Responder automaticamente dúvidas frequentes sobre meu trabalho, localização, funcionamento e procedimentos. - Resumir conversas e informar quais clientes estão interessados em fechar uma tatuagem. - Identificar clientes aguardando orçamento ou agendamento e me enviar alertas. - Possibilitar salvar contatos, quando tecnicamente viável. - Preparar orçamentos somente mediante meus comandos. Eu informarei valor, quantidade de sessões, condições de pagamento e datas disponíveis. A IA deverá gerar uma mensagem ou PDF com o orçamento e enviá-lo ao cliente mediante minha autorização. Não quero que defina valores por conta própria. 2. Google Agenda e agendamentos - Consultar minha agenda e verificar horários disponíveis. - Criar agendamentos somente quando eu autorizar, registrando nome, telefone, valor do trabalho, quantidade de sessões, sinal recebido e saldo restante. - Permitir consultar compromissos por comandos enviados pelo celular e enviar confirmação de agendamento ao cliente. 3. Instagram - Acompanhar e responder comentários; sugerir respostas utilizando minha linguagem; identificar possíveis clientes interessados; analisar mensagens recebidas no Direct e sugerir respostas; se possível, responder mensagens mediante minha autorização; gerar um resumo das interações. - As funcionalidades deverão respeitar as possibilidades da integração oficial do Instagram. 4. Controle financeiro e relatórios Quero aproveitar informações dos atendimentos e agendamentos para criar um controle financeiro simples, não um sistema financeiro completo. - Relatório diário de novos leads recebidos pelo WhatsApp. - Quantidade de orçamentos enviados e agendamentos realizados. - Registro dos valores dos trabalhos, controle de sinais recebidos e valores pendentes e relatório de faturamento por período. - Possibilidade de solicitar relatório de clientes e trabalhos agendados e, se possível, gerar uma planilha simples de controle financeiro. 5. Comandos pelo celular Essa é uma das partes mais importantes do projeto. Quero conversar com o Claude pelo celular e dar comandos para executar tarefas no computador, sem precisar digitar manualmente em cada plataforma. Exemplos: - \"Analise minhas conversas de hoje e me mostre os novos leads.\" - \"Quais clientes estão aguardando orçamento?\" - \"Prepare um orçamento de R$ 1.500,00 para esse cliente, dividido em duas sessões.\" - \"Consulte minha agenda da próxima semana.\" - \"O cliente pagou o sinal, pode realizar o agendamento.\" - \"Gere meu relatório financeiro do mês.\" O Claude deverá entender o contexto e executar as tarefas. Orçamentos, agendamentos e outras ações importantes dependerão dos meus comandos e autorizações. Procuro alguém com experiência em integração de IA, Claude, WhatsApp, Instagram, Google Agenda e ferramentas de automação. Estou aberto a ferramentas existentes, como n8n, Make ou outras alternativas que reduzam o custo. Não quero desenvolver tudo do zero. Prefiro uma solução simples, funcional e que possa ser melhorada futuramente. Na proposta, gostaria que o profissional informasse: 1. Qual seria a melhor maneira de integrar essas ferramentas. 2. Se é possível utilizar o computador ligado para executar as automações, sem contratar um servidor inicialmente. 3. Quais funcionalidades são realmente possíveis. 4. Qual seria o custo para desenvolver a solução. 5. Se existem custos mensais adicionais com ferramentas e APIs. A prioridade é ter um assistente funcional para me ajudar no atendimento e na organização do estúdio.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 158,
+  "propostas": 160,
   "publicado": "2026-11-18T04:28:43+00:00",
   "cliente": "Osmar J.",
   "nota": 14,
@@ -1668,7 +1599,7 @@
    "Gerenciamento de Tempo"
   ],
   "orcamento": "USD 100 - 250",
-  "propostas": 75,
+  "propostas": 76,
   "publicado": "Ontem",
   "cliente": "MARIA C. T. D. M.",
   "nota": 12,
@@ -1712,7 +1643,7 @@
    "Estruturação de Dados"
   ],
   "orcamento": "USD 100 - 250",
-  "propostas": 39,
+  "propostas": 40,
   "publicado": "há 2 dias",
   "cliente": "Fernando J. P.",
   "nota": 12,
@@ -1792,8 +1723,8 @@
    "Python"
   ],
   "orcamento": "USD 1.000 - 3.000",
-  "propostas": 131,
-  "publicado": "há 13 horas",
+  "propostas": 133,
+  "publicado": "há 18 horas",
   "cliente": "N. C. V. M.",
   "nota": 10,
   "combina": [
@@ -1818,7 +1749,7 @@
    "API"
   ],
   "orcamento": "USD 50 - 100",
-  "propostas": 75,
+  "propostas": 77,
   "publicado": "há 2 dias",
   "cliente": "A. M.",
   "nota": 10,
@@ -1842,7 +1773,7 @@
   ],
   "orcamento": "USD 50 - 100",
   "propostas": 36,
-  "publicado": "há 9 horas",
+  "publicado": "há 14 horas",
   "cliente": "Anderson G. F.",
   "nota": 10,
   "combina": [
@@ -1866,8 +1797,8 @@
    "Chatbot"
   ],
   "orcamento": "USD 50 - 100",
-  "propostas": 33,
-  "publicado": "há 7 horas",
+  "propostas": 34,
+  "publicado": "há 11 horas",
   "cliente": "C.",
   "nota": 9,
   "combina": [
@@ -1922,7 +1853,7 @@
    "Design de Redes"
   ],
   "orcamento": "USD 250 - 500",
-  "propostas": 35,
+  "propostas": 37,
   "publicado": "Ontem",
   "cliente": "Joel Q. J.",
   "nota": 6,
@@ -1934,6 +1865,38 @@
   "evitar": [
    "mobile"
   ]
+ },
+ {
+  "id": "wk-desenvolvimento-de-plataforma-multi-ia-personalizada-para-escritorio-de-advocacia",
+  "fonte": "Workana",
+  "titulo": "Desenvolvimento de Plataforma Multi-Ia Personalizada para Escritóri...",
+  "link": "https://www.workana.com/job/desenvolvimento-de-plataforma-multi-ia-personalizada-para-escritorio-de-advocacia",
+  "categoria": "",
+  "nivel": "",
+  "descricao": "O projeto consiste no desenvolvimento e implantação de uma plataforma multi-IA personalizada para um escritório de advocacia, visando otimizar o trabalho da equipe. A plataforma será um ambiente único, acessível via navegador e dispositivos móveis, permitindo que os usuários escolham entre diferentes modelos de IA, como Claude, ChatGPT e Gemini, para cada conversa. Todas as interações e históricos de conversas serão salvos em um servidor contratado pelo escritório, garantindo segurança e conformidade. A plataforma incluirá funcionalidades essenciais como login individual para aproximadamente 10 usuários, com um perfil de administrador para gestão. Será possível o envio de documentos (PDF e Word) para análise pelas IAs. As chaves de API serão contratadas em nome do escritório, com controle de limite de gastos e relatórios de uso detalhados por usuário, proporcionando transparência e controle de custos. O serviço também contemplará backup automático, atualizações contínuas e suporte mensal para garantir o bom funcionamento e a evolução da ferramenta. Além do desenvolvimento da plataforma, o projeto inclui um módulo de capacitação de 8 horas para a equipe do escritório. Este treinamento abordará o uso prático da plataforma no dia a dia, os fundamentos da inteligência artificial aplicada ao contexto jurídico e a criação de projetos, assistentes personalizados ou recursos equivalentes disponíveis na plataforma proposta, maximizando o aproveitamento da nova ferramenta. Categoria: TI e Programação Subcategoria: Inteligência Artificial Tamanho do projeto: Pequeño",
+  "habilidades": [
+   "API",
+   "Android",
+   "iOS",
+   "Python",
+   "JavaScript",
+   "Google Cloud Platform (GCP)",
+   "Data Mining",
+   "Machine Learning",
+   "Chatbot",
+   "Security Analyst",
+   "System Analysis"
+  ],
+  "orcamento": "USD 50 - 100",
+  "propostas": 83,
+  "publicado": "há 2 dias",
+  "cliente": "S. B.",
+  "nota": 6,
+  "combina": [
+   "python",
+   "relatório"
+  ],
+  "evitar": []
  },
  {
   "id": "99f-796315",
@@ -1983,7 +1946,7 @@
   "descricao": "Desenvolvimento de jogo no Roblox - Kick Power Incremental Estou procurando um desenvolvedor experiente em Roblox Studio e programação Luau para colaborar na criação de um jogo do gênero Incremental Simulator. O projeto possui uma proposta de crescimento a longo prazo, com diversas mecânicas de evolução, sistemas de pets, mundos desbloqueáveis, melhorias e possibilidades de expansão. Sobre o projeto O jogador começa com um poder de chute baixo e precisa evoluir através de treinamentos, melhorias e desafios, desbloqueando novos conteúdos conforme progride. Sistemas planejados - Sistema de poder de chute. - Treinamento e evolução. - Moedas e melhorias. - Mundos e áreas desbloqueáveis. - Sistema de Rebirth. - Sistema completo de pets e ovos. - Diferentes raridades e multiplicadores. - Fusão e evolução de pets. - Game Passes e produtos dentro do jogo. - Recompensas diárias e presentes iniciais. - Rankings e competições. - Salvamento de progresso. Perfil desejado Procuro alguém que tenha experiência com Roblox Studio, programação Luau, criação de interfaces e desenvolvimento de sistemas para simuladores. É importante ter comprometimento, criatividade, boa comunicação e interesse em participar de um projeto com potencial de crescimento. Modelo de colaboração Tenho interesse em construir uma colaboração de longo prazo, com condições comerciais flexíveis e possibilidade de desenvolver uma parceria estratégica, dependendo da experiência e do envolvimento do profissional. As condições de trabalho e o modelo de colaboração poderão ser discutidos individualmente com os interessados. Informações desejadas - Portfólio de projetos anteriores. - Experiência com jogos do gênero Simulator ou Incremental. - Prazo estimado para desenvolvimento. - Proposta de trabalho. - Disponibilidade para colaboração de longo prazo. Objetivo: desenvolver um jogo de qualidade, conquistar uma comunidade ativa de jogadores e construir um projeto com potencial de crescimento e expansão.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 21,
+  "propostas": 22,
   "publicado": "2026-11-19T11:06:16+00:00",
   "cliente": "",
   "nota": 0,
@@ -2040,7 +2003,7 @@
   "descricao": "Estou procurando um desenvolvedor Full Stack experiente, ou uma equipe, para criar uma plataforma web completa de busca e comparação de preços entre diferentes fornecedores cadastrados. O objetivo é permitir que compradores pesquisem produtos, visualizem ofertas, comparem preços automaticamente e entrem em contato com fornecedores pelo WhatsApp. A plataforma não será um e-commerce tradicional e, inicialmente, não haverá checkout ou processamento de pagamentos. 1. FUNCIONALIDADES PARA COMPRADORES - Cadastro e login de usuários. - Página inicial com categorias de produtos. - Busca por nome, marca e modelo. - Produtos com imagem, preço inicial e quantidade de ofertas. - Comparação automática de preços, do menor para o maior, com destaque para a oferta mais barata. - Filtros por marca, modelo, armazenamento, cor, condição, fornecedor e região. - Informações sobre fornecedores e atualização das ofertas. - Contato direto pelo WhatsApp. - Possibilidade de seguir fornecedores favoritos e manter uma lista de produtos de interesse. - Interface responsiva para computadores e celulares. 2. PAINEL DOS FORNECEDORES Cada fornecedor terá seu próprio painel para: - Cadastrar e editar produtos, preços, estoque e características. - Atualizar preços e disponibilidade. - Importar produtos em massa por planilhas Excel ou CSV. - Gerenciar o catálogo de ofertas e editar informações da empresa. - Configurar número de WhatsApp para atendimento. 3. SISTEMA DE COMPARAÇÃO DE PREÇOS Esta será a principal funcionalidade. Por exemplo, ao pesquisar \"iPhone 16 Pro Max 256GB\", o sistema deverá reunir ofertas de diferentes fornecedores e apresentar: - Fornecedor A - R$ 6.500,00 - Fornecedor B - R$ 6.650,00 - Fornecedor C - R$ 6.790,00 - Fornecedor D - R$ 6.950,00 O usuário poderá comparar os valores e entrar em contato com qualquer fornecedor. É fundamental agrupar corretamente produtos equivalentes, considerando modelo, capacidade, condição e outras variações, evitando resultados duplicados ou comparações incorretas. 4. PAINEL ADMINISTRATIVO - Gerenciamento de usuários e fornecedores. - Aprovação e bloqueio de fornecedores. - Gerenciamento de categorias, marcas e produtos. - Controle e moderação das ofertas. - Gerenciamento de permissões. - Estatísticas, relatórios e configurações gerais do sistema. 5. DESIGN E EXPERIÊNCIA Quero uma interface moderna, profissional, intuitiva e responsiva, com cards de produtos, filtros avançados, busca rápida e comparação visual clara entre fornecedores. 6. REQUISITOS TÉCNICOS - Desenvolvimento Full Stack, banco de dados estruturado, APIs e autenticação segura. - Busca e filtros eficientes, integração com WhatsApp e importação de planilhas. - Arquitetura escalável e de fácil manutenção. As tecnologias poderão ser recomendadas pelo desenvolvedor. 7. PERFIL DO PROFISSIONAL Procuro alguém com experiência comprovada em marketplaces, plataformas B2B, sistemas SaaS ou comparadores de preços. Na proposta, solicito portfólio de projetos semelhantes, tecnologias recomendadas, prazo e orçamento estimados, etapas de desenvolvimento e entregas, além de condições de suporte e manutenção. A entrega deverá incluir código-fonte, banco de dados, documentação básica e sistema publicado e funcionando em servidor. OBJETIVO FINAL Desenvolver uma plataforma profissional e escalável que conecte compradores a fornecedores, permitindo encontrar os melhores preços de maneira rápida, organizada e eficiente.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 226,
+  "propostas": 227,
   "publicado": "2026-11-17T15:00:50+00:00",
   "cliente": "Rodrigo B.",
   "nota": 0,
@@ -2063,7 +2026,7 @@
   "descricao": "Busca-se um profissional qualificado para realizar pesquisa de campo e conduzir entrevistas com clientes de uma multinacional. O objetivo principal é coletar dados para uma pesquisa de satisfação, utilizando um questionário rápido e online. O trabalho será sob demanda, com remuneração também sob demanda, ideal para quem busca flexibilidade e projetos pontuais. O profissional será responsável por toda a execução da pesquisa, desde o contato inicial com os clientes até a coleta e organização dos dados.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 8,
+  "propostas": 9,
   "publicado": "2026-11-19T21:05:58+00:00",
   "cliente": "",
   "nota": 0,
@@ -2080,9 +2043,9 @@
   "descricao": "Desenvolvedor Full Stack - Plataforma web de busca e comparação de preços entre fornecedores (B2B / sem checkout) Descrição do projeto Procuro um desenvolvedor Full Stack experiente (ou equipe) para desenvolver uma plataforma web moderna, rápida e responsiva (desktop e mobile) de busca e comparação de preços entre fornecedores cadastrados. O objetivo é permitir que compradores encontrem produtos, comparem ofertas de diferentes fornecedores em um só lugar e entrem em contato direto pelo WhatsApp. Não haverá checkout nem processamento de pagamentos nesta primeira versão. 1. Área do comprador - Cadastro e login de usuários. - Página inicial com categorias, busca por nome, marca e modelo, e cards com imagem, preço inicial e quantidade de ofertas. - Comparação automática de preços do menor para o maior, destacando a melhor oferta. - Filtros por marca, modelo, armazenamento, cor, condição, fornecedor e região. - Exibição de informações do fornecedor e data/hora de atualização da oferta. - Botão de contato direto via WhatsApp (com mensagem automática). - Lista de produtos favoritos e opção de seguir fornecedores. 2. Painel do fornecedor - Cadastro e edição de ofertas, preços, estoque, condição e características. - Importação e atualização em massa por planilhas Excel (.xlsx) e CSV com validação de dados. - Gestão do catálogo próprio, dados da empresa e número de WhatsApp. 3. Painel administrativo - Aprovação, suspensão e bloqueio de fornecedores. - Gerenciamento de usuários, permissões, categorias, marcas, produtos e moderação de ofertas. - Estatísticas, relatórios e configurações gerais do sistema. 4. Ponto crítico do sistema Agrupar corretamente produtos equivalentes (ex.: iPhone 16 Pro Max 256GB respeitando condição, capacidade e variações) para evitar produtos duplicados ou comparações incorretas a partir de planilhas enviadas por diferentes fornecedores. 5. Requisitos e entregáveis - Arquitetura escalável, APIs seguras, banco de dados estruturado e interface responsiva (stack a ser recomendada na proposta). - A entrega deve incluir: código-fonte completo, estrutura do banco de dados, documentação básica e sistema publicado e funcionando em servidor. O que enviar na proposta - Links de 2 ou 3 projetos semelhantes (marketplaces, comparadores, B2B ou SaaS). - Tecnologias recomendadas e como pretende resolver o agrupamento de produtos e a importação de planilhas. - Etapas de desenvolvimento, prazo estimado e valor total (ou por marcos). - Condições de garantia, suporte e manutenção pós-entrega.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 86,
+  "propostas": 90,
   "publicado": "2026-11-19T03:38:58+00:00",
-  "cliente": "",
+  "cliente": "Matheus C.",
   "nota": 0,
   "combina": [
    "excel",
@@ -2104,7 +2067,7 @@
   "descricao": "Preciso de um profissional que operacionalize a parte de eventos internos, fazendo principalmente atividades de follow-up e controle de datas. Basicamente, as atividades serão receber o manual do patrocinador, organizar as contrapartidas e controlar as datas. Haverá suporte de agência, de designer, do jurídico, da gestão de marketing e de redator, então o trabalho será mesmo de administração e organização, muita troca de e-mails e controle. Não há necessidade de visitas no local, e há pouco ou nenhum trabalho criativo exigido.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 43,
+  "propostas": 46,
   "publicado": "2026-11-17T18:11:28+00:00",
   "cliente": "Bruna R.",
   "nota": 0,
@@ -2205,8 +2168,8 @@
    "System Analysis"
   ],
   "orcamento": "Menos de USD 50",
-  "propostas": 54,
-  "publicado": "há 19 horas",
+  "propostas": 55,
+  "publicado": "Ontem",
   "cliente": "Rodrig.",
   "nota": 0,
   "combina": [
@@ -2260,7 +2223,7 @@
   "descricao": "Olá, desenvolvedores! Estou passando aqui para recrutar um(a) desenvolvedor(a) para o Vision AI, o primeiro projeto de óculos com inteligência artificial pensado e desenvolvido por e para pessoas cegas. O que é o Vision AI: É um óculos com inteligência embarcada, capaz de capturar fotos e transformá-las em audiodescrição para pessoas cegas ou com baixa visão. Nosso propósito é unir inovação e impacto social para transformar acessibilidade em autonomia e liberdade real no dia a dia, funcionando como verdadeiros olhos no cotidiano, tanto na descrição de cenas quanto na leitura de textos. O que eu preciso: Preciso de dois sistemas que conversem entre si: - Um sistema construído em Python, que será o sistema dos óculos; - Outro sistema construído em Flutter, que será o sistema do aplicativo. A parte mais detalhada dessa comunicação já está nos documentos que vou anexar aqui no anúncio, mas a ideia central é que o sistema do celular seja espelhado e replicado nos óculos, funcionando de forma integrada e paralela. Prazo: Preciso que tudo esteja pronto no prazo de três meses (90 dias), a contar do fechamento do contrato para o projeto aqui na plataforma. Entregáveis esperados: - Sistema dos óculos em Python e aplicativo em Flutter integrados e espelhados conforme o escopo anexado; - Documentação de arquitetura; - Licença de desenvolvimento, direitos intelectuais e direito de desenvolvimento assegurados ao projeto. O que eu mais valorizo agora é encontrar alguém comprometido com o propósito do projeto, com boa comunicação, organização para cumprir o prazo de 90 dias e vontade de construir algo que realmente faz diferença na vida das pessoas. Se você se identificou com a proposta e quer participar dessa construção, envie sua proposta com seu plano dentro dos 90 dias e seu valor para o projeto.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 18,
+  "propostas": 31,
   "publicado": "2026-11-20T00:11:10+00:00",
   "cliente": "",
   "nota": 0,
@@ -2281,7 +2244,7 @@
   "descricao": "Busco desenvolvedor sênior ou especialista em engenharia de agentes com experiência prática em orquestração de LLMs de alta carga (Claude 3.7 Sonnet / Claude 4 / GPT-4.1) para estruturar um pipeline autônomo de análise e geração de código/documentação em lote. Escopo Técnico: - Arquitetura de agentes com alto volume de requisições paralelas e Tool Use (chamada de funções encadeadas). - Implementação rigorosa de Prompt Caching e gerenciamento de contexto longo (100k+ tokens por execução) para otimização de latência (TTFT) e custo. - Integração via endpoint compatível com SDK oficial da Anthropic (/v1/messages) e OpenAI (/v1/chat/completions), com fallback automático e controle de rate limit. - Ambiente de execução local/CLI (familiaridade com Claude Code, Cline, Roo Code ou scripts Python assíncronos é um diferencial obrigatório).",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 85,
+  "propostas": 88,
   "publicado": "2026-11-18T21:51:52+00:00",
   "cliente": "Lucas C.",
   "nota": 0,
@@ -2329,31 +2292,6 @@
   "evitar": []
  },
  {
-  "id": "wk-desenvolvimento-de-agente-de-vendas-com-inteligencia-artificial-para-baterias-automotivas",
-  "fonte": "Workana",
-  "titulo": "Desenvolvimento de Agente de Vendas com Inteligência Artificial par...",
-  "link": "https://www.workana.com/job/desenvolvimento-de-agente-de-vendas-com-inteligencia-artificial-para-baterias-automotivas",
-  "categoria": "",
-  "nivel": "",
-  "descricao": "O cliente busca um especialista para desenvolver um agente de vendas baseado em Inteligência Artificial. Este agente terá como principal objetivo otimizar e automatizar o processo de vendas de baterias automotivas, direcionando-se especificamente para as lojas do cliente. As funcionalidades esperadas incluem a prospecção e qualificação de leads, apresentação de produtos, resposta a perguntas frequentes e suporte no fechamento de vendas. O objetivo é aumentar a eficiência das vendas e a cobertura das lojas, utilizando tecnologia de ponta para impulsionar os resultados comerciais. Categoria: TI e Programação Subcategoria: Inteligência Artificial Tamanho do projeto: Médio",
-  "habilidades": [
-   "Machine Learning",
-   "Python",
-   "Natural Language Processing",
-   "Chatbot",
-   "Inteligência Artificial"
-  ],
-  "orcamento": "USD 500 - 1.000",
-  "propostas": 123,
-  "publicado": "Ontem",
-  "cliente": "E. G.",
-  "nota": 0,
-  "combina": [
-   "python"
-  ],
-  "evitar": []
- },
- {
   "id": "99f-799751",
   "fonte": "99Freelas",
   "titulo": "Reels em collab com microinfluenciadores fitness",
@@ -2363,7 +2301,7 @@
   "descricao": "A Sphera Tech é uma empresa que constrói tecnologia, e um dos produtos que desenvolvemos é o Meu Treino: um aplicativo fitness que já está em produção e agora em fase de crescimento de usuários. Procuramos microinfluenciadores com público real e engajado, interessado em treino, saúde, bem-estar, emagrecimento, autocuidado ou rotina saudável, inclusive para quem concilia treino com trabalho e maternidade. Conteúdo em português. SOBRE O MEU TREINO Planos de treino para academia, casa e ao ar livre, análise de anamnese, exames e dieta com inteligência artificial para personalizar os treinos, desafios, ranking e comunidade. OBJETIVO Levar o Meu Treino a mais pessoas, mostrando de forma natural como o app ajuda na rotina de treino e autocuidado. Cada criador poderá ter uma trilha própria dentro do app, montada por profissional de Educação Física a partir do perfil do seu público e aprovada por você. ENTREGA POR CRIADOR - 1 Reel em collab com o nosso perfil oficial no Instagram, com identificação de parceria paga. - 1 sequência de 3 Stories com o link e o cupom individuais que forneceremos antes da publicação. - Roteiro sujeito à nossa aprovação antes da publicação. Forneceremos acesso ao app, materiais de apoio e orientações. - Métricas dos Stories após o encerramento e do Reel após 7 dias: alcance, visualizações, interações e cliques no link quando disponíveis. A primeira campanha será no início de dezembro de 2026, com datas combinadas após a seleção. O pagamento é um valor fixo pela entrega, conforme a sua proposta. USO DO CONTEÚDO Somente publicação orgânica no perfil do criador, com o Reel em collab. Não usaremos sua imagem em anúncios pagos sem acordo específico. NA SUA PROPOSTA, ENVIE 2. Prints das visualizações dos últimos 5 Reels e alcance médio dos Stories. 3. Prints do público: gênero, faixa etária, percentual no Brasil e principais cidades. 4. Exemplos de publicidades ou parcerias anteriores, caso tenha. 5. Há quanto tempo produz conteúdo. 6. Valor total para 1 Reel em collab + 3 Stories. 7. Disponibilidade para o início de dezembro. Avaliaremos os perfis individualmente e poderemos contratar mais de um criador. Propostas sem dados de audiência não serão consideradas. As negociações e contratações serão realizadas pelo 99Freelas.",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 0,
+  "propostas": 1,
   "publicado": "2026-11-19T17:57:06+00:00",
   "cliente": "",
   "nota": 0,
@@ -2399,7 +2337,7 @@
   "descricao": "Procuro profissional com experiência em rotinas financeiras para atuar no ERP da empresa. Atividades: - Baixa de contas a pagar e a receber no sistema, conforme extratos e comprovantes; - Conciliação bancária diária/mensal das contas correntes; - Identificação e tratamento de divergências (pagamentos não lançados, recebimentos sem identificação, tarifas, juros e descontos); - Relatório simples das pendências encontradas para conferência. Trabalho remoto, com acesso ao sistema fornecido pela empresa. Informe na proposta sua experiência, disponibilidade de horas por semana e valor (por hora ou mensal).",
   "habilidades": [],
   "orcamento": "",
-  "propostas": 183,
+  "propostas": 186,
   "publicado": "2026-11-17T19:23:41+00:00",
   "cliente": "Fernando M.",
   "nota": 0,

@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-20T00:38+00:00",
- "total": 99,
+ "atualizado": "2026-11-20T05:21+00:00",
+ "total": 97,
  "por_fonte": {
-  "Workana": 49,
-  "99Freelas": 50
+  "Workana": 46,
+  "99Freelas": 51
  },
  "minhas_habilidades_pedidas": [
   {
@@ -16,23 +16,23 @@
   },
   {
    "termo": "excel",
-   "vagas": 28
+   "vagas": 27
   },
   {
    "termo": "python",
-   "vagas": 27
+   "vagas": 25
   },
   {
    "termo": "dashboard",
    "vagas": 23
   },
   {
-   "termo": "sql",
+   "termo": "automação",
    "vagas": 17
   },
   {
-   "termo": "automação",
-   "vagas": 17
+   "termo": "sql",
+   "vagas": 16
   },
   {
    "termo": "indicadores",
@@ -65,15 +65,15 @@
  ],
  "tags_mais_pedidas": [
   {
-   "termo": "Python",
-   "vagas": 19
-  },
-  {
-   "termo": "JavaScript",
+   "termo": "API",
    "vagas": 18
   },
   {
-   "termo": "API",
+   "termo": "Python",
+   "vagas": 17
+  },
+  {
+   "termo": "JavaScript",
    "vagas": 17
   },
   {
@@ -85,15 +85,15 @@
    "vagas": 10
   },
   {
-   "termo": "Database",
+   "termo": "Machine Learning",
    "vagas": 9
   },
   {
-   "termo": "PHP",
+   "termo": "Database",
    "vagas": 8
   },
   {
-   "termo": "Machine Learning",
+   "termo": "System Analysis",
    "vagas": 8
   },
   {
@@ -101,43 +101,43 @@
    "vagas": 7
   },
   {
-   "termo": "CSS",
-   "vagas": 7
-  },
-  {
-   "termo": "Software Testing",
-   "vagas": 7
-  },
-  {
-   "termo": "React.js",
-   "vagas": 7
-  },
-  {
-   "termo": "System Analysis",
+   "termo": "PHP",
    "vagas": 7
   },
   {
    "termo": "Node.js",
+   "vagas": 7
+  },
+  {
+   "termo": "Chatbot",
+   "vagas": 7
+  },
+  {
+   "termo": "CSS",
    "vagas": 6
   },
   {
-   "termo": "Data Entry",
+   "termo": "Software Testing",
+   "vagas": 6
+  },
+  {
+   "termo": "React.js",
    "vagas": 6
   }
  ],
  "orcamento_medio": {
   "BRL": null,
   "USD": {
-   "qtd": 49,
+   "qtd": 46,
    "minimo": 15,
    "mediana": 75,
    "maximo": 3000
   }
  },
  "propostas_por_projeto": {
-  "qtd": 99,
+  "qtd": 97,
   "minimo": 0,
-  "mediana": 44,
+  "mediana": 45,
   "maximo": 317
  },
  "boas_vagas": 7

@@ -179,6 +179,9 @@ def avisar(vagas, cfg):
                               data={"chat_id": chat, "text": msg}, timeout=20)
             except requests.RequestException as e:
                 print("Telegram falhou:", e)
+    else:
+        # sem Telegram configurado, não marca nada como visto
+        return 0
     vistos.update(v["id"] for v in novas)
     DADOS.mkdir(exist_ok=True)
     arq.write_text(json.dumps(sorted(vistos)[-2000:], ensure_ascii=False))

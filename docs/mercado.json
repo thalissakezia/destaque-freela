@@ -1,22 +1,22 @@
 {
- "atualizado": "2026-11-19T17:39+00:00",
- "total": 101,
+ "atualizado": "2026-11-20T00:38+00:00",
+ "total": 99,
  "por_fonte": {
-  "Workana": 48,
-  "99Freelas": 53
+  "Workana": 49,
+  "99Freelas": 50
  },
  "minhas_habilidades_pedidas": [
   {
    "termo": "relatório",
-   "vagas": 38
-  },
-  {
-   "termo": "excel",
-   "vagas": 29
+   "vagas": 33
   },
   {
    "termo": "planilha",
    "vagas": 29
+  },
+  {
+   "termo": "excel",
+   "vagas": 28
   },
   {
    "termo": "python",
@@ -32,15 +32,15 @@
   },
   {
    "termo": "automação",
-   "vagas": 16
+   "vagas": 17
   },
   {
    "termo": "indicadores",
-   "vagas": 13
+   "vagas": 11
   },
   {
    "termo": "análise de dados",
-   "vagas": 9
+   "vagas": 10
   },
   {
    "termo": "power bi",
@@ -60,7 +60,7 @@
   },
   {
    "termo": "vba",
-   "vagas": 3
+   "vagas": 2
   }
  ],
  "tags_mais_pedidas": [
@@ -69,39 +69,31 @@
    "vagas": 19
   },
   {
-   "termo": "API",
+   "termo": "JavaScript",
    "vagas": 18
   },
   {
-   "termo": "JavaScript",
-   "vagas": 15
+   "termo": "API",
+   "vagas": 17
   },
   {
    "termo": "SQL",
    "vagas": 11
   },
   {
-   "termo": "Database",
-   "vagas": 10
-  },
-  {
    "termo": "Microsoft Excel",
    "vagas": 10
   },
   {
-   "termo": "Machine Learning",
-   "vagas": 10
-  },
-  {
-   "termo": "System Analysis",
-   "vagas": 10
-  },
-  {
-   "termo": "Chatbot",
+   "termo": "Database",
    "vagas": 9
   },
   {
-   "termo": "Node.js",
+   "termo": "PHP",
+   "vagas": 8
+  },
+  {
+   "termo": "Machine Learning",
    "vagas": 8
   },
   {
@@ -113,32 +105,40 @@
    "vagas": 7
   },
   {
-   "termo": "PHP",
+   "termo": "Software Testing",
    "vagas": 7
   },
   {
-   "termo": "Software Testing",
+   "termo": "React.js",
+   "vagas": 7
+  },
+  {
+   "termo": "System Analysis",
+   "vagas": 7
+  },
+  {
+   "termo": "Node.js",
    "vagas": 6
   },
   {
-   "termo": "React.js",
+   "termo": "Data Entry",
    "vagas": 6
   }
  ],
  "orcamento_medio": {
   "BRL": null,
   "USD": {
-   "qtd": 48,
+   "qtd": 49,
    "minimo": 15,
    "mediana": 75,
    "maximo": 3000
   }
  },
  "propostas_por_projeto": {
-  "qtd": 101,
+  "qtd": 99,
   "minimo": 0,
-  "mediana": 50,
-  "maximo": 597
+  "mediana": 44,
+  "maximo": 317
  },
  "boas_vagas": 7
 }

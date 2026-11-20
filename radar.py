@@ -15,7 +15,7 @@ import sys
 import time
 import unicodedata
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -93,10 +93,57 @@ def ler_workana(pagina_html):
             "habilidades": [s.get("anchorText", "") for s in r.get("skills") or []],
             "orcamento": r.get("budget") or "",
             "propostas": int(propostas.group(1)) if propostas else None,
-            "publicado": r.get("postedDate"),
+            "publicado": data_publicacao(r.get("postedDate")),
             "cliente": r.get("authorName", ""),
         })
     return vagas
+
+
+# ---------- Filtros ----------
+IA = r"(\bia\b|\bias\b|inteligencia artificial|chat ?gpt|\bgpt\b|\bai\b)"
+PROIBE_IA = [
+    r"sem (o )?(uso|ajuda|auxilio|utilizacao) d[eao]s? " + IA,
+    r"sem " + IA,
+    r"(nao|nunca) (pode|podem|deve|devera|sera|e|sao|aceito|aceitamos|aceitarei|quero|permito|permitimos|utilizar|usar)[^.;]{0,40}" + IA,
+    r"proibid[oa]s?[^.;]{0,40}" + IA,
+    IA + r"[^.;]{0,30}(proibid|nao (e |sera )?(permitid|aceit))",
+    r"nada de " + IA,
+    r"no ai\b|without ai|ai[- ]generated (content )?(is )?not",
+    r"(feito|escrito|redigido) (por|de forma) (um )?(humano|pessoa|manual)",
+    r"redacao (propria|humana)",
+]
+
+
+def proibe_ia(vaga):
+    texto = sem_acento(vaga["titulo"] + " " + vaga["descricao"])
+    return any(re.search(p, texto) for p in PROIBE_IA)
+
+
+def data_publicacao(txt, agora=None):
+    """Converte 'há 3 dias', 'Ontem', 'há 2 horas' em data ISO."""
+    if not txt or re.match(r"\d{4}-", txt):
+        return txt
+    agora = agora or datetime.now(timezone.utc)
+    t = sem_acento(txt)
+    if "ontem" in t:
+        return (agora - timedelta(days=1)).isoformat()
+    m = re.search(r"(\d+)\s*(minuto|hora|dia|semana|mes)", t)
+    if not m:
+        return agora.isoformat()
+    n, un = int(m.group(1)), m.group(2)
+    dias = {"minuto": 1 / 1440, "hora": 1 / 24, "dia": 1, "semana": 7, "mes": 30}[un]
+    return (agora - timedelta(days=n * dias)).isoformat()
+
+
+def ordem(vaga):
+    """Mais recentes primeiro; dentro do mesmo período, menos propostas primeiro."""
+    try:
+        dias = (datetime.now(timezone.utc) - datetime.fromisoformat(vaga["publicado"])).total_seconds() / 86400
+    except (TypeError, ValueError):
+        dias = 99
+    faixa = 0 if dias <= 1 else 1 if dias <= 3 else 2 if dias <= 7 else 3
+    p = vaga["propostas"] if vaga["propostas"] is not None else 999
+    return (faixa, p, dias)
 
 
 # ---------- Nota ----------
@@ -266,7 +313,8 @@ def coletar(cfg):
 
 
 def salvar(vagas, cfg):
-    vagas = sorted((dar_nota(v, cfg) for v in vagas), key=lambda v: -v["nota"])
+    vagas = [dar_nota(v, cfg) for v in vagas if not proibe_ia(v)]
+    vagas.sort(key=ordem)
     for v in vagas:
         if v["nota"] >= cfg["nota_minima_alerta"]:
             v["proposta"] = montar_proposta(v, cfg)

@@ -1,9 +1,9 @@
 {
- "atualizado": "2026-11-20T05:23+00:00",
- "total": 97,
+ "atualizado": "2026-11-20T05:27+00:00",
+ "total": 96,
  "por_fonte": {
-  "Workana": 46,
-  "99Freelas": 51
+  "99Freelas": 50,
+  "Workana": 46
  },
  "minhas_habilidades_pedidas": [
   {
@@ -12,11 +12,11 @@
   },
   {
    "termo": "planilha",
-   "vagas": 29
+   "vagas": 28
   },
   {
    "termo": "excel",
-   "vagas": 27
+   "vagas": 26
   },
   {
    "termo": "python",
@@ -40,7 +40,7 @@
   },
   {
    "termo": "análise de dados",
-   "vagas": 10
+   "vagas": 9
   },
   {
    "termo": "power bi",
@@ -51,11 +51,11 @@
    "vagas": 4
   },
   {
-   "termo": "etl",
+   "termo": "looker",
    "vagas": 3
   },
   {
-   "termo": "looker",
+   "termo": "etl",
    "vagas": 3
   },
   {
@@ -97,11 +97,7 @@
    "vagas": 8
   },
   {
-   "termo": "Power BI",
-   "vagas": 7
-  },
-  {
-   "termo": "PHP",
+   "termo": "Chatbot",
    "vagas": 7
   },
   {
@@ -109,8 +105,16 @@
    "vagas": 7
   },
   {
-   "termo": "Chatbot",
+   "termo": "PHP",
    "vagas": 7
+  },
+  {
+   "termo": "Power BI",
+   "vagas": 7
+  },
+  {
+   "termo": "Data Entry",
+   "vagas": 6
   },
   {
    "termo": "CSS",
@@ -118,10 +122,6 @@
   },
   {
    "termo": "Software Testing",
-   "vagas": 6
-  },
-  {
-   "termo": "React.js",
    "vagas": 6
   }
  ],
@@ -135,10 +135,10 @@
   }
  },
  "propostas_por_projeto": {
-  "qtd": 97,
+  "qtd": 96,
   "minimo": 0,
-  "mediana": 45,
+  "mediana": 46,
   "maximo": 317
  },
- "boas_vagas": 7
+ "boas_vagas": 6
 }

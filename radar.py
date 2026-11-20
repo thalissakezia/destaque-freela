@@ -1,6 +1,6 @@
 """Busca projetos no 99Freelas e na Workana, dá uma nota para cada um
 de acordo com as minhas habilidades, calcula estatísticas do mercado
-e avisa no Telegram quando aparece projeto bom.
+e avisa no celular (ntfy ou Telegram) quando aparece projeto bom.
 
 Gera:
   docs/vagas.json    lista de projetos com nota (usada pela página)
@@ -165,22 +165,28 @@ def estatisticas(vagas, cfg):
 # ---------- Telegram ----------
 def avisar(vagas, cfg):
     token, chat = os.getenv("TELEGRAM_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
+    topico = os.getenv("NTFY_TOPICO")
     arq = DADOS / "vistos.json"
     vistos = set(json.loads(arq.read_text())) if arq.exists() else set()
     novas = [v for v in vagas if v["nota"] >= cfg["nota_minima_alerta"] and v["id"] not in vistos]
-    if token and chat:
+    if (token and chat) or topico:
         for v in novas[:10]:
-            msg = (f"Nota {v['nota']} | {v['fonte']}\n{v['titulo']}\n"
-                   f"Propostas: {v['propostas'] if v['propostas'] is not None else '?'}"
-                   f"{' | ' + v['orcamento'] if v['orcamento'] else ''}\n"
-                   f"Combina: {', '.join(v['combina'])}\n{v['link']}")
+            corpo = (f"{v['fonte']} | Propostas: {v['propostas'] if v['propostas'] is not None else '?'}"
+                     f"{' | ' + v['orcamento'] if v['orcamento'] else ''}\n"
+                     f"Combina: {', '.join(v['combina'])}")
             try:
-                requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
-                              data={"chat_id": chat, "text": msg}, timeout=20)
+                if token and chat:
+                    requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                                  data={"chat_id": chat, "text": f"Nota {v['nota']} | {v['titulo']}\n{corpo}\n{v['link']}"},
+                                  timeout=20)
+                if topico:
+                    requests.post("https://ntfy.sh/", timeout=20, json={
+                        "topic": topico, "title": f"Nota {v['nota']}: {v['titulo']}",
+                        "message": corpo, "click": v["link"], "tags": ["briefcase"]})
             except requests.RequestException as e:
-                print("Telegram falhou:", e)
+                print("Aviso falhou:", e)
     else:
-        # sem Telegram configurado, não marca nada como visto
+        # sem aviso configurado, não marca nada como visto
         return 0
     vistos.update(v["id"] for v in novas)
     DADOS.mkdir(exist_ok=True)
